@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59575241": {
+    "contest_id": 1186,
+    "language": "Java 8",
+    "path": "codeforces\\1186\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vus the Cossack and a Contest",
+    "problem_url": "https://codeforces.com/contest/1186/problem/A",
+    "submission_id": "CF59575241",
+    "submission_url": "https://codeforces.com/contest/1186/submission/59575241",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/27/2019 19:26"
+  },
   "CF59576697": {
     "contest_id": 1154,
     "language": "Java 8",
