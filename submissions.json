@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59595473": {
+    "contest_id": 1146,
+    "language": "Java 8",
+    "path": "codeforces\\1146\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Love \"A\"",
+    "problem_url": "https://codeforces.com/contest/1146/problem/A",
+    "submission_id": "CF59595473",
+    "submission_url": "https://codeforces.com/contest/1146/submission/59595473",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/28/2019 06:42"
+  },
   "CF59595701": {
     "contest_id": 1097,
     "language": "Java 8",
