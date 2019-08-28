@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59601479": {
+    "contest_id": 935,
+    "language": "Java 8",
+    "path": "codeforces\\935\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fafa and his Company",
+    "problem_url": "https://codeforces.com/contest/935/problem/A",
+    "submission_id": "CF59601479",
+    "submission_url": "https://codeforces.com/contest/935/submission/59601479",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/28/2019 11:47"
+  },
   "CF59624311": {
     "contest_id": 867,
     "language": "Java 8",
