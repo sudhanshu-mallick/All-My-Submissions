@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59624893": {
+    "contest_id": 791,
+    "language": "Java 8",
+    "path": "codeforces\\791\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Big Brother",
+    "problem_url": "https://codeforces.com/contest/791/problem/A",
+    "submission_id": "CF59624893",
+    "submission_url": "https://codeforces.com/contest/791/submission/59624893",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/28/2019 21:02"
+  },
   "CF59625235": {
     "contest_id": 785,
     "language": "Java 8",
