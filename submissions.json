@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59671929": {
+    "contest_id": 1173,
+    "language": "Java 8",
+    "path": "codeforces\\1173\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nauuo and Votes",
+    "problem_url": "https://codeforces.com/contest/1173/problem/A",
+    "submission_id": "CF59671929",
+    "submission_url": "https://codeforces.com/contest/1173/submission/59671929",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Aug/29/2019 21:56"
+  },
   "CF59748131": {
     "contest_id": 1213,
     "language": "Java 8",
