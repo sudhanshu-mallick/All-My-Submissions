@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59748131": {
+    "contest_id": 1213,
+    "language": "Java 8",
+    "path": "codeforces\\1213\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Book Reading",
+    "problem_url": "https://codeforces.com/contest/1213/problem/C",
+    "submission_id": "CF59748131",
+    "submission_url": "https://codeforces.com/contest/1213/submission/59748131",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Aug/30/2019 21:34"
+  },
   "CF59782378": {
     "contest_id": 617,
     "language": "Java 8",
