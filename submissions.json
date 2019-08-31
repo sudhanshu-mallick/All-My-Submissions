@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59815959": {
+    "contest_id": 200,
+    "language": "Java 8",
+    "path": "codeforces\\200\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Drinks",
+    "problem_url": "https://codeforces.com/contest/200/problem/B",
+    "submission_id": "CF59815959",
+    "submission_url": "https://codeforces.com/contest/200/submission/59815959",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/31/2019 20:50"
+  },
   "CF59816593": {
     "contest_id": 581,
     "language": "Java 8",
