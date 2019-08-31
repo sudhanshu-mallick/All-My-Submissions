@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59788347": {
+    "contest_id": 136,
+    "language": "Java 8",
+    "path": "codeforces\\136\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Presents",
+    "problem_url": "https://codeforces.com/contest/136/problem/A",
+    "submission_id": "CF59788347",
+    "submission_url": "https://codeforces.com/contest/136/submission/59788347",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/31/2019 11:53"
+  },
   "CF59789950": {
     "contest_id": 263,
     "language": "Java 8",
