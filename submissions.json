@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59817179": {
+    "contest_id": 703,
+    "language": "Java 8",
+    "path": "codeforces\\703\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mishka and Game",
+    "problem_url": "https://codeforces.com/contest/703/problem/A",
+    "submission_id": "CF59817179",
+    "submission_url": "https://codeforces.com/contest/703/submission/59817179",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/31/2019 21:18"
+  },
   "CF59833462": {
     "contest_id": 509,
     "language": "Java 8",
