@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59834239": {
+    "contest_id": 1095,
+    "language": "Java 8",
+    "path": "codeforces\\1095\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Repeating Cipher",
+    "problem_url": "https://codeforces.com/contest/1095/problem/A",
+    "submission_id": "CF59834239",
+    "submission_url": "https://codeforces.com/contest/1095/submission/59834239",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/01/2019 08:06"
+  },
   "CF59837512": {
     "contest_id": 721,
     "language": "Java 8",
