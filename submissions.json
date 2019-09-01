@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59856486": {
+    "contest_id": 978,
+    "language": "Java 8",
+    "path": "codeforces\\978\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "File Name",
+    "problem_url": "https://codeforces.com/contest/978/problem/B",
+    "submission_id": "CF59856486",
+    "submission_url": "https://codeforces.com/contest/978/submission/59856486",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/01/2019 19:15"
+  },
   "CF60201274": {
     "contest_id": 1092,
     "language": "Java 8",
