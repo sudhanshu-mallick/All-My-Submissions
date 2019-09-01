@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59833670": {
+    "contest_id": 711,
+    "language": "Java 8",
+    "path": "codeforces\\711\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bus to Udayland",
+    "problem_url": "https://codeforces.com/contest/711/problem/A",
+    "submission_id": "CF59833670",
+    "submission_url": "https://codeforces.com/contest/711/submission/59833670",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/01/2019 07:34"
+  },
   "CF59833824": {
     "contest_id": 749,
     "language": "Java 8",
