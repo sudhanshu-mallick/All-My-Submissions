@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59837512": {
+    "contest_id": 721,
+    "language": "Java 8",
+    "path": "codeforces\\721\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "One-dimensional Japanese Crossword",
+    "problem_url": "https://codeforces.com/contest/721/problem/A",
+    "submission_id": "CF59837512",
+    "submission_url": "https://codeforces.com/contest/721/submission/59837512",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/01/2019 10:50"
+  },
   "CF59837779": {
     "contest_id": 1003,
     "language": "Java 8",
