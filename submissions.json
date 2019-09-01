@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59833462": {
+    "contest_id": 509,
+    "language": "Java 8",
+    "path": "codeforces\\509\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maximum in Table",
+    "problem_url": "https://codeforces.com/contest/509/problem/A",
+    "submission_id": "CF59833462",
+    "submission_url": "https://codeforces.com/contest/509/submission/59833462",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/01/2019 07:22"
+  },
   "CF59833670": {
     "contest_id": 711,
     "language": "Java 8",
