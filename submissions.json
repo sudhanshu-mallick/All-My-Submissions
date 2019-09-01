@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF59855140": {
+    "contest_id": 1006,
+    "language": "Java 8",
+    "path": "codeforces\\1006\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Adjacent Replacements",
+    "problem_url": "https://codeforces.com/contest/1006/problem/A",
+    "submission_id": "CF59855140",
+    "submission_url": "https://codeforces.com/contest/1006/submission/59855140",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/01/2019 18:45"
+  },
   "CF59856486": {
     "contest_id": 978,
     "language": "Java 8",
