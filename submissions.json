@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60228249": {
+    "contest_id": 987,
+    "language": "Java 8",
+    "path": "codeforces\\987\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Infinity Gauntlet",
+    "problem_url": "https://codeforces.com/contest/987/problem/A",
+    "submission_id": "CF60228249",
+    "submission_url": "https://codeforces.com/contest/987/submission/60228249",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/07/2019 21:13"
+  },
   "CF60245638": {
     "contest_id": 1167,
     "language": "Java 8",
