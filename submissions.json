@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60201541": {
+    "contest_id": 1005,
+    "language": "Java 8",
+    "path": "codeforces\\1005\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tanya and Stairways",
+    "problem_url": "https://codeforces.com/contest/1005/problem/A",
+    "submission_id": "CF60201541",
+    "submission_url": "https://codeforces.com/contest/1005/submission/60201541",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/07/2019 11:32"
+  },
   "CF60202064": {
     "contest_id": 1015,
     "language": "Java 8",
