@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60227094": {
+    "contest_id": 1191,
+    "language": "Java 8",
+    "path": "codeforces\\1191\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tokitsukaze and Enhancement",
+    "problem_url": "https://codeforces.com/contest/1191/problem/A",
+    "submission_id": "CF60227094",
+    "submission_url": "https://codeforces.com/contest/1191/submission/60227094",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Sep/07/2019 20:54"
+  },
   "CF60227574": {
     "contest_id": 1064,
     "language": "Java 8",
