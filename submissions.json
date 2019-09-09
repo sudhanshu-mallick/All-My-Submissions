@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60285867": {
+    "contest_id": 658,
+    "language": "Java 8",
+    "path": "codeforces\\658\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Reverse Radewoosh",
+    "problem_url": "https://codeforces.com/contest/658/problem/A",
+    "submission_id": "CF60285867",
+    "submission_url": "https://codeforces.com/contest/658/submission/60285867",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/09/2019 07:47"
+  },
   "CF60286042": {
     "contest_id": 245,
     "language": "Java 8",
