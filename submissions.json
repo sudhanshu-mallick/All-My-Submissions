@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60356580": {
+    "contest_id": 266,
+    "language": "Java 8",
+    "path": "codeforces\\266\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Stones on the Table",
+    "problem_url": "https://codeforces.com/contest/266/problem/A",
+    "submission_id": "CF60356580",
+    "submission_url": "https://codeforces.com/contest/266/submission/60356580",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/10/2019 21:55"
+  },
   "CF60359286": {
     "contest_id": 236,
     "language": "Java 8",
