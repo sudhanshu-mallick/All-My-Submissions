@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60355951": {
+    "contest_id": 281,
+    "language": "Java 8",
+    "path": "codeforces\\281\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Word Capitalization",
+    "problem_url": "https://codeforces.com/contest/281/problem/A",
+    "submission_id": "CF60355951",
+    "submission_url": "https://codeforces.com/contest/281/submission/60355951",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/10/2019 21:40"
+  },
   "CF60356580": {
     "contest_id": 266,
     "language": "Java 8",
