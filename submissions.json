@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60359870": {
+    "contest_id": 116,
+    "language": "Java 8",
+    "path": "codeforces\\116\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tram",
+    "problem_url": "https://codeforces.com/contest/116/problem/A",
+    "submission_id": "CF60359870",
+    "submission_url": "https://codeforces.com/contest/116/submission/60359870",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/10/2019 23:15"
+  },
   "CF60360684": {
     "contest_id": 433,
     "language": "Java 8",
