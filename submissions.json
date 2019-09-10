@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60354965": {
+    "contest_id": 231,
+    "language": "Java 8",
+    "path": "codeforces\\231\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Team",
+    "problem_url": "https://codeforces.com/contest/231/problem/A",
+    "submission_id": "CF60354965",
+    "submission_url": "https://codeforces.com/contest/231/submission/60354965",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Sep/10/2019 21:16"
+  },
   "CF60355190": {
     "contest_id": 50,
     "language": "Java 8",
