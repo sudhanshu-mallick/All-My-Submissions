@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60371448": {
+    "contest_id": 59,
+    "language": "Java 8",
+    "path": "codeforces\\59\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Word",
+    "problem_url": "https://codeforces.com/contest/59/problem/A",
+    "submission_id": "CF60371448",
+    "submission_url": "https://codeforces.com/contest/59/submission/60371448",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/11/2019 07:53"
+  },
   "CF60371821": {
     "contest_id": 1213,
     "language": "Java 8",
