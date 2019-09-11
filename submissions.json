@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60399349": {
+    "contest_id": 306,
+    "language": "Java 8",
+    "path": "codeforces\\306\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Candies",
+    "problem_url": "https://codeforces.com/contest/306/problem/A",
+    "submission_id": "CF60399349",
+    "submission_url": "https://codeforces.com/contest/306/submission/60399349",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/11/2019 21:36"
+  },
   "CF60399654": {
     "contest_id": 802,
     "language": "Java 8",
