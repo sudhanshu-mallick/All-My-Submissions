@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60399654": {
+    "contest_id": 802,
+    "language": "Java 8",
+    "path": "codeforces\\802\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Fake News (easy)",
+    "problem_url": "https://codeforces.com/contest/802/problem/G",
+    "submission_id": "CF60399654",
+    "submission_url": "https://codeforces.com/contest/802/submission/60399654",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/11/2019 21:42"
+  },
   "CF60416315": {
     "contest_id": 299,
     "language": "Java 8",
