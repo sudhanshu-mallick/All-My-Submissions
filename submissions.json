@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF60371377": {
+    "contest_id": 110,
+    "language": "Java 8",
+    "path": "codeforces\\110\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nearly Lucky Number",
+    "problem_url": "https://codeforces.com/contest/110/problem/A",
+    "submission_id": "CF60371377",
+    "submission_url": "https://codeforces.com/contest/110/submission/60371377",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/11/2019 07:48"
+  },
   "CF60371448": {
     "contest_id": 59,
     "language": "Java 8",
