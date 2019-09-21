@@ -1,5 +1,5 @@
 import java.util.Scanner;
- 
+
 //public class White_Sheet {
 //
 //	public static void main(String[] args) {
@@ -84,7 +84,7 @@ import java.util.Scanner;
 //	}
 //
 //}
- 
+
 public class White_Sheet {
 	 
 	public static void main(String[] args) {
@@ -105,6 +105,7 @@ public class White_Sheet {
  
 		long areaWB1 = intersect(x1, x2, y1, y2, x3, x4, y3, y4);
 		long areaWB2 = intersect(x1, x2, y1, y2, x5, x6, y5, y6);
+//		System.out.println(areaWB1+" "+areaWB2);
 		long areaB1B2 = intersect2(x3, x4, y3, y4, x5, x6, y5, y6, x1, x2, y1, y2);
  
 		if ((x2 - x1) * (y2 - y1) - (areaWB1 + areaWB2 - areaB1B2) > 0)
