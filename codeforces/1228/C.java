@@ -1,20 +1,64 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Primes_and_Multiplication {
+
 	public static void main(String[] args) {
 		Scanner t = new Scanner(System.in);
+		int x = t.nextInt();
+		long n = t.nextLong();
+		ArrayList<Integer> pf = prime_fact(x);
 
-		long x = t.nextLong();
-		long y = t.nextLong();
-		ArrayList<Integer> a = fac(x);
-		long ans = 1;
+		long ans = 1, temp1 = n;
+		for (int i = 0; i < pf.size(); i++) {
+			int temp = pf.get(i);
+			long pow = 0;
 
-		for (int i = 1; i <= a.size(); i++) {
-			ans = (ans * evaluate(a.get(i - 1), pow(y, a.get(i - 1)))) % 1000000007;
+			while (n > 0) {
+				pow += n / temp;
+				n = n / temp;
+			}
+
+			ans = ans * evaluate(temp, pow);
+			if (ans >= 1000000007) {
+				ans = ans % 1000000007;
+			}
+			n = temp1;
 		}
 		System.out.println(ans);
+	}
 
+	public static ArrayList<Integer> prime_fact(int n) {
+		ArrayList<Integer> pf = new ArrayList<>();
+		HashSet<Integer> pfs = new HashSet<>();
+		;
+
+		while (n % 2 == 0) {
+			if (!pfs.contains(2)) {
+				pfs.add(2);
+				pf.add(2);
+			}
+			n = n / 2;
+		}
+
+		for (int i = 3; i <= Math.sqrt(n); i++) {
+			while (n % i == 0) {
+				if (!pfs.contains(i)) {
+					pfs.add(i);
+					pf.add(i);
+				}
+				n = n / i;
+			}
+		}
+
+		if (n > 2) {
+			if (!pfs.contains(n)) {
+				pfs.add(n);
+				pf.add(n);
+			}
+		}
+		return pf;
 	}
 
 	public static long evaluate(int temp, long pow) {
@@ -46,44 +90,6 @@ public class Primes_and_Multiplication {
 			return ans;
 
 		}
-	}
-
-	public static long pow(long y, long x) {
-		long pow = 0;
-
-		while (y > 0) {
-			pow += y / x;
-			y = y / x;
-		}
-
-		return pow;
-	}
-
-	public static ArrayList<Integer> fac(long n) {
-		ArrayList<Integer> a = new ArrayList<>();
-
-		if (n % 2 == 0) {
-			a.add(2);
-			while (n % 2 == 0) {
-				n /= 2;
-			}
-		}
-
-		for (int i = 3; i <= Math.sqrt(n); i += 2) {
-			if (n % i == 0) {
-				a.add(i);
-
-				while (n % i == 0) {
-					n /= i;
-				}
-
-			}
-		}
-
-		if (n > 2 && !a.contains(n))
-			a.add((int) n);
-
-		return a;
 	}
 
 }
