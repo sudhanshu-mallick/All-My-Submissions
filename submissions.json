@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF67531969": {
+    "contest_id": 1282,
+    "language": "Java 8",
+    "path": "codeforces\\1282\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Temporarily unavailable",
+    "problem_url": "https://codeforces.com/contest/1282/problem/A",
+    "submission_id": "CF67531969",
+    "submission_url": "https://codeforces.com/contest/1282/submission/67531969",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Dec/24/2019 20:24"
+  },
   "CF67551352": {
     "contest_id": 1282,
     "language": "Java 8",
