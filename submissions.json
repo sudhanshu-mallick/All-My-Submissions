@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF67523504": {
+    "contest_id": 1,
+    "language": "Java 8",
+    "path": "codeforces\\1\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Theatre Square",
+    "problem_url": "https://codeforces.com/contest/1/problem/A",
+    "submission_id": "CF67523504",
+    "submission_url": "https://codeforces.com/contest/1/submission/67523504",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/24/2019 18:42"
+  },
   "CF67531969": {
     "contest_id": 1282,
     "language": "Java 8",
