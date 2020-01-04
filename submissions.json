@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68170988": {
+    "contest_id": 1284,
+    "language": "Java 11",
+    "path": "codeforces\\1284\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Year and Naming",
+    "problem_url": "https://codeforces.com/contest/1284/problem/A",
+    "submission_id": "CF68170988",
+    "submission_url": "https://codeforces.com/contest/1284/submission/68170988",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jan/04/2020 17:50"
+  },
   "CF68240197": {
     "contest_id": 118,
     "language": "Java 11",
