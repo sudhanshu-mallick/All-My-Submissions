@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68163495": {
+    "contest_id": 270,
+    "language": "Java 11",
+    "path": "codeforces\\270\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fancy Fence",
+    "problem_url": "https://codeforces.com/contest/270/problem/A",
+    "submission_id": "CF68163495",
+    "submission_url": "https://codeforces.com/contest/270/submission/68163495",
+    "tags": [
+      "geometry",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/04/2020 17:24"
+  },
   "CF68170988": {
     "contest_id": 1284,
     "language": "Java 11",
