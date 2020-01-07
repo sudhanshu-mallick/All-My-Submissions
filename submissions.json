@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68344303": {
+    "contest_id": 1287,
+    "language": "Java 11",
+    "path": "codeforces\\1287\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hyperset",
+    "problem_url": "https://codeforces.com/contest/1287/problem/B",
+    "submission_id": "CF68344303",
+    "submission_url": "https://codeforces.com/contest/1287/submission/68344303",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jan/07/2020 11:46"
+  },
   "CF68346931": {
     "contest_id": 96,
     "language": "Java 11",
