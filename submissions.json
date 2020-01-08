@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68406874": {
+    "contest_id": 500,
+    "language": "Java 11",
+    "path": "codeforces\\500\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Year Transportation",
+    "problem_url": "https://codeforces.com/contest/500/problem/A",
+    "submission_id": "CF68406874",
+    "submission_url": "https://codeforces.com/contest/500/submission/68406874",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jan/08/2020 20:47"
+  },
   "CF68407720": {
     "contest_id": 379,
     "language": "Java 11",
