@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68406019": {
+    "contest_id": 339,
+    "language": "Java 11",
+    "path": "codeforces\\339\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Xenia and Ringroad",
+    "problem_url": "https://codeforces.com/contest/339/problem/B",
+    "submission_id": "CF68406019",
+    "submission_url": "https://codeforces.com/contest/339/submission/68406019",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jan/08/2020 20:26"
+  },
   "CF68406874": {
     "contest_id": 500,
     "language": "Java 11",
