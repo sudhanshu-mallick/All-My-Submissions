@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68495496": {
+    "contest_id": 82,
+    "language": "Java 11",
+    "path": "codeforces\\82\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Double Cola",
+    "problem_url": "https://codeforces.com/contest/82/problem/A",
+    "submission_id": "CF68495496",
+    "submission_url": "https://codeforces.com/contest/82/submission/68495496",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/10/2020 18:48"
+  },
   "CF68495956": {
     "contest_id": 584,
     "language": "Java 11",
