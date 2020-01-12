@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68642909": {
+    "contest_id": 706,
+    "language": "Java 11",
+    "path": "codeforces\\706\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Interesting drink",
+    "problem_url": "https://codeforces.com/contest/706/problem/B",
+    "submission_id": "CF68642909",
+    "submission_url": "https://codeforces.com/contest/706/submission/68642909",
+    "tags": [
+      "binary search",
+      "dp",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jan/12/2020 13:36"
+  },
   "CF68644137": {
     "contest_id": 600,
     "language": "Java 11",
