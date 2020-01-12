@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68641365": {
+    "contest_id": 476,
+    "language": "Java 11",
+    "path": "codeforces\\476\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dreamoon and Stairs",
+    "problem_url": "https://codeforces.com/contest/476/problem/A",
+    "submission_id": "CF68641365",
+    "submission_url": "https://codeforces.com/contest/476/submission/68641365",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jan/12/2020 13:08"
+  },
   "CF68642909": {
     "contest_id": 706,
     "language": "Java 11",
