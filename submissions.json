@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68684066": {
+    "contest_id": 732,
+    "language": "Java 11",
+    "path": "codeforces\\732\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cormen --- The Best Friend Of a Man",
+    "problem_url": "https://codeforces.com/contest/732/problem/B",
+    "submission_id": "CF68684066",
+    "submission_url": "https://codeforces.com/contest/732/submission/68684066",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jan/13/2020 07:23"
+  },
   "CF68684277": {
     "contest_id": 519,
     "language": "Java 11",
