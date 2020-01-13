@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68684277": {
+    "contest_id": 519,
+    "language": "Java 11",
+    "path": "codeforces\\519\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "A and B and Chess",
+    "problem_url": "https://codeforces.com/contest/519/problem/A",
+    "submission_id": "CF68684277",
+    "submission_url": "https://codeforces.com/contest/519/submission/68684277",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Jan/13/2020 07:34"
+  },
   "CF68684530": {
     "contest_id": 651,
     "language": "Java 11",
