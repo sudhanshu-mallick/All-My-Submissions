@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68778676": {
+    "contest_id": 719,
+    "language": "Java 11",
+    "path": "codeforces\\719\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vitya in the Countryside",
+    "problem_url": "https://codeforces.com/contest/719/problem/A",
+    "submission_id": "CF68778676",
+    "submission_url": "https://codeforces.com/contest/719/submission/68778676",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jan/14/2020 19:47"
+  },
   "CF68779560": {
     "contest_id": 798,
     "language": "Java 11",
