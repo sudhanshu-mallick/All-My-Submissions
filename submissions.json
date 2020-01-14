@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68775162": {
+    "contest_id": 37,
+    "language": "Java 11",
+    "path": "codeforces\\37\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Towers",
+    "problem_url": "https://codeforces.com/contest/37/problem/A",
+    "submission_id": "CF68775162",
+    "submission_url": "https://codeforces.com/contest/37/submission/68775162",
+    "tags": [
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Jan/14/2020 18:41"
+  },
   "CF68776388": {
     "contest_id": 766,
     "language": "Java 11",
