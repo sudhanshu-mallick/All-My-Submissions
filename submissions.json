@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF68802502": {
+    "contest_id": 1288,
+    "language": "Java 11",
+    "path": "codeforces\\1288\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Meme Problem",
+    "problem_url": "https://codeforces.com/contest/1288/problem/B",
+    "submission_id": "CF68802502",
+    "submission_url": "https://codeforces.com/contest/1288/submission/68802502",
+    "tags": [
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/14/2020 21:02"
+  },
   "CF68839819": {
     "contest_id": 1108,
     "language": "Java 11",
