@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF71203240": {
+    "contest_id": 455,
+    "language": "Java 11",
+    "path": "codeforces\\455\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Boredom",
+    "problem_url": "https://codeforces.com/contest/455/problem/A",
+    "submission_id": "CF71203240",
+    "submission_url": "https://codeforces.com/contest/455/submission/71203240",
+    "tags": [
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Feb/16/2020 12:31"
+  },
   "CF72616311": {
     "contest_id": 894,
     "language": "Java 11",
