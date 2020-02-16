@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF71199831": {
+    "contest_id": 580,
+    "language": "Java 11",
+    "path": "codeforces\\580\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Kefa and First Steps",
+    "problem_url": "https://codeforces.com/contest/580/problem/A",
+    "submission_id": "CF71199831",
+    "submission_url": "https://codeforces.com/contest/580/submission/71199831",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/16/2020 11:30"
+  },
   "CF71203240": {
     "contest_id": 455,
     "language": "Java 11",
