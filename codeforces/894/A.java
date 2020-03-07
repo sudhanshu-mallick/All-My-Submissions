@@ -1,29 +1,33 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.util.Scanner;
 
-public class String_S {
+public class QAQ {
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner t = new Scanner(System.in);
-			String s1 = "", s2 = "QAQ";
-			s1 = t.next();
-			int m=s1.length();
-			int n=3;
-			int[][] a=new int[m+1][n+1];
-			
-			for(int i=0;i<=m;i++){
-			    a[i][0]=1;
-			}
-			
-			for(int i=1;i<=m;i++){
-			    for(int j=1;j<=n;j++){
-			        if(s1.charAt(i-1)==s2.charAt(j-1))
-			        a[i][j]=a[i-1][j-1]+a[i-1][j];
-			        else
-			        a[i][j]=a[i-1][j];
-			    }
-			}
-			
-			System.out.println(a[m][n]);
+		String s = "";
+		s = t.next();
+		int n = s.length();
+		int q = 0, ql, qr;
+
+		for (int i = 0; i < n; i++)
+			if (s.charAt(i) == 'Q')
+				q++;
+
+		ql = 0;
+		qr = q;
+		q = 0;
+
+		for (int i = 0; i < n; i++) {
+			if (s.charAt(i) == 'Q') {
+				ql++;
+				qr--;
+			} else if (s.charAt(i) == 'A')
+				q += ql * qr;
+		}
+
+		System.out.println(q);
+
 	}
+
 }

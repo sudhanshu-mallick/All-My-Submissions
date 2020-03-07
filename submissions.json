@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72616311": {
+    "contest_id": 894,
+    "language": "Java 11",
+    "path": "codeforces\\894\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "QAQ",
+    "problem_url": "https://codeforces.com/contest/894/problem/A",
+    "submission_id": "CF72616311",
+    "submission_url": "https://codeforces.com/contest/894/submission/72616311",
+    "tags": [
+      "brute force",
+      "dp",
+      "*800"
+    ],
+    "timestamp": "Mar/07/2020 11:23"
+  },
   "CF72617006": {
     "contest_id": 1180,
     "language": "Java 11",
