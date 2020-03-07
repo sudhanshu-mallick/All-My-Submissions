@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72625944": {
+    "contest_id": 910,
+    "language": "Java 11",
+    "path": "codeforces\\910\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Way to Home",
+    "problem_url": "https://codeforces.com/contest/910/problem/A",
+    "submission_id": "CF72625944",
+    "submission_url": "https://codeforces.com/contest/910/submission/72625944",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/07/2020 14:28"
+  },
   "CF72699208": {
     "contest_id": 313,
     "language": "Java 11",
