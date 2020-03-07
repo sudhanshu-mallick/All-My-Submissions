@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72622118": {
+    "contest_id": 1113,
+    "language": "Java 11",
+    "path": "codeforces\\1113\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sasha and His Trip",
+    "problem_url": "https://codeforces.com/contest/1113/problem/A",
+    "submission_id": "CF72622118",
+    "submission_url": "https://codeforces.com/contest/1113/submission/72622118",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Mar/07/2020 13:17"
+  },
   "CF72622613": {
     "contest_id": 1182,
     "language": "Java 11",
