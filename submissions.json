@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72617006": {
+    "contest_id": 1180,
+    "language": "Java 11",
+    "path": "codeforces\\1180\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alex and a Rhombus",
+    "problem_url": "https://codeforces.com/contest/1180/problem/A",
+    "submission_id": "CF72617006",
+    "submission_url": "https://codeforces.com/contest/1180/submission/72617006",
+    "tags": [
+      "dp",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/07/2020 11:38"
+  },
   "CF72617269": {
     "contest_id": 702,
     "language": "Java 11",
