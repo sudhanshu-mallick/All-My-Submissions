@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72699658": {
+    "contest_id": 363,
+    "language": "Java 11",
+    "path": "codeforces\\363\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fence",
+    "problem_url": "https://codeforces.com/contest/363/problem/B",
+    "submission_id": "CF72699658",
+    "submission_url": "https://codeforces.com/contest/363/submission/72699658",
+    "tags": [
+      "brute force",
+      "dp",
+      "*1100"
+    ],
+    "timestamp": "Mar/08/2020 08:19"
+  },
   "CF72702761": {
     "contest_id": 433,
     "language": "Java 11",
