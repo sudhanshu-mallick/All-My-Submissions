@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72699208": {
+    "contest_id": 313,
+    "language": "Java 11",
+    "path": "codeforces\\313\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ilya and Queries",
+    "problem_url": "https://codeforces.com/contest/313/problem/B",
+    "submission_id": "CF72699208",
+    "submission_url": "https://codeforces.com/contest/313/submission/72699208",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/08/2020 08:03"
+  },
   "CF72699658": {
     "contest_id": 363,
     "language": "Java 11",
