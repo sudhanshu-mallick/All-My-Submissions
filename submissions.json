@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72704366": {
+    "contest_id": 1097,
+    "language": "Java 11",
+    "path": "codeforces\\1097\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Petr and a Combination Lock",
+    "problem_url": "https://codeforces.com/contest/1097/problem/B",
+    "submission_id": "CF72704366",
+    "submission_url": "https://codeforces.com/contest/1097/submission/72704366",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "*1200"
+    ],
+    "timestamp": "Mar/08/2020 10:56"
+  },
   "CF72705277": {
     "contest_id": 1029,
     "language": "Java 11",
