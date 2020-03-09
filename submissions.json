@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72760994": {
+    "contest_id": 1140,
+    "language": "Java 11",
+    "path": "codeforces\\1140\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Minimum Triangulation",
+    "problem_url": "https://codeforces.com/contest/1140/problem/D",
+    "submission_id": "CF72760994",
+    "submission_url": "https://codeforces.com/contest/1140/submission/72760994",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/09/2020 08:06"
+  },
   "CF72761651": {
     "contest_id": 998,
     "language": "Java 11",
