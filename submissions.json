@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72761651": {
+    "contest_id": 998,
+    "language": "Java 11",
+    "path": "codeforces\\998\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cutting",
+    "problem_url": "https://codeforces.com/contest/998/problem/B",
+    "submission_id": "CF72761651",
+    "submission_url": "https://codeforces.com/contest/998/submission/72761651",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/09/2020 08:38"
+  },
   "CF72765236": {
     "contest_id": 665,
     "language": "Java 11",
