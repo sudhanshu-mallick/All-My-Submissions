@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72903204": {
+    "contest_id": 1312,
+    "language": "Java 11",
+    "path": "codeforces\\1312\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Two Regular Polygons",
+    "problem_url": "https://codeforces.com/contest/1312/problem/A",
+    "submission_id": "CF72903204",
+    "submission_url": "https://codeforces.com/contest/1312/submission/72903204",
+    "tags": [
+      "geometry",
+      "greedy",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Mar/10/2020 20:50"
+  },
   "CF72903297": {
     "contest_id": 1312,
     "language": "Java 11",
