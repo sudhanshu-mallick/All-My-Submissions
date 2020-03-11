@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72967301": {
+    "contest_id": 158,
+    "language": "Java 11",
+    "path": "codeforces\\158\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Next Round",
+    "problem_url": "https://codeforces.com/contest/158/problem/A",
+    "submission_id": "CF72967301",
+    "submission_url": "https://codeforces.com/contest/158/submission/72967301",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/11/2020 21:18"
+  },
   "CF72972161": {
     "contest_id": 489,
     "language": "Java 11",
