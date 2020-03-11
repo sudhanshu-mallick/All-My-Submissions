@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72960529": {
+    "contest_id": 616,
+    "language": "Java 11",
+    "path": "codeforces\\616\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Comparing Two Long Integers",
+    "problem_url": "https://codeforces.com/contest/616/problem/A",
+    "submission_id": "CF72960529",
+    "submission_url": "https://codeforces.com/contest/616/submission/72960529",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Mar/11/2020 19:41"
+  },
   "CF72961288": {
     "contest_id": 282,
     "language": "Java 11",
