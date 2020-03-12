@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72992280": {
+    "contest_id": 478,
+    "language": "Java 11",
+    "path": "codeforces\\478\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Initial Bet",
+    "problem_url": "https://codeforces.com/contest/478/problem/A",
+    "submission_id": "CF72992280",
+    "submission_url": "https://codeforces.com/contest/478/submission/72992280",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/12/2020 07:35"
+  },
   "CF72992711": {
     "contest_id": 459,
     "language": "Java 11",
