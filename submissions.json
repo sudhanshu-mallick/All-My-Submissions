@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73028872": {
+    "contest_id": 1324,
+    "language": "Java 11",
+    "path": "codeforces\\1324\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yet Another Tetris Problem",
+    "problem_url": "https://codeforces.com/contest/1324/problem/A",
+    "submission_id": "CF73028872",
+    "submission_url": "https://codeforces.com/contest/1324/submission/73028872",
+    "tags": [
+      "implementation",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Mar/12/2020 18:45"
+  },
   "CF73039273": {
     "contest_id": 1324,
     "language": "Java 11",
