@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73021914": {
+    "contest_id": 1245,
+    "language": "Java 11",
+    "path": "codeforces\\1245\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Constanze's Machine",
+    "problem_url": "https://codeforces.com/contest/1245/problem/C",
+    "submission_id": "CF73021914",
+    "submission_url": "https://codeforces.com/contest/1245/submission/73021914",
+    "tags": [
+      "dp",
+      "*1400"
+    ],
+    "timestamp": "Mar/12/2020 18:16"
+  },
   "CF73028872": {
     "contest_id": 1324,
     "language": "Java 11",
