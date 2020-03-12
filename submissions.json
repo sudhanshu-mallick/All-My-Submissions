@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF72995879": {
+    "contest_id": 459,
+    "language": "Java 11",
+    "path": "codeforces\\459\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Pashmak and Garden",
+    "problem_url": "https://codeforces.com/contest/459/problem/A",
+    "submission_id": "CF72995879",
+    "submission_url": "https://codeforces.com/contest/459/submission/72995879",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/12/2020 10:07"
+  },
   "CF73021914": {
     "contest_id": 1245,
     "language": "Java 11",
