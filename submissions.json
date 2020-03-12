@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73039273": {
+    "contest_id": 1324,
+    "language": "Java 11",
+    "path": "codeforces\\1324\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Palindrome Problem",
+    "problem_url": "https://codeforces.com/contest/1324/problem/B",
+    "submission_id": "CF73039273",
+    "submission_url": "https://codeforces.com/contest/1324/submission/73039273",
+    "tags": [
+      "brute force",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Mar/12/2020 19:00"
+  },
   "CF73045373": {
     "contest_id": 1324,
     "language": "Java 11",
