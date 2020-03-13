@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73121921": {
+    "contest_id": 514,
+    "language": "Java 11",
+    "path": "codeforces\\514\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chewba\u0441ca and Number",
+    "problem_url": "https://codeforces.com/contest/514/problem/A",
+    "submission_id": "CF73121921",
+    "submission_url": "https://codeforces.com/contest/514/submission/73121921",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/13/2020 11:32"
+  },
   "CF73122303": {
     "contest_id": 349,
     "language": "Java 11",
