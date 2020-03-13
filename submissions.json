@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73142689": {
+    "contest_id": 463,
+    "language": "Java 11",
+    "path": "codeforces\\463\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Caisa and Pylons",
+    "problem_url": "https://codeforces.com/contest/463/problem/B",
+    "submission_id": "CF73142689",
+    "submission_url": "https://codeforces.com/contest/463/submission/73142689",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/13/2020 19:25"
+  },
   "CF73182031": {
     "contest_id": 1294,
     "language": "Java 11",
