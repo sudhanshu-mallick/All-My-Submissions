@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73131044": {
+    "contest_id": 1,
+    "language": "Java 11",
+    "path": "codeforces\\1\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Spreadsheet",
+    "problem_url": "https://codeforces.com/contest/1/problem/B",
+    "submission_id": "CF73131044",
+    "submission_url": "https://codeforces.com/contest/1/submission/73131044",
+    "tags": [
+      "implementation",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Mar/13/2020 14:35"
+  },
   "CF73142689": {
     "contest_id": 463,
     "language": "Java 11",
