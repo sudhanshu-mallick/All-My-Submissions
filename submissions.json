@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73125130": {
+    "contest_id": 545,
+    "language": "Java 11",
+    "path": "codeforces\\545\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Queue",
+    "problem_url": "https://codeforces.com/contest/545/problem/D",
+    "submission_id": "CF73125130",
+    "submission_url": "https://codeforces.com/contest/545/submission/73125130",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Mar/13/2020 12:33"
+  },
   "CF73125940": {
     "contest_id": 519,
     "language": "Java 11",
