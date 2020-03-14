@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73191525": {
+    "contest_id": 450,
+    "language": "Java 11",
+    "path": "codeforces\\450\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Jzzhu and Sequences",
+    "problem_url": "https://codeforces.com/contest/450/problem/B",
+    "submission_id": "CF73191525",
+    "submission_url": "https://codeforces.com/contest/450/submission/73191525",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/14/2020 12:12"
+  },
   "CF73192682": {
     "contest_id": 552,
     "language": "Java 11",
