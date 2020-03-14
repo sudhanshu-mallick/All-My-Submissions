@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73196240": {
+    "contest_id": 471,
+    "language": "Java 11",
+    "path": "codeforces\\471\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "MUH and Sticks",
+    "problem_url": "https://codeforces.com/contest/471/problem/A",
+    "submission_id": "CF73196240",
+    "submission_url": "https://codeforces.com/contest/471/submission/73196240",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/14/2020 13:32"
+  },
   "CF73198128": {
     "contest_id": 75,
     "language": "Java 11",
