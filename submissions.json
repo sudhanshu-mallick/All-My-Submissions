@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73186008": {
+    "contest_id": 431,
+    "language": "Java 11",
+    "path": "codeforces\\431\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "k-Tree",
+    "problem_url": "https://codeforces.com/contest/431/problem/C",
+    "submission_id": "CF73186008",
+    "submission_url": "https://codeforces.com/contest/431/submission/73186008",
+    "tags": [
+      "dp",
+      "implementation",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Mar/14/2020 10:28"
+  },
   "CF73186149": {
     "contest_id": 463,
     "language": "Java 11",
