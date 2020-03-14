@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73218290": {
+    "contest_id": 1203,
+    "language": "Java 11",
+    "path": "codeforces\\1203\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Common Divisors",
+    "problem_url": "https://codeforces.com/contest/1203/problem/C",
+    "submission_id": "CF73218290",
+    "submission_url": "https://codeforces.com/contest/1203/submission/73218290",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/14/2020 19:08"
+  },
   "CF73220021": {
     "contest_id": 454,
     "language": "Java 11",
