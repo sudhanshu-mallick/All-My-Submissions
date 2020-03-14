@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73233675": {
+    "contest_id": 1325,
+    "language": "Java 11",
+    "path": "codeforces\\1325\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "CopyCopyCopyCopyCopy",
+    "problem_url": "https://codeforces.com/contest/1325/problem/B",
+    "submission_id": "CF73233675",
+    "submission_url": "https://codeforces.com/contest/1325/submission/73233675",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/14/2020 20:17"
+  },
   "CF73376928": {
     "contest_id": 514,
     "language": "Java 11",
