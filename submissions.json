@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73187989": {
+    "contest_id": 546,
+    "language": "Java 11",
+    "path": "codeforces\\546\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Soldier and Badges",
+    "problem_url": "https://codeforces.com/contest/546/problem/B",
+    "submission_id": "CF73187989",
+    "submission_url": "https://codeforces.com/contest/546/submission/73187989",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/14/2020 11:11"
+  },
   "CF73189823": {
     "contest_id": 570,
     "language": "Java 11",
