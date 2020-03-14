@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73189823": {
+    "contest_id": 570,
+    "language": "Java 11",
+    "path": "codeforces\\570\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/570/problem/A",
+    "submission_id": "CF73189823",
+    "submission_url": "https://codeforces.com/contest/570/submission/73189823",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/14/2020 11:45"
+  },
   "CF73191525": {
     "contest_id": 450,
     "language": "Java 11",
