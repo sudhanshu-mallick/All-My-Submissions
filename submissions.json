@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73213521": {
+    "contest_id": 570,
+    "language": "Java 11",
+    "path": "codeforces\\570\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Simple Game",
+    "problem_url": "https://codeforces.com/contest/570/problem/B",
+    "submission_id": "CF73213521",
+    "submission_url": "https://codeforces.com/contest/570/submission/73213521",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/14/2020 18:02"
+  },
   "CF73215060": {
     "contest_id": 401,
     "language": "Java 11",
