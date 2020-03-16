@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73376928": {
+    "contest_id": 514,
+    "language": "Java 11",
+    "path": "codeforces\\514\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Han Solo and Lazer Gun",
+    "problem_url": "https://codeforces.com/contest/514/problem/B",
+    "submission_id": "CF73376928",
+    "submission_url": "https://codeforces.com/contest/514/submission/73376928",
+    "tags": [
+      "brute force",
+      "data structures",
+      "geometry",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Mar/16/2020 08:12"
+  },
   "CF73381946": {
     "contest_id": 478,
     "language": "Java 11",
