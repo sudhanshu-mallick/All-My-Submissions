@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73392494": {
+    "contest_id": 573,
+    "language": "Java 11",
+    "path": "codeforces\\573\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Poker",
+    "problem_url": "https://codeforces.com/contest/573/problem/A",
+    "submission_id": "CF73392494",
+    "submission_url": "https://codeforces.com/contest/573/submission/73392494",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Mar/16/2020 14:17"
+  },
   "CF73413701": {
     "contest_id": 682,
     "language": "Java 11",
