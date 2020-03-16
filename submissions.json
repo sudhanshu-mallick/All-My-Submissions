@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73413701": {
+    "contest_id": 682,
+    "language": "Java 11",
+    "path": "codeforces\\682\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alyona and Numbers",
+    "problem_url": "https://codeforces.com/contest/682/problem/A",
+    "submission_id": "CF73413701",
+    "submission_url": "https://codeforces.com/contest/682/submission/73413701",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Mar/16/2020 19:32"
+  },
   "CF73414450": {
     "contest_id": 1213,
     "language": "Java 11",
