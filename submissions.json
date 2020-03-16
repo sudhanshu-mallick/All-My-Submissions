@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73381946": {
+    "contest_id": 478,
+    "language": "Java 11",
+    "path": "codeforces\\478\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Random Teams",
+    "problem_url": "https://codeforces.com/contest/478/problem/B",
+    "submission_id": "CF73381946",
+    "submission_url": "https://codeforces.com/contest/478/submission/73381946",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/16/2020 10:54"
+  },
   "CF73383215": {
     "contest_id": 515,
     "language": "Java 11",
