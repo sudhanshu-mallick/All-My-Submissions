@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73489953": {
+    "contest_id": 581,
+    "language": "Java 11",
+    "path": "codeforces\\581\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Luxurious Houses",
+    "problem_url": "https://codeforces.com/contest/581/problem/B",
+    "submission_id": "CF73489953",
+    "submission_url": "https://codeforces.com/contest/581/submission/73489953",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/17/2020 19:02"
+  },
   "CF73624969": {
     "contest_id": 1257,
     "language": "Java 11",
