@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73460806": {
+    "contest_id": 1234,
+    "language": "Java 11",
+    "path": "codeforces\\1234\\B2.java",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Social Network (hard version)",
+    "problem_url": "https://codeforces.com/contest/1234/problem/B2",
+    "submission_id": "CF73460806",
+    "submission_url": "https://codeforces.com/contest/1234/submission/73460806",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Mar/17/2020 12:40"
+  },
   "CF73460946": {
     "contest_id": 1234,
     "language": "Java 11",
