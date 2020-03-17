@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73465464": {
+    "contest_id": 300,
+    "language": "Java 11",
+    "path": "codeforces\\300\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Array",
+    "problem_url": "https://codeforces.com/contest/300/problem/A",
+    "submission_id": "CF73465464",
+    "submission_url": "https://codeforces.com/contest/300/submission/73465464",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/17/2020 13:53"
+  },
   "CF73488013": {
     "contest_id": 1207,
     "language": "Java 11",
