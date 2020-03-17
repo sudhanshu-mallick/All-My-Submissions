@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73462185": {
+    "contest_id": 439,
+    "language": "Java 11",
+    "path": "codeforces\\439\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Devu, the Dumb Guy",
+    "problem_url": "https://codeforces.com/contest/439/problem/B",
+    "submission_id": "CF73462185",
+    "submission_url": "https://codeforces.com/contest/439/submission/73462185",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/17/2020 13:03"
+  },
   "CF73465464": {
     "contest_id": 300,
     "language": "Java 11",
