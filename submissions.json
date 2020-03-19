@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73653080": {
+    "contest_id": 139,
+    "language": "Java 11",
+    "path": "codeforces\\139\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Petr and Book",
+    "problem_url": "https://codeforces.com/contest/139/problem/A",
+    "submission_id": "CF73653080",
+    "submission_url": "https://codeforces.com/contest/139/submission/73653080",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/19/2020 18:12"
+  },
   "CF73654245": {
     "contest_id": 1165,
     "language": "Java 11",
