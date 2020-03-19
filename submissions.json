@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF73654245": {
+    "contest_id": 1165,
+    "language": "Java 11",
+    "path": "codeforces\\1165\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Remainder",
+    "problem_url": "https://codeforces.com/contest/1165/problem/A",
+    "submission_id": "CF73654245",
+    "submission_url": "https://codeforces.com/contest/1165/submission/73654245",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/19/2020 18:27"
+  },
   "CF73658020": {
     "contest_id": 650,
     "language": "Java 11",
