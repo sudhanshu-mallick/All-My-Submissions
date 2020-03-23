@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74042237": {
+    "contest_id": 276,
+    "language": "Java 11",
+    "path": "codeforces\\276\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Little Girl and Game",
+    "problem_url": "https://codeforces.com/contest/276/problem/B",
+    "submission_id": "CF74042237",
+    "submission_url": "https://codeforces.com/contest/276/submission/74042237",
+    "tags": [
+      "games",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Mar/23/2020 19:06"
+  },
   "CF74044656": {
     "contest_id": 414,
     "language": "Java 11",
