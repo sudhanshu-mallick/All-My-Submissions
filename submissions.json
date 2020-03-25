@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74253255": {
+    "contest_id": 26,
+    "language": "Java 11",
+    "path": "codeforces\\26\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Almost Prime",
+    "problem_url": "https://codeforces.com/contest/26/problem/A",
+    "submission_id": "CF74253255",
+    "submission_url": "https://codeforces.com/contest/26/submission/74253255",
+    "tags": [
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Mar/25/2020 09:18"
+  },
   "CF74259688": {
     "contest_id": 478,
     "language": "Java 11",
