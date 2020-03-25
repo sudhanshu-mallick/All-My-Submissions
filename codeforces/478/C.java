@@ -1,7 +1,7 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-public class Table_Decorations {
+public class Table_Decoration {
 
 	static class FastReader {
 		BufferedReader br;
@@ -46,36 +46,18 @@ public class Table_Decorations {
 
 	}
 
-	public static void shuffle(int[] a) {
-		Random r = new Random();
-
-		for (int i = 0; i <= a.length - 2; i++) {
-			int j = i + r.nextInt(a.length - i);
-
-			swap(a, i, j);
-		}
-
-		Arrays.sort(a);
-	}
-
-	public static void swap(int[] a, int i, int j) {
-		int temp = a[i];
-		a[i] = a[j];
-		a[j] = temp;
-	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		long[] a = new long[3];
 
-		for (int i = 0; i < 3; ++i)
-			a[i] = t.nextInt();
+		for (int i = 0; i < 3; i++)
+			a[i] = t.nextLong();
 
 		Arrays.sort(a);
 
-		if ((a[0] + a[1]) << 1 <= a[2])
+		if (2 * (a[0] + a[1]) <= a[2])
 			o.println(a[0] + a[1]);
 		else
 			o.println((a[0] + a[1] + a[2]) / 3);

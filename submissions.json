@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74259688": {
+    "contest_id": 478,
+    "language": "Java 11",
+    "path": "codeforces\\478\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Table Decorations",
+    "problem_url": "https://codeforces.com/contest/478/problem/C",
+    "submission_id": "CF74259688",
+    "submission_url": "https://codeforces.com/contest/478/submission/74259688",
+    "tags": [
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Mar/25/2020 11:44"
+  },
   "CF74261939": {
     "contest_id": 1006,
     "language": "Java 11",
