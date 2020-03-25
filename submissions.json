@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74252334": {
+    "contest_id": 6,
+    "language": "Java 11",
+    "path": "codeforces\\6\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/contest/6/problem/A",
+    "submission_id": "CF74252334",
+    "submission_url": "https://codeforces.com/contest/6/submission/74252334",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*900"
+    ],
+    "timestamp": "Mar/25/2020 08:54"
+  },
   "CF74253255": {
     "contest_id": 26,
     "language": "Java 11",
