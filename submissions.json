@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74251025": {
+    "contest_id": 617,
+    "language": "Java 11",
+    "path": "codeforces\\617\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chocolate",
+    "problem_url": "https://codeforces.com/contest/617/problem/B",
+    "submission_id": "CF74251025",
+    "submission_url": "https://codeforces.com/contest/617/submission/74251025",
+    "tags": [
+      "combinatorics",
+      "*1300"
+    ],
+    "timestamp": "Mar/25/2020 08:17"
+  },
   "CF74251795": {
     "contest_id": 1195,
     "language": "Java 11",
