@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74361212": {
+    "contest_id": 588,
+    "language": "Java 11",
+    "path": "codeforces\\588\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Duff in Love",
+    "problem_url": "https://codeforces.com/contest/588/problem/B",
+    "submission_id": "CF74361212",
+    "submission_url": "https://codeforces.com/contest/588/submission/74361212",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/26/2020 12:54"
+  },
   "CF74386619": {
     "contest_id": 1327,
     "language": "Java 11",
