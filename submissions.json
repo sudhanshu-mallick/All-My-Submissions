@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74390760": {
+    "contest_id": 461,
+    "language": "Java 11",
+    "path": "codeforces\\461\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Appleman and Toastman",
+    "problem_url": "https://codeforces.com/contest/461/problem/A",
+    "submission_id": "CF74390760",
+    "submission_url": "https://codeforces.com/contest/461/submission/74390760",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/26/2020 18:59"
+  },
   "CF74401343": {
     "contest_id": 1328,
     "language": "Java 11",
