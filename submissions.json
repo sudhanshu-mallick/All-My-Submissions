@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74520763": {
+    "contest_id": 1327,
+    "language": "Java 11",
+    "path": "codeforces\\1327\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Count The Blocks",
+    "problem_url": "https://codeforces.com/contest/1327/problem/E",
+    "submission_id": "CF74520763",
+    "submission_url": "https://codeforces.com/contest/1327/submission/74520763",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Mar/27/2020 08:32"
+  },
   "CF74793557": {
     "contest_id": 115,
     "language": "Java 11",
