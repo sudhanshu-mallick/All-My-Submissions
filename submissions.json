@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74793557": {
+    "contest_id": 115,
+    "language": "Java 11",
+    "path": "codeforces\\115\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Party",
+    "problem_url": "https://codeforces.com/contest/115/problem/A",
+    "submission_id": "CF74793557",
+    "submission_url": "https://codeforces.com/contest/115/submission/74793557",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*900"
+    ],
+    "timestamp": "Mar/30/2020 12:33"
+  },
   "CF74938266": {
     "contest_id": 1332,
     "language": "Java 11",
