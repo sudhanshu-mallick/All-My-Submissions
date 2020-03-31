@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF74938266": {
+    "contest_id": 1332,
+    "language": "Java 11",
+    "path": "codeforces\\1332\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Exercising Walk",
+    "problem_url": "https://codeforces.com/contest/1332/problem/A",
+    "submission_id": "CF74938266",
+    "submission_url": "https://codeforces.com/contest/1332/submission/74938266",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/31/2020 19:27"
+  },
   "CF74956000": {
     "contest_id": 1332,
     "language": "Java 11",
