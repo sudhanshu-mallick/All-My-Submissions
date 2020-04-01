@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF75048712": {
+    "contest_id": 171,
+    "language": "Java 11",
+    "path": "codeforces\\171\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mysterious numbers - 1",
+    "problem_url": "https://codeforces.com/contest/171/problem/A",
+    "submission_id": "CF75048712",
+    "submission_url": "https://codeforces.com/contest/171/submission/75048712",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "*1200"
+    ],
+    "timestamp": "Apr/01/2020 12:25"
+  },
   "CF75194437": {
     "contest_id": 353,
     "language": "Java 11",
