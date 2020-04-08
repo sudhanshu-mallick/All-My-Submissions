@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF75833848": {
+    "contest_id": 1149,
+    "language": "Java 11",
+    "path": "codeforces\\1149\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prefix Sum Primes",
+    "problem_url": "https://codeforces.com/contest/1149/problem/A",
+    "submission_id": "CF75833848",
+    "submission_url": "https://codeforces.com/contest/1149/submission/75833848",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Apr/08/2020 18:04"
+  },
   "CF75835495": {
     "contest_id": 776,
     "language": "Java 11",
