@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF75797595": {
+    "contest_id": 767,
+    "language": "Java 11",
+    "path": "codeforces\\767\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Snacktower",
+    "problem_url": "https://codeforces.com/contest/767/problem/A",
+    "submission_id": "CF75797595",
+    "submission_url": "https://codeforces.com/contest/767/submission/75797595",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/08/2020 08:26"
+  },
   "CF75805292": {
     "contest_id": 1091,
     "language": "Java 11",
