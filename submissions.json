@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF75848502": {
+    "contest_id": 1333,
+    "language": "Java 11",
+    "path": "codeforces\\1333\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Artem",
+    "problem_url": "https://codeforces.com/contest/1333/problem/A",
+    "submission_id": "CF75848502",
+    "submission_url": "https://codeforces.com/contest/1333/submission/75848502",
+    "tags": [
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "Apr/08/2020 20:13"
+  },
   "CF75871056": {
     "contest_id": 1333,
     "language": "Java 11",
