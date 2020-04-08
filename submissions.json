@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF75835495": {
+    "contest_id": 776,
+    "language": "Java 11",
+    "path": "codeforces\\776\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sherlock and his girlfriend",
+    "problem_url": "https://codeforces.com/contest/776/problem/B",
+    "submission_id": "CF75835495",
+    "submission_url": "https://codeforces.com/contest/776/submission/75835495",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Apr/08/2020 18:23"
+  },
   "CF75837603": {
     "contest_id": 841,
     "language": "Java 11",
