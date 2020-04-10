@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76092819": {
+    "contest_id": 1197,
+    "language": "Java 11",
+    "path": "codeforces\\1197\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Array Splitting",
+    "problem_url": "https://codeforces.com/contest/1197/problem/C",
+    "submission_id": "CF76092819",
+    "submission_url": "https://codeforces.com/contest/1197/submission/76092819",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Apr/10/2020 18:43"
+  },
   "CF76094869": {
     "contest_id": 1133,
     "language": "Java 11",
