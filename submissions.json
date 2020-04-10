@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76066888": {
+    "contest_id": 1296,
+    "language": "Java 11",
+    "path": "codeforces\\1296\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Yet Another Walking Robot",
+    "problem_url": "https://codeforces.com/contest/1296/problem/C",
+    "submission_id": "CF76066888",
+    "submission_url": "https://codeforces.com/contest/1296/submission/76066888",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Apr/10/2020 13:20"
+  },
   "CF76090798": {
     "contest_id": 1307,
     "language": "Java 11",
