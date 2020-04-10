@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76052563": {
+    "contest_id": 1157,
+    "language": "Java 11",
+    "path": "codeforces\\1157\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Long Number",
+    "problem_url": "https://codeforces.com/contest/1157/problem/B",
+    "submission_id": "CF76052563",
+    "submission_url": "https://codeforces.com/contest/1157/submission/76052563",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Apr/10/2020 09:13"
+  },
   "CF76053520": {
     "contest_id": 987,
     "language": "Java 11",
