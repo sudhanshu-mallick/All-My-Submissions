@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76094869": {
+    "contest_id": 1133,
+    "language": "Java 11",
+    "path": "codeforces\\1133\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Balanced Team",
+    "problem_url": "https://codeforces.com/contest/1133/problem/C",
+    "submission_id": "CF76094869",
+    "submission_url": "https://codeforces.com/contest/1133/submission/76094869",
+    "tags": [
+      "sortings",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Apr/10/2020 19:05"
+  },
   "CF76118217": {
     "contest_id": 1334,
     "language": "Java 11",
