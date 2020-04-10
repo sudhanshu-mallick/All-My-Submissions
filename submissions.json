@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76128938": {
+    "contest_id": 1334,
+    "language": "Java 11",
+    "path": "codeforces\\1334\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Middle Class",
+    "problem_url": "https://codeforces.com/contest/1334/problem/B",
+    "submission_id": "CF76128938",
+    "submission_url": "https://codeforces.com/contest/1334/submission/76128938",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Apr/10/2020 20:32"
+  },
   "CF76162812": {
     "contest_id": 1334,
     "language": "Java 11",
