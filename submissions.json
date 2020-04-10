@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76118217": {
+    "contest_id": 1334,
+    "language": "Java 11",
+    "path": "codeforces\\1334\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Level Statistics",
+    "problem_url": "https://codeforces.com/contest/1334/problem/A",
+    "submission_id": "CF76118217",
+    "submission_url": "https://codeforces.com/contest/1334/submission/76118217",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Apr/10/2020 20:22"
+  },
   "CF76128938": {
     "contest_id": 1334,
     "language": "Java 11",
