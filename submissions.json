@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76051225": {
+    "contest_id": 1333,
+    "language": "Java 11",
+    "path": "codeforces\\1333\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Eugene and an array",
+    "problem_url": "https://codeforces.com/contest/1333/problem/C",
+    "submission_id": "CF76051225",
+    "submission_url": "https://codeforces.com/contest/1333/submission/76051225",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Apr/10/2020 08:40"
+  },
   "CF76051750": {
     "contest_id": 659,
     "language": "Java 11",
