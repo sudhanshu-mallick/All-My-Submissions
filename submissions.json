@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76488659": {
+    "contest_id": 350,
+    "language": "Java 11",
+    "path": "codeforces\\350\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "TL",
+    "problem_url": "https://codeforces.com/contest/350/problem/A",
+    "submission_id": "CF76488659",
+    "submission_url": "https://codeforces.com/contest/350/submission/76488659",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Apr/13/2020 18:04"
+  },
   "CF76490881": {
     "contest_id": 1291,
     "language": "Java 11",
