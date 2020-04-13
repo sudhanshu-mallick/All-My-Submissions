@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76442718": {
+    "contest_id": 1260,
+    "language": "Java 11",
+    "path": "codeforces\\1260\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Obtain Two Zeroes",
+    "problem_url": "https://codeforces.com/contest/1260/problem/B",
+    "submission_id": "CF76442718",
+    "submission_url": "https://codeforces.com/contest/1260/submission/76442718",
+    "tags": [
+      "binary search",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Apr/13/2020 08:05"
+  },
   "CF76443348": {
     "contest_id": 714,
     "language": "Java 11",
