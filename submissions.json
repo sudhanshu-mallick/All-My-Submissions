@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76535430": {
+    "contest_id": 1335,
+    "language": "Java 11",
+    "path": "codeforces\\1335\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Two Teams Composing",
+    "problem_url": "https://codeforces.com/contest/1335/problem/C",
+    "submission_id": "CF76535430",
+    "submission_url": "https://codeforces.com/contest/1335/submission/76535430",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Apr/13/2020 20:30"
+  },
   "CF76567375": {
     "contest_id": 1335,
     "language": "Java 11",
