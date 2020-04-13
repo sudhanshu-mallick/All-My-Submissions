@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76491945": {
+    "contest_id": 743,
+    "language": "Java 11",
+    "path": "codeforces\\743\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vladik and flights",
+    "problem_url": "https://codeforces.com/contest/743/problem/A",
+    "submission_id": "CF76491945",
+    "submission_url": "https://codeforces.com/contest/743/submission/76491945",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Apr/13/2020 18:40"
+  },
   "CF76503046": {
     "contest_id": 1335,
     "language": "Java 11",
