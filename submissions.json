@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76767249": {
+    "contest_id": 1176,
+    "language": "Java 11",
+    "path": "codeforces\\1176\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Lose it!",
+    "problem_url": "https://codeforces.com/contest/1176/problem/C",
+    "submission_id": "CF76767249",
+    "submission_url": "https://codeforces.com/contest/1176/submission/76767249",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Apr/15/2020 12:37"
+  },
   "CF76772796": {
     "contest_id": 166,
     "language": "Java 11",
