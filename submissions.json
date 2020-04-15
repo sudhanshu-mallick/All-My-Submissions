@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76748763": {
+    "contest_id": 1335,
+    "language": "Java 11",
+    "path": "codeforces\\1335\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Anti-Sudoku",
+    "problem_url": "https://codeforces.com/contest/1335/problem/D",
+    "submission_id": "CF76748763",
+    "submission_url": "https://codeforces.com/contest/1335/submission/76748763",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Apr/15/2020 06:53"
+  },
   "CF76750011": {
     "contest_id": 1185,
     "language": "Java 11",
