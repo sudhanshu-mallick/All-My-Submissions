@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76772796": {
+    "contest_id": 166,
+    "language": "Java 11",
+    "path": "codeforces\\166\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rank List",
+    "problem_url": "https://codeforces.com/contest/166/problem/A",
+    "submission_id": "CF76772796",
+    "submission_url": "https://codeforces.com/contest/166/submission/76772796",
+    "tags": [
+      "binary search",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Apr/15/2020 13:39"
+  },
   "CF76792895": {
     "contest_id": 1279,
     "language": "Java 11",
