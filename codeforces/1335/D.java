@@ -2,30 +2,27 @@ import java.io.*;
 import java.util.*;
 
 public class test {
-	public static void main(String[] args) throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int test = Integer.parseInt(br.readLine());
-		StringBuilder sb = new StringBuilder();
+	public static void main(String[] args) {
+		Scanner t = new Scanner(System.in);
+		int test = t.nextInt();
 
 		while (test-- > 0) {
-			int a[][] = new int[9][9];
+			StringBuilder sb = new StringBuilder();
 
-			for (int i = 0; i < 9; i++) {
-				String s = br.readLine();
+			for (int i = 0; i < 9; ++i) {
+				String s = t.next();
 
-				for (int j = 0; j < 9; j++) {
-					a[i][j] = Integer.parseInt(s.charAt(j) + "");
-
-					if (a[i][j] == 1)
-						sb.append(2);
+				for (int j = 0; j < 9; ++j) {
+					if (s.charAt(j) == '1')
+						sb.append('2');
 					else
-						sb.append(a[i][j]);
+						sb.append(s.charAt(j));
 				}
 
 				sb.append("\n");
-
 			}
+
+			System.out.println(sb);
 		}
-		System.out.println(sb);
 	}
 }
