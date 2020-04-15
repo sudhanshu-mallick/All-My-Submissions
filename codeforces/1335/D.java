@@ -2,27 +2,34 @@ import java.io.*;
 import java.util.*;
 
 public class test {
-	public static void main(String[] args) {
-		Scanner t = new Scanner(System.in);
-		int test = t.nextInt();
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		PrintWriter out = new PrintWriter(System.out);
+		int test = Integer.parseInt(new StringTokenizer(br.readLine()).nextToken());
+		StringBuilder st = new StringBuilder();
 
 		while (test-- > 0) {
-			StringBuilder sb = new StringBuilder();
+			int[] sudoku = new int[9];
 
-			for (int i = 0; i < 9; ++i) {
-				String s = t.next();
+			for (int i = 0; i < 9; i++) {
+				String s = new StringTokenizer(br.readLine()).nextToken();
 
-				for (int j = 0; j < 9; ++j) {
-					if (s.charAt(j) == '1')
-						sb.append('2');
-					else
-						sb.append(s.charAt(j));
+				for (int j = 0; j < 9; j++) {
+					sudoku[j] = Integer.parseInt(s.charAt(j) + "");
+
+					if (sudoku[j] == 2)
+						sudoku[j] = 1;
+
+					st.append(sudoku[j]);
 				}
 
-				sb.append("\n");
+				st.append("\n");
 			}
-
-			System.out.println(sb);
 		}
+		
+		out.print(st);
+
+		out.flush();
+		out.close();
 	}
 }
