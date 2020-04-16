@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF76920219": {
+    "contest_id": 584,
+    "language": "Java 11",
+    "path": "codeforces\\584\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Kolya and Tanya ",
+    "problem_url": "https://codeforces.com/contest/584/problem/B",
+    "submission_id": "CF76920219",
+    "submission_url": "https://codeforces.com/contest/584/submission/76920219",
+    "tags": [
+      "combinatorics",
+      "*1500"
+    ],
+    "timestamp": "Apr/16/2020 07:54"
+  },
   "CF77464326": {
     "contest_id": 1131,
     "language": "Java 11",
