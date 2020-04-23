@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77756917": {
+    "contest_id": 1256,
+    "language": "Java 11",
+    "path": "codeforces\\1256\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimize the Permutation",
+    "problem_url": "https://codeforces.com/contest/1256/problem/B",
+    "submission_id": "CF77756917",
+    "submission_url": "https://codeforces.com/contest/1256/submission/77756917",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Apr/23/2020 18:53"
+  },
   "CF77763495": {
     "contest_id": 1077,
     "language": "Java 11",
