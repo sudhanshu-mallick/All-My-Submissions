@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77721643": {
+    "contest_id": 1007,
+    "language": "Java 11",
+    "path": "codeforces\\1007\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reorder the Array",
+    "problem_url": "https://codeforces.com/contest/1007/problem/A",
+    "submission_id": "CF77721643",
+    "submission_url": "https://codeforces.com/contest/1007/submission/77721643",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Apr/23/2020 12:34"
+  },
   "CF77756917": {
     "contest_id": 1256,
     "language": "Java 11",
