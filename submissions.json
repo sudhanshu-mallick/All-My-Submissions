@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77703947": {
+    "contest_id": 268,
+    "language": "Java 11",
+    "path": "codeforces\\268\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Beautiful Sets of Points",
+    "problem_url": "https://codeforces.com/contest/268/problem/C",
+    "submission_id": "CF77703947",
+    "submission_url": "https://codeforces.com/contest/268/submission/77703947",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Apr/23/2020 07:05"
+  },
   "CF77705353": {
     "contest_id": 235,
     "language": "Java 11",
