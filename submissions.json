@@ -5980,6 +5980,21 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77763495": {
+    "contest_id": 1077,
+    "language": "Java 11",
+    "path": "codeforces\\1077\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Good Array",
+    "problem_url": "https://codeforces.com/contest/1077/problem/C",
+    "submission_id": "CF77763495",
+    "submission_url": "https://codeforces.com/contest/1077/submission/77763495",
+    "tags": [
+      "*1300"
+    ],
+    "timestamp": "Apr/23/2020 19:46"
+  },
   "CF77772564": {
     "contest_id": 1341,
     "language": "Java 11",
