@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77719081": {
+    "contest_id": 525,
+    "language": "Java 11",
+    "path": "codeforces\\525\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vitaliy and Pie",
+    "problem_url": "https://codeforces.com/contest/525/problem/A",
+    "submission_id": "CF77719081",
+    "submission_url": "https://codeforces.com/contest/525/submission/77719081",
+    "tags": [
+      "greedy",
+      "hashing",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Apr/23/2020 12:01"
+  },
   "CF77720531": {
     "contest_id": 576,
     "language": "Java 11",
