@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77702513": {
+    "contest_id": 1343,
+    "language": "Java 11",
+    "path": "codeforces\\1343\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Constant Palindrome Sum",
+    "problem_url": "https://codeforces.com/contest/1343/problem/D",
+    "submission_id": "CF77702513",
+    "submission_url": "https://codeforces.com/contest/1343/submission/77702513",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Apr/23/2020 06:10"
+  },
   "CF77703106": {
     "contest_id": 779,
     "language": "Java 11",
