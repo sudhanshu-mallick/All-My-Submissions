@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77705353": {
+    "contest_id": 235,
+    "language": "Java 11",
+    "path": "codeforces\\235\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "LCM Challenge",
+    "problem_url": "https://codeforces.com/contest/235/problem/A",
+    "submission_id": "CF77705353",
+    "submission_url": "https://codeforces.com/contest/235/submission/77705353",
+    "tags": [
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Apr/23/2020 07:52"
+  },
   "CF77705695": {
     "contest_id": 287,
     "language": "Java 11",
