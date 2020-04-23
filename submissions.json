@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF77703106": {
+    "contest_id": 779,
+    "language": "Java 11",
+    "path": "codeforces\\779\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dishonest Sellers",
+    "problem_url": "https://codeforces.com/contest/779/problem/C",
+    "submission_id": "CF77703106",
+    "submission_url": "https://codeforces.com/contest/779/submission/77703106",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Apr/23/2020 06:35"
+  },
   "CF77703947": {
     "contest_id": 268,
     "language": "Java 11",
