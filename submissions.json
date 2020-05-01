@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78737577": {
+    "contest_id": 1348,
+    "language": "Java 11",
+    "path": "codeforces\\1348\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Phoenix and Distribution",
+    "problem_url": "https://codeforces.com/contest/1348/problem/C",
+    "submission_id": "CF78737577",
+    "submission_url": "https://codeforces.com/contest/1348/submission/78737577",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "May/01/2020 22:17"
+  },
   "CF78874154": {
     "contest_id": 1133,
     "language": "Java 11",
