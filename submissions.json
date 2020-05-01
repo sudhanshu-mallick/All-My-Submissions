@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78658573": {
+    "contest_id": 1234,
+    "language": "Java 11",
+    "path": "codeforces\\1234\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pipes",
+    "problem_url": "https://codeforces.com/contest/1234/problem/C",
+    "submission_id": "CF78658573",
+    "submission_url": "https://codeforces.com/contest/1234/submission/78658573",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "May/01/2020 19:15"
+  },
   "CF78661051": {
     "contest_id": 621,
     "language": "Java 11",
