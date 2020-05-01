@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78636304": {
+    "contest_id": 365,
+    "language": "Java 11",
+    "path": "codeforces\\365\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Fibonacci Segment",
+    "problem_url": "https://codeforces.com/contest/365/problem/B",
+    "submission_id": "CF78636304",
+    "submission_url": "https://codeforces.com/contest/365/submission/78636304",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/01/2020 14:09"
+  },
   "CF78658573": {
     "contest_id": 1234,
     "language": "Java 11",
