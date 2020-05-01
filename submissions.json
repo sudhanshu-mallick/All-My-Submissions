@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78627103": {
+    "contest_id": 1157,
+    "language": "Java 11",
+    "path": "codeforces\\1157\\C1.java",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Increasing Subsequence (easy version)",
+    "problem_url": "https://codeforces.com/contest/1157/problem/C1",
+    "submission_id": "CF78627103",
+    "submission_url": "https://codeforces.com/contest/1157/submission/78627103",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "May/01/2020 11:55"
+  },
   "CF78629204": {
     "contest_id": 1157,
     "language": "Java 11",
