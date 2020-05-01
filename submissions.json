@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78665300": {
+    "contest_id": 1348,
+    "language": "Java 11",
+    "path": "codeforces\\1348\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Phoenix and Balance",
+    "problem_url": "https://codeforces.com/contest/1348/problem/A",
+    "submission_id": "CF78665300",
+    "submission_url": "https://codeforces.com/contest/1348/submission/78665300",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/01/2020 20:11"
+  },
   "CF78705919": {
     "contest_id": 1348,
     "language": "Java 11",
