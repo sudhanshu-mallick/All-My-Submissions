@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78661051": {
+    "contest_id": 621,
+    "language": "Java 11",
+    "path": "codeforces\\621\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Wet Shark and Bishops",
+    "problem_url": "https://codeforces.com/contest/621/problem/B",
+    "submission_id": "CF78661051",
+    "submission_url": "https://codeforces.com/contest/621/submission/78661051",
+    "tags": [
+      "combinatorics",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/01/2020 19:47"
+  },
   "CF78665300": {
     "contest_id": 1348,
     "language": "Java 11",
