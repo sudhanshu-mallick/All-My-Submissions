@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78633621": {
+    "contest_id": 682,
+    "language": "Java 11",
+    "path": "codeforces\\682\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Alyona and Mex",
+    "problem_url": "https://codeforces.com/contest/682/problem/B",
+    "submission_id": "CF78633621",
+    "submission_url": "https://codeforces.com/contest/682/submission/78633621",
+    "tags": [
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "May/01/2020 13:29"
+  },
   "CF78636304": {
     "contest_id": 365,
     "language": "Java 11",
