@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78632629": {
+    "contest_id": 735,
+    "language": "Java 11",
+    "path": "codeforces\\735\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Taxes",
+    "problem_url": "https://codeforces.com/contest/735/problem/D",
+    "submission_id": "CF78632629",
+    "submission_url": "https://codeforces.com/contest/735/submission/78632629",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "May/01/2020 13:14"
+  },
   "CF78633621": {
     "contest_id": 682,
     "language": "Java 11",
