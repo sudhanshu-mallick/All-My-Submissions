@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78891429": {
+    "contest_id": 1165,
+    "language": "Java 11",
+    "path": "codeforces\\1165\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Good String",
+    "problem_url": "https://codeforces.com/contest/1165/problem/C",
+    "submission_id": "CF78891429",
+    "submission_url": "https://codeforces.com/contest/1165/submission/78891429",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "May/03/2020 18:04"
+  },
   "CF78893054": {
     "contest_id": 1191,
     "language": "Java 11",
