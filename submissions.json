@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF78893054": {
+    "contest_id": 1191,
+    "language": "Java 11",
+    "path": "codeforces\\1191\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Tokitsukaze and Mahjong",
+    "problem_url": "https://codeforces.com/contest/1191/problem/B",
+    "submission_id": "CF78893054",
+    "submission_url": "https://codeforces.com/contest/1191/submission/78893054",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "May/03/2020 18:26"
+  },
   "CF79104017": {
     "contest_id": 552,
     "language": "Java 11",
