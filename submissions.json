@@ -5980,6 +5980,27 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79104017": {
+    "contest_id": 552,
+    "language": "Java 11",
+    "path": "codeforces\\552\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Vanya and Triangles",
+    "problem_url": "https://codeforces.com/contest/552/problem/D",
+    "submission_id": "CF79104017",
+    "submission_url": "https://codeforces.com/contest/552/submission/79104017",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "geometry",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "May/06/2020 08:59"
+  },
   "CF79111575": {
     "contest_id": 879,
     "language": "Java 11",
