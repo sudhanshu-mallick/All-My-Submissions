@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79114569": {
+    "contest_id": 1100,
+    "language": "Java 11",
+    "path": "codeforces\\1100\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Build a Contest",
+    "problem_url": "https://codeforces.com/contest/1100/problem/B",
+    "submission_id": "CF79114569",
+    "submission_url": "https://codeforces.com/contest/1100/submission/79114569",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/06/2020 12:24"
+  },
   "CF79115211": {
     "contest_id": 1100,
     "language": "Java 11",

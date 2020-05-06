@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.*;
 
@@ -53,19 +52,39 @@ public class Build_A_Contest {
 		PrintWriter o = new PrintWriter(System.out);
 		int m = t.nextInt();
 		int n = t.nextInt();
+		Map<Integer, Integer> map = new HashMap<>();
 		StringBuilder sb = new StringBuilder();
-		int c[] = new int[m + 1];
-		int fre[] = new int[100002];
 
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; ++i) {
 			int x = t.nextInt();
-			c[x]++;
-			fre[c[x]]++;
 
-			if (fre[c[x]] == m)
+			if (map.containsKey(x)) {
+				map.put(x, map.get(x) + 1);
+			} else {
+				map.put(x, 1);
+			}
+
+			if (map.size() == m) {
 				sb.append("1");
-			else
+
+				List<Integer> l = new ArrayList<>();
+				List<Integer> L = new ArrayList<>();
+
+				for (Map.Entry<Integer, Integer> mp : map.entrySet()) {
+					if (mp.getValue() == 1)
+						l.add(mp.getKey());
+					else
+						L.add(mp.getKey());
+				}
+
+				for (int j = 0; j < l.size(); ++j)
+					map.remove(l.get(j));
+				for (int j = 0; j < L.size(); ++j)
+					map.put(L.get(j), map.get(L.get(j)) - 1);
+
+			} else {
 				sb.append("0");
+			}
 		}
 
 		o.println(sb);
