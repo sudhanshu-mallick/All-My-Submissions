@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79443932": {
+    "contest_id": 1201,
+    "language": "Java 11",
+    "path": "codeforces\\1201\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximum Median",
+    "problem_url": "https://codeforces.com/contest/1201/problem/C",
+    "submission_id": "CF79443932",
+    "submission_url": "https://codeforces.com/contest/1201/submission/79443932",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "May/09/2020 13:49"
+  },
   "CF79444992": {
     "contest_id": 1076,
     "language": "Java 11",
