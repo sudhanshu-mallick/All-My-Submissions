@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79463714": {
+    "contest_id": 1242,
+    "language": "Java 11",
+    "path": "codeforces\\1242\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tile Painting",
+    "problem_url": "https://codeforces.com/contest/1242/problem/A",
+    "submission_id": "CF79463714",
+    "submission_url": "https://codeforces.com/contest/1242/submission/79463714",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "May/09/2020 18:05"
+  },
   "CF79466065": {
     "contest_id": 1237,
     "language": "Java 11",
