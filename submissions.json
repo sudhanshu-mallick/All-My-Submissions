@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79466065": {
+    "contest_id": 1237,
+    "language": "Java 11",
+    "path": "codeforces\\1237\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Balanced Tunnel",
+    "problem_url": "https://codeforces.com/contest/1237/problem/B",
+    "submission_id": "CF79466065",
+    "submission_url": "https://codeforces.com/contest/1237/submission/79466065",
+    "tags": [
+      "data structures",
+      "sortings",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "May/09/2020 18:36"
+  },
   "CF79468634": {
     "contest_id": 1220,
     "language": "Java 11",
