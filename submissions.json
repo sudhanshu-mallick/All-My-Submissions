@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79444992": {
+    "contest_id": 1076,
+    "language": "Java 11",
+    "path": "codeforces\\1076\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Minimizing the String",
+    "problem_url": "https://codeforces.com/contest/1076/problem/A",
+    "submission_id": "CF79444992",
+    "submission_url": "https://codeforces.com/contest/1076/submission/79444992",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "May/09/2020 14:04"
+  },
   "CF79463714": {
     "contest_id": 1242,
     "language": "Java 11",
