@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79744831": {
+    "contest_id": 707,
+    "language": "Java 11",
+    "path": "codeforces\\707\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pythagorean Triples",
+    "problem_url": "https://codeforces.com/contest/707/problem/C",
+    "submission_id": "CF79744831",
+    "submission_url": "https://codeforces.com/contest/707/submission/79744831",
+    "tags": [
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "May/11/2020 17:59"
+  },
   "CF79746207": {
     "contest_id": 559,
     "language": "Java 11",
