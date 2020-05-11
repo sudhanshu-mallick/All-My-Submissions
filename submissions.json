@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79746207": {
+    "contest_id": 559,
+    "language": "Java 11",
+    "path": "codeforces\\559\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Gerald's Hexagon",
+    "problem_url": "https://codeforces.com/contest/559/problem/A",
+    "submission_id": "CF79746207",
+    "submission_url": "https://codeforces.com/contest/559/submission/79746207",
+    "tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "May/11/2020 18:16"
+  },
   "CF79748943": {
     "contest_id": 1076,
     "language": "Java 11",
