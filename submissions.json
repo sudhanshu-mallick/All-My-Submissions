@@ -5980,6 +5980,27 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79796252": {
+    "contest_id": 165,
+    "language": "Java 11",
+    "path": "codeforces\\165\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Another Problem on Strings",
+    "problem_url": "https://codeforces.com/contest/165/problem/C",
+    "submission_id": "CF79796252",
+    "submission_url": "https://codeforces.com/contest/165/submission/79796252",
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "math",
+      "strings",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "May/12/2020 09:12"
+  },
   "CF79802753": {
     "contest_id": 903,
     "language": "Java 11",
