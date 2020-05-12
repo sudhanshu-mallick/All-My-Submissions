@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79819436": {
+    "contest_id": 1350,
+    "language": "Java 11",
+    "path": "codeforces\\1350\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Orac and Factors",
+    "problem_url": "https://codeforces.com/contest/1350/problem/A",
+    "submission_id": "CF79819436",
+    "submission_url": "https://codeforces.com/contest/1350/submission/79819436",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "May/12/2020 18:11"
+  },
   "CF79856535": {
     "contest_id": 1350,
     "language": "Java 11",
