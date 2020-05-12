@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF79802753": {
+    "contest_id": 903,
+    "language": "Java 11",
+    "path": "codeforces\\903\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Boxes Packing",
+    "problem_url": "https://codeforces.com/contest/903/problem/C",
+    "submission_id": "CF79802753",
+    "submission_url": "https://codeforces.com/contest/903/submission/79802753",
+    "tags": [
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "May/12/2020 11:33"
+  },
   "CF79819436": {
     "contest_id": 1350,
     "language": "Java 11",
