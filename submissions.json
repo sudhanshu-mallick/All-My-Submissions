@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80049541": {
+    "contest_id": 574,
+    "language": "Java 11",
+    "path": "codeforces\\574\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Elections",
+    "problem_url": "https://codeforces.com/contest/574/problem/A",
+    "submission_id": "CF80049541",
+    "submission_url": "https://codeforces.com/contest/574/submission/80049541",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "May/14/2020 14:14"
+  },
   "CF80070699": {
     "contest_id": 743,
     "language": "Java 11",
