@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80042327": {
+    "contest_id": 1253,
+    "language": "Java 11",
+    "path": "codeforces\\1253\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sweets Eating",
+    "problem_url": "https://codeforces.com/contest/1253/problem/C",
+    "submission_id": "CF80042327",
+    "submission_url": "https://codeforces.com/contest/1253/submission/80042327",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "May/14/2020 12:48"
+  },
   "CF80047298": {
     "contest_id": 486,
     "language": "Java 11",
