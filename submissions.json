@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80035335": {
+    "contest_id": 482,
+    "language": "Java 11",
+    "path": "codeforces\\482\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diverse Permutation",
+    "problem_url": "https://codeforces.com/contest/482/problem/A",
+    "submission_id": "CF80035335",
+    "submission_url": "https://codeforces.com/contest/482/submission/80035335",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "May/14/2020 11:20"
+  },
   "CF80037416": {
     "contest_id": 1100,
     "language": "Java 11",
