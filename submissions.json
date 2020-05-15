@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80251576": {
+    "contest_id": 1353,
+    "language": "Java 11",
+    "path": "codeforces\\1353\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Most Unstable Array",
+    "problem_url": "https://codeforces.com/contest/1353/problem/A",
+    "submission_id": "CF80251576",
+    "submission_url": "https://codeforces.com/contest/1353/submission/80251576",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/15/2020 23:25"
+  },
   "CF80252935": {
     "contest_id": 1353,
     "language": "Java 11",
