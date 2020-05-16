@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80295229": {
+    "contest_id": 842,
+    "language": "Java 11",
+    "path": "codeforces\\842\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Kirill And The Game",
+    "problem_url": "https://codeforces.com/contest/842/problem/A",
+    "submission_id": "CF80295229",
+    "submission_url": "https://codeforces.com/contest/842/submission/80295229",
+    "tags": [
+      "brute force",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "May/16/2020 14:05"
+  },
   "CF80313513": {
     "contest_id": 1355,
     "language": "Java 11",
