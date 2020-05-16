@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80380475": {
+    "contest_id": 1355,
+    "language": "Java 11",
+    "path": "codeforces\\1355\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Count Triangles",
+    "problem_url": "https://codeforces.com/contest/1355/problem/C",
+    "submission_id": "CF80380475",
+    "submission_url": "https://codeforces.com/contest/1355/submission/80380475",
+    "tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "May/16/2020 20:16"
+  },
   "CF80436229": {
     "contest_id": 1353,
     "language": "Java 11",
