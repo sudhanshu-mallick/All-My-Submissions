@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80285328": {
+    "contest_id": 1236,
+    "language": "Java 11",
+    "path": "codeforces\\1236\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Alice and the List of Presents",
+    "problem_url": "https://codeforces.com/contest/1236/problem/B",
+    "submission_id": "CF80285328",
+    "submission_url": "https://codeforces.com/contest/1236/submission/80285328",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "May/16/2020 12:04"
+  },
   "CF80295229": {
     "contest_id": 842,
     "language": "Java 11",
