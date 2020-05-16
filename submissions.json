@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80282429": {
+    "contest_id": 1353,
+    "language": "Java 11",
+    "path": "codeforces\\1353\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Constructing the Array",
+    "problem_url": "https://codeforces.com/contest/1353/problem/D",
+    "submission_id": "CF80282429",
+    "submission_url": "https://codeforces.com/contest/1353/submission/80282429",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "May/16/2020 11:23"
+  },
   "CF80285328": {
     "contest_id": 1236,
     "language": "Java 11",
