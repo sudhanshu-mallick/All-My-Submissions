@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80625593": {
+    "contest_id": 1354,
+    "language": "Java 11",
+    "path": "codeforces\\1354\\C1.java",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Simple Polygon Embedding",
+    "problem_url": "https://codeforces.com/contest/1354/problem/C1",
+    "submission_id": "CF80625593",
+    "submission_url": "https://codeforces.com/contest/1354/submission/80625593",
+    "tags": [
+      "binary search",
+      "geometry",
+      "math",
+      "ternary search",
+      "*1400"
+    ],
+    "timestamp": "May/18/2020 22:35"
+  },
   "CF80816215": {
     "contest_id": 1354,
     "language": "Java 11",
