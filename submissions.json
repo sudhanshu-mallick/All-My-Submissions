@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80816215": {
+    "contest_id": 1354,
+    "language": "Java 11",
+    "path": "codeforces\\1354\\C2.java",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Not So Simple Polygon Embedding",
+    "problem_url": "https://codeforces.com/contest/1354/problem/C2",
+    "submission_id": "CF80816215",
+    "submission_url": "https://codeforces.com/contest/1354/submission/80816215",
+    "tags": [
+      "binary search",
+      "brute force",
+      "geometry",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "May/21/2020 08:25"
+  },
   "CF80954175": {
     "contest_id": 1347,
     "language": "Kotlin",
