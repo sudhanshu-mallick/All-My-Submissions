@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80963364": {
+    "contest_id": 1347,
+    "language": "Kotlin",
+    "path": "codeforces\\1347\\E.kt",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Special Permutation",
+    "problem_url": "https://codeforces.com/contest/1347/problem/E",
+    "submission_id": "CF80963364",
+    "submission_url": "https://codeforces.com/contest/1347/submission/80963364",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "*1600"
+    ],
+    "timestamp": "May/23/2020 00:19"
+  },
   "CF81174294": {
     "contest_id": 1182,
     "language": "Java 11",
