@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF80957232": {
+    "contest_id": 1347,
+    "language": "Kotlin",
+    "path": "codeforces\\1347\\B.kt",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Square?",
+    "problem_url": "https://codeforces.com/contest/1347/problem/B",
+    "submission_id": "CF80957232",
+    "submission_url": "https://codeforces.com/contest/1347/submission/80957232",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "May/22/2020 22:54"
+  },
   "CF80961313": {
     "contest_id": 1347,
     "language": "Kotlin",
