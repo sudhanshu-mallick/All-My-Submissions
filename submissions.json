@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81255740": {
+    "contest_id": 1360,
+    "language": "Java 11",
+    "path": "codeforces\\1360\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Polygon",
+    "problem_url": "https://codeforces.com/contest/1360/problem/E",
+    "submission_id": "CF81255740",
+    "submission_url": "https://codeforces.com/contest/1360/submission/81255740",
+    "tags": [
+      "dp",
+      "graphs",
+      "implementation",
+      "shortest paths",
+      "*1300"
+    ],
+    "timestamp": "May/24/2020 19:53"
+  },
   "CF81299144": {
     "contest_id": 1360,
     "language": "Java 11",
