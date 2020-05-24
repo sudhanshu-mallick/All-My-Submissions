@@ -55,52 +55,94 @@ public class Spy_String {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int m = t.nextInt();
-			String s[] = new String[n];
+			HashSet<Character>[] set = new HashSet[m];
 			StringBuilder ans = new StringBuilder();
+			String[] a = new String[n];
 
-			for (int i = 0; i < n; ++i)
-				s[i] = t.next();
+			for (int i = 0; i < m; ++i)
+				set[i] = new HashSet<>();
+
+			for (int i = 0; i < n; ++i) {
+				a[i] = t.next();
+
+				for (int j = 0; j < m; ++j)
+					set[j].add(a[i].charAt(j));
+			}
 
 			for (int i = 0; i < m; ++i) {
-				for (char ch = 'a'; ch <= 'z'; ++ch) {
-					StringBuilder sb = new StringBuilder();
+				if (set[i].size() == 1) {
+					ans.append(a[0].charAt(i));
+				} else
+					break;
+			}
 
-					if (i > 0)
-						sb.append(s[0].substring(0, i));
+			int id = ans.length();
 
-					sb.append(ch);
-					sb.append(s[0].substring(i + 1));
+			if (id >= m - 1) {
+				if (id == m)
+					o.println(ans);
+				else {
+					o.print(ans);
+					o.println(a[0].charAt(m - 1));
+				}
+			} else {
+				boolean f = false;
 
-					String comp = sb.toString();
-					boolean f = true;
+				for (int i = 0; i < n; ++i) {
+					HashSet<String> map = new HashSet<>();
+					String s = "";
+					char ch = a[i].charAt(id);
 
-					for (int j = 1; j < n; ++j) {
-						int count = 0;
+					for (int j = 0; j < n; ++j) {
+						if (a[j].charAt(id) != ch) {
+							map.add(a[j].substring(id + 1));
+							s = a[j].substring(id + 1);
 
-						for (int k = 0; k < m; ++k)
-							if (comp.charAt(k) != s[j].charAt(k))
-								count++;
+							if (map.size() > 1)
+								break;
+						}
+					}
 
-						if (count > 1) {
-							f = false;
+					if (map.size() == 1) {
+						boolean r = true;
+
+						for (int j = 0; j < n; ++j) {
+							int count = 0;
+
+							if (a[j].charAt(id) == ch) {
+								for (int k = id + 1; k < m; ++k) {
+									if (s.charAt(k - id - 1) != a[j].charAt(k)) {
+										count++;
+									}
+								}
+							}
+
+							if (count >= 2) {
+								r = false;
+								break;
+							}
+						}
+
+						if (r) {
+							f = true;
+
+							ans.append(ch);
+							ans.append(s);
 							break;
 						}
 					}
 
-					if (f) {
-						ans.append(comp);
+					if (f)
 						break;
-					}
 				}
 
-				if (ans.length() > 0)
-					break;
+				if (f)
+					o.println(ans);
+				else {
+					o.println("-1");
+				}
 			}
 
-			if (ans.length() > 0)
-				o.println(ans);
-			else
-				o.println("-1");
 		}
 
 		o.flush();

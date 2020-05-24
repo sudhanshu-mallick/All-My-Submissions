@@ -5980,6 +5980,27 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81299144": {
+    "contest_id": 1360,
+    "language": "Java 11",
+    "path": "codeforces\\1360\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Spy-string",
+    "problem_url": "https://codeforces.com/contest/1360/problem/F",
+    "submission_id": "CF81299144",
+    "submission_url": "https://codeforces.com/contest/1360/submission/81299144",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "hashing",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "May/24/2020 20:55"
+  },
   "CF81341951": {
     "contest_id": 1360,
     "language": "Java 11",
