@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81199510": {
+    "contest_id": 460,
+    "language": "Java 11",
+    "path": "codeforces\\460\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Little Dima and Equation",
+    "problem_url": "https://codeforces.com/contest/460/problem/B",
+    "submission_id": "CF81199510",
+    "submission_url": "https://codeforces.com/contest/460/submission/81199510",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "May/24/2020 18:21"
+  },
   "CF81200792": {
     "contest_id": 462,
     "language": "Java 11",
