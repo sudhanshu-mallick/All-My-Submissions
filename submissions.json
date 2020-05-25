@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81342665": {
+    "contest_id": 1360,
+    "language": "Java 11",
+    "path": "codeforces\\1360\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "A/B Matrix",
+    "problem_url": "https://codeforces.com/contest/1360/problem/G",
+    "submission_id": "CF81342665",
+    "submission_url": "https://codeforces.com/contest/1360/submission/81342665",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "May/25/2020 08:29"
+  },
   "CF81430968": {
     "contest_id": 469,
     "language": "Java 11",
