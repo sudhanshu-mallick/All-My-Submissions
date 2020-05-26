@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81430968": {
+    "contest_id": 469,
+    "language": "Java 11",
+    "path": "codeforces\\469\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chat Online",
+    "problem_url": "https://codeforces.com/contest/469/problem/B",
+    "submission_id": "CF81430968",
+    "submission_url": "https://codeforces.com/contest/469/submission/81430968",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/26/2020 08:15"
+  },
   "CF81437454": {
     "contest_id": 1316,
     "language": "Java 11",
