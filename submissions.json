@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81479773": {
+    "contest_id": 1215,
+    "language": "Java 11",
+    "path": "codeforces\\1215\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Number of Products",
+    "problem_url": "https://codeforces.com/contest/1215/problem/B",
+    "submission_id": "CF81479773",
+    "submission_url": "https://codeforces.com/contest/1215/submission/81479773",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "May/26/2020 19:57"
+  },
   "CF81487030": {
     "contest_id": 1358,
     "language": "Java 11",
