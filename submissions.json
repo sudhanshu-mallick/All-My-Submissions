@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81437454": {
+    "contest_id": 1316,
+    "language": "Java 11",
+    "path": "codeforces\\1316\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "String Modification",
+    "problem_url": "https://codeforces.com/contest/1316/problem/B",
+    "submission_id": "CF81437454",
+    "submission_url": "https://codeforces.com/contest/1316/submission/81437454",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "sortings",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "May/26/2020 10:46"
+  },
   "CF81440043": {
     "contest_id": 1272,
     "language": "Java 11",
