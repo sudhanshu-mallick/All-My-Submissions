@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81440043": {
+    "contest_id": 1272,
+    "language": "Java 11",
+    "path": "codeforces\\1272\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Remove One Element",
+    "problem_url": "https://codeforces.com/contest/1272/problem/D",
+    "submission_id": "CF81440043",
+    "submission_url": "https://codeforces.com/contest/1272/submission/81440043",
+    "tags": [
+      "brute force",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "May/26/2020 11:29"
+  },
   "CF81443507": {
     "contest_id": 276,
     "language": "Java 11",
