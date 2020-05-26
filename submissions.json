@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81449196": {
+    "contest_id": 713,
+    "language": "Java 11",
+    "path": "codeforces\\713\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sonya and Queries",
+    "problem_url": "https://codeforces.com/contest/713/problem/A",
+    "submission_id": "CF81449196",
+    "submission_url": "https://codeforces.com/contest/713/submission/81449196",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "May/26/2020 13:32"
+  },
   "CF81471433": {
     "contest_id": 1360,
     "language": "Java 11",
