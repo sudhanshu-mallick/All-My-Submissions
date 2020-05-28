@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF81707190": {
+    "contest_id": 279,
+    "language": "Java 11",
+    "path": "codeforces\\279\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Books",
+    "problem_url": "https://codeforces.com/contest/279/problem/B",
+    "submission_id": "CF81707190",
+    "submission_url": "https://codeforces.com/contest/279/submission/81707190",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "May/28/2020 18:30"
+  },
   "CF81709446": {
     "contest_id": 698,
     "language": "Java 11",
