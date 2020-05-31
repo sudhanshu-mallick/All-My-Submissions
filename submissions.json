@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82013663": {
+    "contest_id": 538,
+    "language": "Java 11",
+    "path": "codeforces\\538\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Quasi Binary",
+    "problem_url": "https://codeforces.com/contest/538/problem/B",
+    "submission_id": "CF82013663",
+    "submission_url": "https://codeforces.com/contest/538/submission/82013663",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "May/31/2020 11:32"
+  },
   "CF82014912": {
     "contest_id": 1311,
     "language": "Java 11",
