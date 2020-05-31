@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82017691": {
+    "contest_id": 1303,
+    "language": "Java 11",
+    "path": "codeforces\\1303\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "National Project",
+    "problem_url": "https://codeforces.com/contest/1303/problem/B",
+    "submission_id": "CF82017691",
+    "submission_url": "https://codeforces.com/contest/1303/submission/82017691",
+    "tags": [
+      "math",
+      "*1400"
+    ],
+    "timestamp": "May/31/2020 12:34"
+  },
   "CF82019969": {
     "contest_id": 1344,
     "language": "Java 11",
