@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82108005": {
+    "contest_id": 1363,
+    "language": "Java 11",
+    "path": "codeforces\\1363\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Odd Selection",
+    "problem_url": "https://codeforces.com/contest/1363/problem/A",
+    "submission_id": "CF82108005",
+    "submission_url": "https://codeforces.com/contest/1363/submission/82108005",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "May/31/2020 21:09"
+  },
   "CF82151729": {
     "contest_id": 1363,
     "language": "Java 11",
