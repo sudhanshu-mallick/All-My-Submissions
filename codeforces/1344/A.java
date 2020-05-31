@@ -59,10 +59,10 @@ public class Hilberts_Hotel {
 			for (int i = 0; i < n; ++i) {
 				long x = t.nextLong();
 
-//				if (x < 0)
-//					x = (i + (Math.abs(x) % n == 0 ? 0 : n - Math.abs(x) % n)) % n;
-//				else
-				x = (i + n + (x) % n) % n;
+				if (x < 0)
+					x = (i + (Math.abs(x) % n == 0 ? 0 : n - Math.abs(x) % n)) % n;
+				else
+					x = (i + x % n) % n;
 
 				if (!vis[(int) x])
 					vis[(int) x] = true;
