@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82020255": {
+    "contest_id": 1344,
+    "language": "Java 11",
+    "path": "codeforces\\1344\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hilbert's Hotel",
+    "problem_url": "https://codeforces.com/contest/1344/problem/A",
+    "submission_id": "CF82020255",
+    "submission_url": "https://codeforces.com/contest/1344/submission/82020255",
+    "tags": [
+      "math",
+      "number theory",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "May/31/2020 13:12"
+  },
   "CF82021875": {
     "contest_id": 1330,
     "language": "Java 11",
