@@ -53,37 +53,39 @@ public class Johhny_And_Ancient_Computer {
 		int test = t.nextInt();
 
 		while (test-- > 0) {
-			long aa = t.nextLong();
-			long bb = t.nextLong();
-			long a = Math.max(aa, bb);
-			long b = Math.min(aa, bb);
+			long a = t.nextLong();
+			long b = t.nextLong();
+			long res = Math.max(a, b) / Math.min(a, b);
+			String s = Long.toBinaryString(res);
+			int count = 0, idx = 0;
 
-			if (a % b != 0) {
-				o.println("-1");
-			} else {
-				long c = a / b;
-				int count = 0, p = -1;
+			if (Math.max(a, b) % Math.min(a, b) != 0)
+				count = 2;
 
-				while (c > 0) {
-					count += (c & 1);
-					c = c >> 1;
-					p++;
+			for (int i = 0; i < s.length(); ++i) {
+				if (s.charAt(i) == '1') {
+					count++;
+					idx = i + 1;
 				}
 
 				if (count > 1)
-					o.println("-1");
-				else {
-					int ans = 0;
-					while (p >= 3) {
-						p -= 3;
-						ans++;
-					}
+					break;
+			}
 
-					if (p > 0)
-						ans++;
+			idx = s.length() - 1;
 
-					o.println(ans);
-				}
+			if (count > 1)
+				o.println("-1");
+			else {
+
+//				System.out.println(idx);
+				int three = idx / 3;
+				int two = (idx - three * 3) / 2;
+				int one = idx - three * 3 - two * 2;
+
+//				System.out.println(idx);
+
+				o.println(one + two + three);
 
 			}
 
