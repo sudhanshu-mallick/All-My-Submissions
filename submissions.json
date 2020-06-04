@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82443888": {
+    "contest_id": 1322,
+    "language": "Java 11",
+    "path": "codeforces\\1322\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Unusual Competitions",
+    "problem_url": "https://codeforces.com/contest/1322/problem/A",
+    "submission_id": "CF82443888",
+    "submission_url": "https://codeforces.com/contest/1322/submission/82443888",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Jun/04/2020 08:32"
+  },
   "CF82445512": {
     "contest_id": 289,
     "language": "Java 11",
