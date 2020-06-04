@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82458943": {
+    "contest_id": 1183,
+    "language": "Java 11",
+    "path": "codeforces\\1183\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Computer Game",
+    "problem_url": "https://codeforces.com/contest/1183/problem/C",
+    "submission_id": "CF82458943",
+    "submission_url": "https://codeforces.com/contest/1183/submission/82458943",
+    "tags": [
+      "binary search",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jun/04/2020 13:07"
+  },
   "CF82459630": {
     "contest_id": 1183,
     "language": "Java 11",
