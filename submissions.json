@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82442574": {
+    "contest_id": 1296,
+    "language": "Java 11",
+    "path": "codeforces\\1296\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Fight with Monsters",
+    "problem_url": "https://codeforces.com/contest/1296/problem/D",
+    "submission_id": "CF82442574",
+    "submission_url": "https://codeforces.com/contest/1296/submission/82442574",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jun/04/2020 07:52"
+  },
   "CF82443888": {
     "contest_id": 1322,
     "language": "Java 11",
