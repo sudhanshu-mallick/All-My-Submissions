@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82590674": {
+    "contest_id": 1362,
+    "language": "Java 11",
+    "path": "codeforces\\1362\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Johnny and Contribution",
+    "problem_url": "https://codeforces.com/contest/1362/problem/D",
+    "submission_id": "CF82590674",
+    "submission_url": "https://codeforces.com/contest/1362/submission/82590674",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Jun/05/2020 08:57"
+  },
   "CF82651743": {
     "contest_id": 630,
     "language": "Java 11",
