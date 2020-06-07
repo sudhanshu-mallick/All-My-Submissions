@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82778216": {
+    "contest_id": 1076,
+    "language": "Java 11",
+    "path": "codeforces\\1076\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Meme Problem",
+    "problem_url": "https://codeforces.com/contest/1076/problem/C",
+    "submission_id": "CF82778216",
+    "submission_url": "https://codeforces.com/contest/1076/submission/82778216",
+    "tags": [
+      "binary search",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jun/07/2020 17:58"
+  },
   "CF82781244": {
     "contest_id": 1178,
     "language": "Java 11",
