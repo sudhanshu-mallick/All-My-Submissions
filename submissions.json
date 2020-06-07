@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82781244": {
+    "contest_id": 1178,
+    "language": "Java 11",
+    "path": "codeforces\\1178\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "WOW Factor",
+    "problem_url": "https://codeforces.com/contest/1178/problem/B",
+    "submission_id": "CF82781244",
+    "submission_url": "https://codeforces.com/contest/1178/submission/82781244",
+    "tags": [
+      "dp",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jun/07/2020 18:44"
+  },
   "CF82782146": {
     "contest_id": 1178,
     "language": "Java 11",
