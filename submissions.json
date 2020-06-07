@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82762223": {
+    "contest_id": 1141,
+    "language": "Java 11",
+    "path": "codeforces\\1141\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Polycarp Restores Permutation",
+    "problem_url": "https://codeforces.com/contest/1141/problem/C",
+    "submission_id": "CF82762223",
+    "submission_url": "https://codeforces.com/contest/1141/submission/82762223",
+    "tags": [
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jun/07/2020 13:50"
+  },
   "CF82778216": {
     "contest_id": 1076,
     "language": "Java 11",
