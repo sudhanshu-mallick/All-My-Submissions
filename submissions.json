@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82784696": {
+    "contest_id": 1037,
+    "language": "Java 11",
+    "path": "codeforces\\1037\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Reach Median",
+    "problem_url": "https://codeforces.com/contest/1037/problem/B",
+    "submission_id": "CF82784696",
+    "submission_url": "https://codeforces.com/contest/1037/submission/82784696",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Jun/07/2020 19:35"
+  },
   "CF82786609": {
     "contest_id": 41,
     "language": "Java 11",
