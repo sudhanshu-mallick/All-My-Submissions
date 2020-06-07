@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82752399": {
+    "contest_id": 220,
+    "language": "Java 11",
+    "path": "codeforces\\220\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Problem",
+    "problem_url": "https://codeforces.com/contest/220/problem/A",
+    "submission_id": "CF82752399",
+    "submission_url": "https://codeforces.com/contest/220/submission/82752399",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Jun/07/2020 11:17"
+  },
   "CF82756223": {
     "contest_id": 1278,
     "language": "Java 11",
