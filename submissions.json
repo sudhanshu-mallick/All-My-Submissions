@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF82788345": {
+    "contest_id": 1365,
+    "language": "Java 11",
+    "path": "codeforces\\1365\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Matrix Game",
+    "problem_url": "https://codeforces.com/contest/1365/problem/A",
+    "submission_id": "CF82788345",
+    "submission_url": "https://codeforces.com/contest/1365/submission/82788345",
+    "tags": [
+      "games",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jun/07/2020 20:10"
+  },
   "CF82831631": {
     "contest_id": 1365,
     "language": "Java 11",
