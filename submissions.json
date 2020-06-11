@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83362372": {
+    "contest_id": 1203,
+    "language": "Java 11",
+    "path": "codeforces\\1203\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Boxers",
+    "problem_url": "https://codeforces.com/contest/1203/problem/E",
+    "submission_id": "CF83362372",
+    "submission_url": "https://codeforces.com/contest/1203/submission/83362372",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jun/11/2020 13:54"
+  },
   "CF83365179": {
     "contest_id": 388,
     "language": "Java 11",
