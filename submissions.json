@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83356138": {
+    "contest_id": 1299,
+    "language": "Java 11",
+    "path": "codeforces\\1299\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Anu Has a Function",
+    "problem_url": "https://codeforces.com/contest/1299/problem/A",
+    "submission_id": "CF83356138",
+    "submission_url": "https://codeforces.com/contest/1299/submission/83356138",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jun/11/2020 12:27"
+  },
   "CF83360492": {
     "contest_id": 1095,
     "language": "Java 11",
