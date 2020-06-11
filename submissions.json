@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83344552": {
+    "contest_id": 467,
+    "language": "Java 11",
+    "path": "codeforces\\467\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "George and Job",
+    "problem_url": "https://codeforces.com/contest/467/problem/C",
+    "submission_id": "CF83344552",
+    "submission_url": "https://codeforces.com/contest/467/submission/83344552",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jun/11/2020 08:30"
+  },
   "CF83356138": {
     "contest_id": 1299,
     "language": "Java 11",
