@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83388066": {
+    "contest_id": 1196,
+    "language": "Java 11",
+    "path": "codeforces\\1196\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Robot Breakout",
+    "problem_url": "https://codeforces.com/contest/1196/problem/C",
+    "submission_id": "CF83388066",
+    "submission_url": "https://codeforces.com/contest/1196/submission/83388066",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jun/11/2020 19:45"
+  },
   "CF83389214": {
     "contest_id": 122,
     "language": "Java 11",
