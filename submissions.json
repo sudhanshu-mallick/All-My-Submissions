@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83384863": {
+    "contest_id": 348,
+    "language": "Java 11",
+    "path": "codeforces\\348\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mafia",
+    "problem_url": "https://codeforces.com/contest/348/problem/A",
+    "submission_id": "CF83384863",
+    "submission_url": "https://codeforces.com/contest/348/submission/83384863",
+    "tags": [
+      "binary search",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jun/11/2020 19:04"
+  },
   "CF83388066": {
     "contest_id": 1196,
     "language": "Java 11",
