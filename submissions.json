@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83389214": {
+    "contest_id": 122,
+    "language": "Java 11",
+    "path": "codeforces\\122\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky Division",
+    "problem_url": "https://codeforces.com/contest/122/problem/A",
+    "submission_id": "CF83389214",
+    "submission_url": "https://codeforces.com/contest/122/submission/83389214",
+    "tags": [
+      "brute force",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Jun/11/2020 20:00"
+  },
   "CF83411581": {
     "contest_id": 1366,
     "language": "Java 11",
