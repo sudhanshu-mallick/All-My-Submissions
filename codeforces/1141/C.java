@@ -5,7 +5,7 @@ public class sample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner t = new Scanner(System.in);
+		Scanner t = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt() - 1;
 		long[] a = new long[n + 1];
