@@ -117,7 +117,7 @@ public class Colored_Boots {
 		o.println(ans.size());
 
 		for (int i = 0; i < ans.size(); ++i) {
-			o.println(ans.get(i));
+			o.print(ans.get(i) + "\n");
 		}
 
 		o.close();
