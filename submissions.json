@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83789419": {
+    "contest_id": 26,
+    "language": "Java 11",
+    "path": "codeforces\\26\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Regular Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/26/problem/B",
+    "submission_id": "CF83789419",
+    "submission_url": "https://codeforces.com/contest/26/submission/83789419",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Jun/15/2020 08:09"
+  },
   "CF83789440": {
     "contest_id": 26,
     "language": "Java 8",
