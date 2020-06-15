@@ -57,7 +57,6 @@ public class Colored_Boots {
 		ArrayList<Integer> cr[] = new ArrayList[26];
 		ArrayList<Integer> q1 = new ArrayList<>();
 		ArrayList<Integer> q2 = new ArrayList<>();
-		ArrayList<String> ans = new ArrayList<>();
 
 		for (int i = 0; i < 26; i++) {
 			cl[i] = new ArrayList<>();
@@ -81,44 +80,46 @@ public class Colored_Boots {
 
 		int q1ind = 0;
 		int q2ind = 0;
+		StringBuilder ans = new StringBuilder();
+		int c = 0;
 
 		for (int i = 0; i < 26; i++) {
 			int ind1 = 0;
 			int ind2 = 0;
 			while (ind1 < cl[i].size() && ind2 < cr[i].size()) {
-				ans.add(cl[i].get(ind1) + " " + cr[i].get(ind2));
-
+				ans.append(cl[i].get(ind1) + " " + cr[i].get(ind2) + "\n");
+				c++;
 				ind1++;
 				ind2++;
 			}
 
 			while (ind1 < cl[i].size() && q2ind < q2.size()) {
-				ans.add(cl[i].get(ind1) + " " + q2.get(q2ind));
+				ans.append(cl[i].get(ind1) + " " + q2.get(q2ind) + "\n");
 
+				c++;
 				ind1++;
 				q2ind++;
 
 			}
 
 			while (ind2 < cr[i].size() && q1ind < q1.size()) {
-				ans.add(q1.get(q1ind) + " " + cr[i].get(ind2));
+				ans.append(q1.get(q1ind) + " " + cr[i].get(ind2) + "\n");
 
+				c++;
 				ind2++;
 				q1ind++;
 			}
 		}
 
 		while (q1ind < q1.size() && q2ind < q2.size()) {
-			ans.add(q1.get(q1ind) + " " + q2.get(q2ind));
+			ans.append(q1.get(q1ind) + " " + q2.get(q2ind) + "\n");
 
+			c++;
 			q1ind++;
 			q2ind++;
 		}
-		o.println(ans.size());
-
-		for (int i = 0; i < ans.size(); ++i) {
-			o.print(ans.get(i) + "\n");
-		}
+		o.println(c);
+		o.println(ans);
 
 		o.close();
 	}
