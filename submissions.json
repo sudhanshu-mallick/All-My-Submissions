@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83931149": {
+    "contest_id": 1266,
+    "language": "Java 8",
+    "path": "codeforces\\1266\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Diverse Matrix",
+    "problem_url": "https://codeforces.com/contest/1266/problem/C",
+    "submission_id": "CF83931149",
+    "submission_url": "https://codeforces.com/contest/1266/submission/83931149",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jun/16/2020 20:01"
+  },
   "CF83934674": {
     "contest_id": 1367,
     "language": "Java 8",
