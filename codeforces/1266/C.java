@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.*;
 
@@ -53,21 +52,24 @@ public class Diverse_Matrix {
 		PrintWriter o = new PrintWriter(System.out);
 		int m = t.nextInt();
 		int n = t.nextInt();
+		StringBuilder sb = new StringBuilder();
 
 		if (m + n != 2) {
 
 			if (n == 1) {
 				for (int i = 0; i < m; ++i)
-					o.print((i + 2) + " ");
+					sb.append((i + 2) + " ");
 			} else
 				for (int i = 0; i < m; ++i) {
 					for (int j = 0; j < n; ++j)
-						o.print((i + 1) * (m + j + 1) + " ");
+						sb.append((i + 1) * (m + j + 1) + " ");
 
-					o.print("\n");
+					sb.append("\n");
 				}
 		} else
-			o.print("0");
+			sb.append("0");
+
+		o.println(sb);
 
 		o.flush();
 		o.close();
