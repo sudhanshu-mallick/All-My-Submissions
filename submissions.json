@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83897790": {
+    "contest_id": 131,
+    "language": "Java 8",
+    "path": "codeforces\\131\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "The World is a Theatre",
+    "problem_url": "https://codeforces.com/contest/131/problem/C",
+    "submission_id": "CF83897790",
+    "submission_url": "https://codeforces.com/contest/131/submission/83897790",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jun/16/2020 12:23"
+  },
   "CF83923779": {
     "contest_id": 1136,
     "language": "Java 8",
