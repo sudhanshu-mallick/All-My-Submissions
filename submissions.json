@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84000311": {
+    "contest_id": 1367,
+    "language": "Java 8",
+    "path": "codeforces\\1367\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Social Distance",
+    "problem_url": "https://codeforces.com/contest/1367/problem/C",
+    "submission_id": "CF84000311",
+    "submission_url": "https://codeforces.com/contest/1367/submission/84000311",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jun/16/2020 21:22"
+  },
   "CF84039908": {
     "contest_id": 1367,
     "language": "Java 8",

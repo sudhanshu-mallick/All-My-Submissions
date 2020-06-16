@@ -58,46 +58,26 @@ public class Social_Distance {
 			String s = t.next();
 			int count = 0;
 			List<Integer> l = new ArrayList<>();
+			int c = 0;
 
 			for (int i = 0; i < n; ++i)
-				if (s.charAt(i) == '1')
+				if (s.charAt(i) == '1') {
 					l.add(i);
-
-			if (l.size() == 0) {
-				count = (n + k) / (k + 1);
-			} else {
-				if (l.size() > 1) {
-					for (int i = 0; i < l.size() - 1; ++i) {
-						int x = l.get(i) + k + 1;
-						int y = l.get(i + 1) - k - 1;
-						int len = y - x + 1;
-
-						if (len > 0)
-							count += (len + k) / (k + 1);
-					}
-
-					int len = n - (l.get(l.size() - 1) + k + 1);
-
-					if (len > 0)
-						count += (len + k) / (k + 1);
-
-					len = l.get(0) - k;
-
-					if (len > 0)
-						count += (len + k) / (k + 1);
-
-				} else {
-					int len = l.get(0) - k;
-
-					if (len > 0)
-						count += (len + k) / (k + 1);
-
-					len = n - (l.get(l.size() - 1) + k + 1);
-
-					if (len > 0)
-						count += (len + k) / (k + 1);
+					c++;
 				}
 
+			if (c == 0)
+				count = n % (k + 1) == 0 ? n / (k + 1) : n / (k + 1) + 1;
+			else {
+				for (int i = 1; i < l.size(); ++i) {
+					count += (l.get(i) - l.get(i - 1)) / (k + 1) - 1;
+				}
+
+				if (l.get(0) > k)
+					count += l.get(0) / (k + 1);
+
+				if (n - l.get(l.size() - 1) - 1 > k)
+					count += (n - l.get(l.size() - 1) - 1) / (k + 1);
 			}
 
 			o.println(count);
