@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF83945575": {
+    "contest_id": 1367,
+    "language": "Java 8",
+    "path": "codeforces\\1367\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Even Array",
+    "problem_url": "https://codeforces.com/contest/1367/problem/B",
+    "submission_id": "CF83945575",
+    "submission_url": "https://codeforces.com/contest/1367/submission/83945575",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/16/2020 20:14"
+  },
   "CF84000311": {
     "contest_id": 1367,
     "language": "Java 8",
