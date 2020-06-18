@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84134708": {
+    "contest_id": 1200,
+    "language": "Java 8",
+    "path": "codeforces\\1200\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Round Corridor",
+    "problem_url": "https://codeforces.com/contest/1200/problem/C",
+    "submission_id": "CF84134708",
+    "submission_url": "https://codeforces.com/contest/1200/submission/84134708",
+    "tags": [
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jun/18/2020 12:55"
+  },
   "CF84136313": {
     "contest_id": 1131,
     "language": "Java 8",
