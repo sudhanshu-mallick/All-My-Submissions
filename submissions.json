@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84163455": {
+    "contest_id": 1118,
+    "language": "Java 8",
+    "path": "codeforces\\1118\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Water Buying",
+    "problem_url": "https://codeforces.com/contest/1118/problem/A",
+    "submission_id": "CF84163455",
+    "submission_url": "https://codeforces.com/contest/1118/submission/84163455",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/18/2020 19:20"
+  },
   "CF84167773": {
     "contest_id": 719,
     "language": "Java 8",
