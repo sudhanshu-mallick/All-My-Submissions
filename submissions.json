@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84133311": {
+    "contest_id": 1103,
+    "language": "Java 8",
+    "path": "codeforces\\1103\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Grid game",
+    "problem_url": "https://codeforces.com/contest/1103/problem/A",
+    "submission_id": "CF84133311",
+    "submission_url": "https://codeforces.com/contest/1103/submission/84133311",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jun/18/2020 12:36"
+  },
   "CF84134708": {
     "contest_id": 1200,
     "language": "Java 8",
