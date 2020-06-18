@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84163009": {
+    "contest_id": 525,
+    "language": "Java 8",
+    "path": "codeforces\\525\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pasha and String",
+    "problem_url": "https://codeforces.com/contest/525/problem/B",
+    "submission_id": "CF84163009",
+    "submission_url": "https://codeforces.com/contest/525/submission/84163009",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Jun/18/2020 19:14"
+  },
   "CF84163455": {
     "contest_id": 1118,
     "language": "Java 8",
