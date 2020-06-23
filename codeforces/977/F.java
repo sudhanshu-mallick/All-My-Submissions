@@ -53,7 +53,6 @@ public class Consecutive_Subsequnece {
 		int n = t.nextInt();
 		int[] a = new int[n];
 		HashMap<Integer, Integer> map = new HashMap<>();
-		StringBuilder sb = new StringBuilder();
 		int max = 0, last = 0;
 
 		for (int i = 0; i < n; ++i) {
@@ -77,12 +76,11 @@ public class Consecutive_Subsequnece {
 			}
 		}
 
-		sb.append(ans.size() + "\n");
+		o.println(ans.size());
 
 		for (int i = ans.size() - 1; i >= 0; --i)
-			sb.append(ans.get(i) + " ");
-		
-		o.println(sb);
+			o.print(ans.get(i) + " ");
+
 		o.flush();
 		o.close();
 	}
