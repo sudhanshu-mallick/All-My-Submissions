@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84743595": {
+    "contest_id": 372,
+    "language": "Java 8",
+    "path": "codeforces\\372\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Counting Kangaroos is Fun",
+    "problem_url": "https://codeforces.com/contest/372/problem/A",
+    "submission_id": "CF84743595",
+    "submission_url": "https://codeforces.com/contest/372/submission/84743595",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Jun/23/2020 18:24"
+  },
   "CF84773397": {
     "contest_id": 1369,
     "language": "Java 8",
