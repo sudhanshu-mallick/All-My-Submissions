@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84725396": {
+    "contest_id": 977,
+    "language": "Java 8",
+    "path": "codeforces\\977\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Consecutive Subsequence",
+    "problem_url": "https://codeforces.com/contest/977/problem/F",
+    "submission_id": "CF84725396",
+    "submission_url": "https://codeforces.com/contest/977/submission/84725396",
+    "tags": [
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Jun/23/2020 13:48"
+  },
   "CF84727198": {
     "contest_id": 742,
     "language": "Java 8",
