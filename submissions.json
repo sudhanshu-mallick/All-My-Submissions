@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84722296": {
+    "contest_id": 1251,
+    "language": "Java 8",
+    "path": "codeforces\\1251\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Minimize The Integer",
+    "problem_url": "https://codeforces.com/contest/1251/problem/C",
+    "submission_id": "CF84722296",
+    "submission_url": "https://codeforces.com/contest/1251/submission/84722296",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Jun/23/2020 13:05"
+  },
   "CF84723634": {
     "contest_id": 282,
     "language": "Java 8",
