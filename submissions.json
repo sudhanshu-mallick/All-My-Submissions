@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84797080": {
+    "contest_id": 1369,
+    "language": "Java 8",
+    "path": "codeforces\\1369\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "FashionabLee",
+    "problem_url": "https://codeforces.com/contest/1369/problem/A",
+    "submission_id": "CF84797080",
+    "submission_url": "https://codeforces.com/contest/1369/submission/84797080",
+    "tags": [
+      "geometry",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/23/2020 20:43"
+  },
   "CF84827743": {
     "contest_id": 1369,
     "language": "Java 8",
