@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84708619": {
+    "contest_id": 1370,
+    "language": "Java 8",
+    "path": "codeforces\\1370\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Number Game",
+    "problem_url": "https://codeforces.com/contest/1370/problem/C",
+    "submission_id": "CF84708619",
+    "submission_url": "https://codeforces.com/contest/1370/submission/84708619",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jun/23/2020 08:50"
+  },
   "CF84721054": {
     "contest_id": 1114,
     "language": "Java 8",
