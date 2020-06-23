@@ -52,7 +52,7 @@ public class Consecutive_Subsequnece {
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
 		int[] a = new int[n];
-		HashMap<Integer, Integer> map = new HashMap<>();
+		Map<Integer, Integer> map = new HashMap<>();
 		int max = 0, last = 0;
 
 		for (int i = 0; i < n; ++i) {
@@ -67,7 +67,7 @@ public class Consecutive_Subsequnece {
 			}
 		}
 
-		ArrayList<Integer> ans = new ArrayList<>();
+		List<Integer> ans = new ArrayList<>();
 
 		for (int i = n - 1; i >= 0; --i) {
 			if (a[i] == last) {
