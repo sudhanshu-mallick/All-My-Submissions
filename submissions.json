@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84863721": {
+    "contest_id": 939,
+    "language": "Java 8",
+    "path": "codeforces\\939\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Love Triangle",
+    "problem_url": "https://codeforces.com/contest/939/problem/A",
+    "submission_id": "CF84863721",
+    "submission_url": "https://codeforces.com/contest/939/submission/84863721",
+    "tags": [
+      "graphs",
+      "*800"
+    ],
+    "timestamp": "Jun/24/2020 12:51"
+  },
   "CF84933458": {
     "contest_id": 1311,
     "language": "Java 8",
