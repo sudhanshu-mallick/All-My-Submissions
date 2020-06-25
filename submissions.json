@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84989491": {
+    "contest_id": 1373,
+    "language": "Java 8",
+    "path": "codeforces\\1373\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Donut Shops",
+    "problem_url": "https://codeforces.com/contest/1373/problem/A",
+    "submission_id": "CF84989491",
+    "submission_url": "https://codeforces.com/contest/1373/submission/84989491",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/25/2020 20:16"
+  },
   "CF84996553": {
     "contest_id": 1373,
     "language": "Java 8",
