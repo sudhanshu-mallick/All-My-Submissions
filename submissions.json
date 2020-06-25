@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF84971564": {
+    "contest_id": 1020,
+    "language": "Java 8",
+    "path": "codeforces\\1020\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Badge",
+    "problem_url": "https://codeforces.com/contest/1020/problem/B",
+    "submission_id": "CF84971564",
+    "submission_url": "https://codeforces.com/contest/1020/submission/84971564",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "*1000"
+    ],
+    "timestamp": "Jun/25/2020 17:59"
+  },
   "CF84980813": {
     "contest_id": 3,
     "language": "Java 8",
