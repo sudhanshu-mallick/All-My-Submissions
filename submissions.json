@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85065909": {
+    "contest_id": 1373,
+    "language": "Java 8",
+    "path": "codeforces\\1373\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum Sum on Even Positions",
+    "problem_url": "https://codeforces.com/contest/1373/problem/D",
+    "submission_id": "CF85065909",
+    "submission_url": "https://codeforces.com/contest/1373/submission/85065909",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jun/26/2020 00:11"
+  },
   "CF85101209": {
     "contest_id": 755,
     "language": "Java 8",
