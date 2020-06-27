@@ -51,7 +51,7 @@ public class Optimal_Points_On_A_Line {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
-		List<Integer> a = new ArrayList<>();
+		ArrayList<Integer> a = new ArrayList<>();
 
 		for (int i = 0; i < n; ++i)
 			a.add(t.nextInt());

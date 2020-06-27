@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85181913": {
+    "contest_id": 710,
+    "language": "Java 8",
+    "path": "codeforces\\710\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Optimal Point on a Line",
+    "problem_url": "https://codeforces.com/contest/710/problem/B",
+    "submission_id": "CF85181913",
+    "submission_url": "https://codeforces.com/contest/710/submission/85181913",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jun/27/2020 11:52"
+  },
   "CF85181944": {
     "contest_id": 710,
     "language": "Java 8",
