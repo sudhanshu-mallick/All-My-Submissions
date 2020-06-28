@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85293809": {
+    "contest_id": 518,
+    "language": "Java 8",
+    "path": "codeforces\\518\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vitaly and Strings",
+    "problem_url": "https://codeforces.com/contest/518/problem/A",
+    "submission_id": "CF85293809",
+    "submission_url": "https://codeforces.com/contest/518/submission/85293809",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Jun/28/2020 19:38"
+  },
   "CF85297180": {
     "contest_id": 1374,
     "language": "Java 8",
