@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85317821": {
+    "contest_id": 1374,
+    "language": "Java 8",
+    "path": "codeforces\\1374\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Move Brackets",
+    "problem_url": "https://codeforces.com/contest/1374/problem/C",
+    "submission_id": "CF85317821",
+    "submission_url": "https://codeforces.com/contest/1374/submission/85317821",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Jun/28/2020 20:24"
+  },
   "CF85332385": {
     "contest_id": 1374,
     "language": "Java 8",
