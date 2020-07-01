@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85626313": {
+    "contest_id": 1371,
+    "language": "Java 8",
+    "path": "codeforces\\1371\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Magical Sticks",
+    "problem_url": "https://codeforces.com/contest/1371/problem/A",
+    "submission_id": "CF85626313",
+    "submission_url": "https://codeforces.com/contest/1371/submission/85626313",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/01/2020 19:07"
+  },
   "CF85644327": {
     "contest_id": 1371,
     "language": "Java 8",
