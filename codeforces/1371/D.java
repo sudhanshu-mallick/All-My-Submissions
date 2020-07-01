@@ -51,39 +51,43 @@ public class Grid_00100 {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
-		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int k = t.nextInt();
-			if (k % n == 0)
-				sb.append("0\n");
-			else
-				sb.append("2\n");
+			int t1 = k / n;
+			int t2 = t1 + (k % n == 0 ? 0 : 1);
+			int ans = (t1 == t2) ? 0 : 2;
+			int[][] ar = new int[n][n];
+			int a = n * t1 + n - k;
+			int b = n - a;
+			int cur = 0;
 
-			int x = 0, y = 0;
-			int a[][] = new int[n][n];
-
-			while (k-- > 0) {
-				a[x][y] = 1;
-				x++;
-				y = (y + 1) % n;
-
-				if (x == n) {
-					x = 0;
-					y = (y + 1) % n;
+			for (int i = 0; i < a; ++i) {
+				for (int j = 0; j < t1; ++j) {
+					ar[i][cur] = 1;
+					cur = (cur + 1) % n;
 				}
 			}
 
+			for (int i = a; i < n; ++i) {
+				for (int j = 0; j < t2; ++j) {
+					ar[i][cur] = 1;
+					cur = (cur + 1) % n;
+				}
+			}
+
+			o.println(ans);
+
 			for (int i = 0; i < n; ++i) {
 				for (int j = 0; j < n; ++j)
-					sb.append(a[i][j]);
+					o.print(ar[i][j]);
 
-				sb.append("\n");
+				o.println();
 			}
+
 		}
 
-		o.println(sb);
 		o.flush();
 		o.close();
 	}
