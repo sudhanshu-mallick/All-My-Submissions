@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85650038": {
+    "contest_id": 1371,
+    "language": "Java 8",
+    "path": "codeforces\\1371\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "A Cookie for You",
+    "problem_url": "https://codeforces.com/contest/1371/problem/C",
+    "submission_id": "CF85650038",
+    "submission_url": "https://codeforces.com/contest/1371/submission/85650038",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jul/01/2020 19:37"
+  },
   "CF85662649": {
     "contest_id": 1371,
     "language": "Java 8",
