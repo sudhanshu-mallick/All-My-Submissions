@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF85947849": {
+    "contest_id": 1375,
+    "language": "Java 8",
+    "path": "codeforces\\1375\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Neighbor Grid",
+    "problem_url": "https://codeforces.com/contest/1375/problem/B",
+    "submission_id": "CF85947849",
+    "submission_url": "https://codeforces.com/contest/1375/submission/85947849",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jul/04/2020 20:42"
+  },
   "CF85976220": {
     "contest_id": 1375,
     "language": "Java 8",
