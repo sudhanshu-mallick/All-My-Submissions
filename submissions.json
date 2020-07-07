@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF86223911": {
+    "contest_id": 1133,
+    "language": "Java 8",
+    "path": "codeforces\\1133\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Zero Quantity Maximization",
+    "problem_url": "https://codeforces.com/contest/1133/problem/D",
+    "submission_id": "CF86223911",
+    "submission_url": "https://codeforces.com/contest/1133/submission/86223911",
+    "tags": [
+      "hashing",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Jul/07/2020 23:42"
+  },
   "CF86518505": {
     "contest_id": 1372,
     "language": "Java 8",
