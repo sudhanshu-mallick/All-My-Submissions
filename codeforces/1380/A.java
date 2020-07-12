@@ -51,34 +51,56 @@ public class Three_Indices {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
-		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int[] a = new int[n];
-			boolean flag = false;
+			int left[] = new int[n];
+			int right[] = new int[n];
 
 			for (int i = 0; i < n; ++i)
 				a[i] = t.nextInt();
 
+			left[0] = a[0];
+			right[n - 1] = a[n - 1];
+			boolean flag = false;
+			int idx = -1;
+
+			for (int i = 1; i < n; ++i) {
+				left[i] = Math.min(left[i - 1], a[i]);
+				right[n - i - 1] = Math.min(right[n - i], a[n - i - 1]);
+			}
+
 			for (int i = 1; i < n - 1; ++i) {
-				if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
-					sb.append("YES\n");
-					sb.append(i + " ");
-					sb.append(i + 1 + " ");
-					sb.append(i + 2 + " ");
+				if (a[i] > left[i - 1] && a[i] > right[i + 1]) {
 					flag = true;
-					break;
+					idx = i;
 				}
 			}
 
-			if (!flag)
-				sb.append("NO");
+			if (flag) {
+				o.println("YES");
 
-			sb.append("\n");
+				for (int i = 0; i < n; ++i) {
+					if (a[i] == left[idx - 1]) {
+						o.print(i + 1 + " ");
+						break;
+					}
+				}
+
+				o.print(idx + 1 + " ");
+
+				for (int i = n - 1; i >= 0; --i) {
+					if (a[i] == right[idx + 1]) {
+						o.println(i + 1);
+						break;
+					}
+				}
+			} else {
+				o.println("NO");
+			}
 		}
 
-		o.println(sb);
 		o.flush();
 		o.close();
 	}
