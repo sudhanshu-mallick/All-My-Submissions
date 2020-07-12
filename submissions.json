@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF86653441": {
+    "contest_id": 1372,
+    "language": "Java 8",
+    "path": "codeforces\\1372\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Omkar and Circle",
+    "problem_url": "https://codeforces.com/contest/1372/problem/D",
+    "submission_id": "CF86653441",
+    "submission_url": "https://codeforces.com/contest/1372/submission/86653441",
+    "tags": [
+      "brute force",
+      "dp",
+      "games",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Jul/12/2020 19:08"
+  },
   "CF86689188": {
     "contest_id": 1380,
     "language": "Java 8",
