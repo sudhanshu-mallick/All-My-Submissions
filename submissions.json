@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF86693064": {
+    "contest_id": 1380,
+    "language": "Java 8",
+    "path": "codeforces\\1380\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Create The Teams",
+    "problem_url": "https://codeforces.com/contest/1380/problem/C",
+    "submission_id": "CF86693064",
+    "submission_url": "https://codeforces.com/contest/1380/submission/86693064",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jul/12/2020 22:35"
+  },
   "CF86695359": {
     "contest_id": 1380,
     "language": "Java 8",
