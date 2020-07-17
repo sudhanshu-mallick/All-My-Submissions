@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87078453": {
+    "contest_id": 1151,
+    "language": "Java 8",
+    "path": "codeforces\\1151\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dima and a Bad XOR",
+    "problem_url": "https://codeforces.com/contest/1151/problem/B",
+    "submission_id": "CF87078453",
+    "submission_url": "https://codeforces.com/contest/1151/submission/87078453",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "*1600"
+    ],
+    "timestamp": "Jul/17/2020 19:38"
+  },
   "CF87079665": {
     "contest_id": 1101,
     "language": "Java 8",
