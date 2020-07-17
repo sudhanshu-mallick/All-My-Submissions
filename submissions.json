@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87073029": {
+    "contest_id": 468,
+    "language": "Java 8",
+    "path": "codeforces\\468\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "24 Game",
+    "problem_url": "https://codeforces.com/contest/468/problem/A",
+    "submission_id": "CF87073029",
+    "submission_url": "https://codeforces.com/contest/468/submission/87073029",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jul/17/2020 18:22"
+  },
   "CF87078453": {
     "contest_id": 1151,
     "language": "Java 8",
