@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87079665": {
+    "contest_id": 1101,
+    "language": "Java 8",
+    "path": "codeforces\\1101\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Polycarp's New Job",
+    "problem_url": "https://codeforces.com/contest/1101/problem/E",
+    "submission_id": "CF87079665",
+    "submission_url": "https://codeforces.com/contest/1101/submission/87079665",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jul/17/2020 19:54"
+  },
   "CF87086411": {
     "contest_id": 1385,
     "language": "Java 8",
