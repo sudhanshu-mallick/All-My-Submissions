@@ -54,19 +54,18 @@ public class Restore_The_Permutation_By_Merger {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			boolean[] vis = new boolean[n];
-			int []ans = new int[n];
+			Set<Integer> set = new HashSet<>();
+			List<Integer> ans = new ArrayList<>();
 			n = n << 1;
-			int idx = 0;
 
 			while (n-- > 0) {
 				int x = t.nextInt();
 
-				if (vis[x - 1])
+				if (set.contains(x))
 					continue;
 				else {
-					vis[x - 1] = true;
-					ans[idx++] = x;
+					set.add(x);
+					ans.add(x);
 				}
 			}
 
