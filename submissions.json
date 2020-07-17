@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87102603": {
+    "contest_id": 1385,
+    "language": "Java 8",
+    "path": "codeforces\\1385\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Make It Good",
+    "problem_url": "https://codeforces.com/contest/1385/problem/C",
+    "submission_id": "CF87102603",
+    "submission_url": "https://codeforces.com/contest/1385/submission/87102603",
+    "tags": [
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jul/17/2020 20:29"
+  },
   "CF87132438": {
     "contest_id": 1385,
     "language": "Java 8",
