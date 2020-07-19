@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87320443": {
+    "contest_id": 1379,
+    "language": "Java 8",
+    "path": "codeforces\\1379\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dubious Cyrpto",
+    "problem_url": "https://codeforces.com/contest/1379/problem/B",
+    "submission_id": "CF87320443",
+    "submission_url": "https://codeforces.com/contest/1379/submission/87320443",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Jul/19/2020 15:41"
+  },
   "CF87327466": {
     "contest_id": 1379,
     "language": "Java 8",
