@@ -51,7 +51,6 @@ public class Prefix_Flip {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
-		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			int n = t.nextInt();
@@ -59,40 +58,42 @@ public class Prefix_Flip {
 			char b[] = t.next().toCharArray();
 			List<Integer> list = new ArrayList<>();
 			int x = 0, y = n - 1;
-			boolean flag = false;
 
-			for (int i = n - 1; i >= 0; --i) {
-				if (!flag) {
+			for (int i = n - 1; i >= 0; i--) {
+				if ((i & 1) != (n & 1)) {
 					if (a[x] == b[i]) {
+						x++;
+
 						list.add(1);
+						list.add(i + 1);
+					} else {
+						x++;
+
+						list.add(i + 1);
 					}
-
-					++x;
-
-					list.add(i + 1);
 				} else {
-					if (a[y] != b[i]) {
+					if (a[y] == b[i]) {
+						y--;
+
+						list.add(i + 1);
+					} else {
+						y--;
+
 						list.add(1);
+						list.add(i + 1);
 					}
-
-					--y;
-
-					list.add(i + 1);
 				}
-
-				flag = !flag;
 			}
 
-			sb.append(list.size() + " ");
+			o.print(list.size() + " ");
 
 			for (int val : list) {
-				sb.append(val + " ");
+				o.print(val + " ");
 			}
 
-			sb.append("\n");
+			o.println();
 		}
 
-		o.println(sb);
 		o.flush();
 		o.close();
 	}
