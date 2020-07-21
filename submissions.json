@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87515418": {
+    "contest_id": 557,
+    "language": "Java 8",
+    "path": "codeforces\\557\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pasha and Tea",
+    "problem_url": "https://codeforces.com/contest/557/problem/B",
+    "submission_id": "CF87515418",
+    "submission_url": "https://codeforces.com/contest/557/submission/87515418",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jul/21/2020 18:27"
+  },
   "CF87523037": {
     "contest_id": 318,
     "language": "Java 8",
