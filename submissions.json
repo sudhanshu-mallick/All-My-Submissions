@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87513703": {
+    "contest_id": 264,
+    "language": "Java 8",
+    "path": "codeforces\\264\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Good Sequences",
+    "problem_url": "https://codeforces.com/contest/264/problem/B",
+    "submission_id": "CF87513703",
+    "submission_url": "https://codeforces.com/contest/264/submission/87513703",
+    "tags": [
+      "dp",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Jul/21/2020 18:07"
+  },
   "CF87515418": {
     "contest_id": 557,
     "language": "Java 8",
