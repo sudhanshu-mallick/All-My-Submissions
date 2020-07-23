@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF87735434": {
+    "contest_id": 923,
+    "language": "Java 8",
+    "path": "codeforces\\923\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Producing Snow",
+    "problem_url": "https://codeforces.com/contest/923/problem/B",
+    "submission_id": "CF87735434",
+    "submission_url": "https://codeforces.com/contest/923/submission/87735434",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*1600"
+    ],
+    "timestamp": "Jul/23/2020 11:02"
+  },
   "CF87905287": {
     "contest_id": 1384,
     "language": "Java 8",
