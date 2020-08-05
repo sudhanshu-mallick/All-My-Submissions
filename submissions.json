@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF88956541": {
+    "contest_id": 1399,
+    "language": "Java 8",
+    "path": "codeforces\\1399\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Remove Smallest",
+    "problem_url": "https://codeforces.com/contest/1399/problem/A",
+    "submission_id": "CF88956541",
+    "submission_url": "https://codeforces.com/contest/1399/submission/88956541",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Aug/05/2020 20:07"
+  },
   "CF88970513": {
     "contest_id": 1399,
     "language": "Java 8",
