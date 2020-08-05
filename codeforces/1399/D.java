@@ -54,38 +54,43 @@ public class Binary_String_To_Subsequence {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			char ch[] = t.next().toCharArray();
-			Stack<Integer> zero = new Stack<>();
-			Stack<Integer> one = new Stack<>();
-			int[] ans = new int[n];
+			int[] a = new int[n];
+
+			Arrays.fill(a, -1);
 
 			for (int i = 0; i < n; ++i) {
-				int size = zero.size() + one.size();
-
-				if (ch[i] == '0') {
-					if (one.size() == 0) {
-						zero.push(size);
-					} else {
-						size = one.pop();
-
-						zero.push(size);
-					}
-				} else {
-					if (zero.size() == 0) {
-						one.push(size);
-					} else {
-						size = zero.pop();
-
-						one.push(size);
-					}
-				}
-
-				ans[i] = size + 1;
+				if (ch[i] == '0')
+					a[i] = 1;
 			}
 
-			o.println(one.size() + zero.size());
+			int temp = a[0];
+			int max = 0;
 
-			for (int v : ans)
-				o.print(v + " ");
+			for (int i = 1; i < n; ++i) {
+				if (ch[i] == '0' && ch[i - 1] == '1')
+					a[i] = a[i - 1];
+				else if (ch[i] == '1' && ch[i - 1] == '0')
+					a[i] = a[i - 1];
+				else if (ch[i] == '0' && ch[i - 1] == '0')
+					a[i] = a[i - 1] + 1;
+				else
+					a[i] = a[i - 1] - 1;
+
+				temp = a[i] < temp ? a[i] : temp;
+			}
+
+			if (temp <= 0) {
+				for (int i = 0; i < n; ++i)
+					a[i] = a[i] + 1 - temp;
+			}
+
+			for (int i = 0; i < n; ++i)
+				max = a[i] > max ? a[i] : max;
+
+			o.println(max);
+
+			for (int i = 0; i < n; ++i)
+				o.print(a[i] + " ");
 
 			o.println();
 		}
