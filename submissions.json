@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF89211728": {
+    "contest_id": 405,
+    "language": "Java 8",
+    "path": "codeforces\\405\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Gravity Flip",
+    "problem_url": "https://codeforces.com/contest/405/problem/A",
+    "submission_id": "CF89211728",
+    "submission_url": "https://codeforces.com/contest/405/submission/89211728",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Aug/07/2020 19:59"
+  },
   "CF89220958": {
     "contest_id": 1393,
     "language": "Java 8",
