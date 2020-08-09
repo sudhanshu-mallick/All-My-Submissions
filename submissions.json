@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF89410109": {
+    "contest_id": 1391,
+    "language": "Java 8",
+    "path": "codeforces\\1391\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Suborrays",
+    "problem_url": "https://codeforces.com/contest/1391/problem/A",
+    "submission_id": "CF89410109",
+    "submission_url": "https://codeforces.com/contest/1391/submission/89410109",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/09/2020 20:08"
+  },
   "CF89421138": {
     "contest_id": 1391,
     "language": "Java 8",
