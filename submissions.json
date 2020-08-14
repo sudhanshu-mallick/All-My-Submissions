@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF89892404": {
+    "contest_id": 1398,
+    "language": "Java 8",
+    "path": "codeforces\\1398\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Substring Removal Game",
+    "problem_url": "https://codeforces.com/contest/1398/problem/B",
+    "submission_id": "CF89892404",
+    "submission_url": "https://codeforces.com/contest/1398/submission/89892404",
+    "tags": [
+      "games",
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Aug/14/2020 20:15"
+  },
   "CF89928223": {
     "contest_id": 1398,
     "language": "Java 8",
