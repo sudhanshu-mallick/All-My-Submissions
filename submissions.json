@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91352842": {
+    "contest_id": 1397,
+    "language": "Java 8",
+    "path": "codeforces\\1397\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Juggling Letters",
+    "problem_url": "https://codeforces.com/contest/1397/problem/A",
+    "submission_id": "CF91352842",
+    "submission_url": "https://codeforces.com/contest/1397/submission/91352842",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/30/2020 20:08"
+  },
   "CF91405081": {
     "contest_id": 1397,
     "language": "Java 8",
