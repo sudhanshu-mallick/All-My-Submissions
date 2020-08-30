@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91427272": {
+    "contest_id": 1397,
+    "language": "Java 8",
+    "path": "codeforces\\1397\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Power Sequence",
+    "problem_url": "https://codeforces.com/contest/1397/problem/B",
+    "submission_id": "CF91427272",
+    "submission_url": "https://codeforces.com/contest/1397/submission/91427272",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Aug/30/2020 23:36"
+  },
   "CF91565046": {
     "contest_id": 1396,
     "language": "Java 8",
