@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91850761": {
+    "contest_id": 1409,
+    "language": "Java 8",
+    "path": "codeforces\\1409\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Decrease the Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/1409/problem/D",
+    "submission_id": "CF91850761",
+    "submission_url": "https://codeforces.com/contest/1409/submission/91850761",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Sep/04/2020 21:12"
+  },
   "CF91904938": {
     "contest_id": 1409,
     "language": "Java 8",
