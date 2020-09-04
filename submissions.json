@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91795115": {
+    "contest_id": 1249,
+    "language": "Java 8",
+    "path": "codeforces\\1249\\B2.java",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Books Exchange (hard version)",
+    "problem_url": "https://codeforces.com/contest/1249/problem/B2",
+    "submission_id": "CF91795115",
+    "submission_url": "https://codeforces.com/contest/1249/submission/91795115",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/04/2020 18:49"
+  },
   "CF91797315": {
     "contest_id": 893,
     "language": "Java 8",
