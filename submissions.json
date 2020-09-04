@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91759229": {
+    "contest_id": 474,
+    "language": "Java 8",
+    "path": "codeforces\\474\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Flowers",
+    "problem_url": "https://codeforces.com/contest/474/problem/D",
+    "submission_id": "CF91759229",
+    "submission_url": "https://codeforces.com/contest/474/submission/91759229",
+    "tags": [
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Sep/04/2020 08:08"
+  },
   "CF91759533": {
     "contest_id": 1401,
     "language": "Java 8",
