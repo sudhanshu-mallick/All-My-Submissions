@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91829806": {
+    "contest_id": 1409,
+    "language": "Java 8",
+    "path": "codeforces\\1409\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Yet Another Array Restoration",
+    "problem_url": "https://codeforces.com/contest/1409/problem/C",
+    "submission_id": "CF91829806",
+    "submission_url": "https://codeforces.com/contest/1409/submission/91829806",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Sep/04/2020 20:35"
+  },
   "CF91850761": {
     "contest_id": 1409,
     "language": "Java 8",
