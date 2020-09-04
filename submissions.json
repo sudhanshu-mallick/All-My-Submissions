@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91806045": {
+    "contest_id": 1409,
+    "language": "Java 8",
+    "path": "codeforces\\1409\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yet Another Two Integers Problem",
+    "problem_url": "https://codeforces.com/contest/1409/problem/A",
+    "submission_id": "CF91806045",
+    "submission_url": "https://codeforces.com/contest/1409/submission/91806045",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/04/2020 20:08"
+  },
   "CF91813909": {
     "contest_id": 1409,
     "language": "Java 8",
