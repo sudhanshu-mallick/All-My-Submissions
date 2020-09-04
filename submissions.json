@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91813909": {
+    "contest_id": 1409,
+    "language": "Java 8",
+    "path": "codeforces\\1409\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimum Product",
+    "problem_url": "https://codeforces.com/contest/1409/problem/B",
+    "submission_id": "CF91813909",
+    "submission_url": "https://codeforces.com/contest/1409/submission/91813909",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/04/2020 20:14"
+  },
   "CF91829806": {
     "contest_id": 1409,
     "language": "Java 8",
