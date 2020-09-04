@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91794181": {
+    "contest_id": 277,
+    "language": "Java 8",
+    "path": "codeforces\\277\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Learning Languages",
+    "problem_url": "https://codeforces.com/contest/277/problem/A",
+    "submission_id": "CF91794181",
+    "submission_url": "https://codeforces.com/contest/277/submission/91794181",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "*1400"
+    ],
+    "timestamp": "Sep/04/2020 18:34"
+  },
   "CF91795115": {
     "contest_id": 1249,
     "language": "Java 8",
