@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF91797315": {
+    "contest_id": 893,
+    "language": "Java 8",
+    "path": "codeforces\\893\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Rumor",
+    "problem_url": "https://codeforces.com/contest/893/problem/C",
+    "submission_id": "CF91797315",
+    "submission_url": "https://codeforces.com/contest/893/submission/91797315",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Sep/04/2020 19:20"
+  },
   "CF91798692": {
     "contest_id": 1400,
     "language": "Java 8",
