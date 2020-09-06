@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92069611": {
+    "contest_id": 1405,
+    "language": "Java 8",
+    "path": "codeforces\\1405\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Balanced Bitstring",
+    "problem_url": "https://codeforces.com/contest/1405/problem/C",
+    "submission_id": "CF92069611",
+    "submission_url": "https://codeforces.com/contest/1405/submission/92069611",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Sep/06/2020 21:50"
+  },
   "CF92082126": {
     "contest_id": 1405,
     "language": "Java 8",
