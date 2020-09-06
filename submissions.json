@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92016620": {
+    "contest_id": 977,
+    "language": "Java 8",
+    "path": "codeforces\\977\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Divide by three, multiply by two",
+    "problem_url": "https://codeforces.com/contest/977/problem/D",
+    "submission_id": "CF92016620",
+    "submission_url": "https://codeforces.com/contest/977/submission/92016620",
+    "tags": [
+      "dfs and similar",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Sep/06/2020 18:36"
+  },
   "CF92022133": {
     "contest_id": 676,
     "language": "Java 8",
