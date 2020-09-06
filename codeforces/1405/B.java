@@ -51,7 +51,6 @@ public class Array_Cancellation {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
-		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			int n = t.nextInt();
@@ -60,19 +59,37 @@ public class Array_Cancellation {
 			for (int i = 0; i < n; ++i)
 				a[i] = t.nextInt();
 
-			long sum = 0;
-			long max = 0;
+			int neg = n - 1;
+			int pos = n - 1;
 
-			for (int i = n - 1; i >= 0; --i) {
-				sum += a[i];
+			while (neg >= 0 && pos >= 0) {
+				while (neg >= 0 && a[neg] >= 0)
+					neg--;
 
-				max = max <= sum ? sum : max;
+				if (neg < 0)
+					break;
+
+				while (pos >= 0 && (a[pos] <= 0 || pos >= neg))
+					pos--;
+
+				if (pos < 0)
+					break;
+
+				int v1 = -a[neg];
+				int v2 = a[pos];
+
+				a[neg] = a[neg] + Math.min(v1, v2);
+				a[pos] -= Math.min(v1, v2);
 			}
 
-			sb.append(max + "\n");
-		}
+			long s = 0;
 
-		o.println(sb);
+			for (int i = 0; i < n; ++i)
+				if (a[i] > 0)
+					s += a[i];
+
+			o.println(s);
+		}
 
 		o.flush();
 		o.close();
