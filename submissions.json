@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92022668": {
+    "contest_id": 144,
+    "language": "Java 8",
+    "path": "codeforces\\144\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Arrival of the General",
+    "problem_url": "https://codeforces.com/contest/144/problem/A",
+    "submission_id": "CF92022668",
+    "submission_url": "https://codeforces.com/contest/144/submission/92022668",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/06/2020 19:59"
+  },
   "CF92025740": {
     "contest_id": 1405,
     "language": "Java 8",
