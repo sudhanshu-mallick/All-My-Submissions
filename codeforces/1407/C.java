@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.*;
 
@@ -92,6 +91,7 @@ public class Chocolate_Bunny {
 			sb.append(a[i] + " ");
 
 		o.print(sb + "\n");
+		o.flush();
 		o.close();
 	}
 }
