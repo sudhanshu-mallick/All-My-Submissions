@@ -91,7 +91,7 @@ public class Chocolate_Bunny {
 		for (int i = 0; i < n; ++i)
 			sb.append(a[i] + " ");
 
-		o.println(sb);
+		o.print(sb + "\n");
 		o.close();
 	}
 }
