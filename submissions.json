@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92217955": {
+    "contest_id": 1292,
+    "language": "Java 8",
+    "path": "codeforces\\1292\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "NEKO's Maze Game",
+    "problem_url": "https://codeforces.com/contest/1292/problem/A",
+    "submission_id": "CF92217955",
+    "submission_url": "https://codeforces.com/contest/1292/submission/92217955",
+    "tags": [
+      "data structures",
+      "dsu",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Sep/08/2020 19:42"
+  },
   "CF92229426": {
     "contest_id": 1407,
     "language": "Java 8",
