@@ -49,8 +49,6 @@ public class Chocolate_Bunny {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FastReader t = new FastReader();
-		PrintWriter o = new PrintWriter(System.out);
-		StringBuilder sb = new StringBuilder();
 		int n = t.nextInt();
 		int[] a = new int[n];
 
@@ -79,13 +77,11 @@ public class Chocolate_Bunny {
 
 		a[x - 1] = n;
 
-		sb.append("! ");
+		System.out.println("! ");
 
 		for (int i = 0; i < n; ++i)
-			sb.append(a[i] + " ");
+			System.out.print(a[i] + " ");
 
-		o.println(sb);
-
-		o.close();
+		System.out.flush();
 	}
 }
