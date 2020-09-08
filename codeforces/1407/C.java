@@ -63,12 +63,15 @@ public class Chocolate_Bunny {
 		int x = 1, y = 2;
 
 		while (y <= n) {
-			o.print("? " + x + " " + y + "\n");
+			PrintWriter o1 = new PrintWriter(System.out);
+			PrintWriter o2 = new PrintWriter(System.out);
+
+			o.println("? " + x + " " + y);
 			o.flush();
 
 			int k1 = t.nextInt();
 
-			o.print("? " + y + " " + x + "\n");
+			o.println("? " + y + " " + x);
 			o.flush();
 
 			int k2 = t.nextInt();
