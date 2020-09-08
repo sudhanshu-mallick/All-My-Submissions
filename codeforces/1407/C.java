@@ -63,17 +63,9 @@ public class Chocolate_Bunny {
 		int x = 1, y = 2;
 
 		while (y <= n) {
-			PrintWriter o1 = new PrintWriter(System.out);
-			PrintWriter o2 = new PrintWriter(System.out);
-
-			o.println("? " + x + " " + y);
-			o.flush();
-
+			System.out.println("? " + x + " " + y);
 			int k1 = t.nextInt();
-
-			o.println("? " + y + " " + x);
-			o.flush();
-
+			System.out.println("? " + y + " " + x);
 			int k2 = t.nextInt();
 
 			if (k1 < k2) {
