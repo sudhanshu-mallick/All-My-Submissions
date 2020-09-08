@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92215745": {
+    "contest_id": 330,
+    "language": "Java 8",
+    "path": "codeforces\\330\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Road Construction",
+    "problem_url": "https://codeforces.com/contest/330/problem/B",
+    "submission_id": "CF92215745",
+    "submission_url": "https://codeforces.com/contest/330/submission/92215745",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "*1300"
+    ],
+    "timestamp": "Sep/08/2020 19:14"
+  },
   "CF92217955": {
     "contest_id": 1292,
     "language": "Java 8",
