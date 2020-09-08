@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92293767": {
+    "contest_id": 1407,
+    "language": "Java 8",
+    "path": "codeforces\\1407\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Chocolate Bunny",
+    "problem_url": "https://codeforces.com/contest/1407/problem/C",
+    "submission_id": "CF92293767",
+    "submission_url": "https://codeforces.com/contest/1407/submission/92293767",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Sep/08/2020 23:41"
+  },
   "CF92599796": {
     "contest_id": 1406,
     "language": "Java 8",
