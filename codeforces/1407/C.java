@@ -55,8 +55,7 @@ public class Chocolate_Bunny {
 		int[] a = new int[n];
 
 		if (n == 1) {
-			o.print("! 1");
-			o.close();
+			System.out.println("! 1");
 			return;
 		}
 
@@ -86,6 +85,7 @@ public class Chocolate_Bunny {
 			sb.append(a[i] + " ");
 
 		o.print(sb);
+
 		o.close();
 	}
 }
