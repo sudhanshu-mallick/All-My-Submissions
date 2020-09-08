@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF92209426": {
+    "contest_id": 1342,
+    "language": "Java 8",
+    "path": "codeforces\\1342\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Yet Another Counting Problem",
+    "problem_url": "https://codeforces.com/contest/1342/problem/C",
+    "submission_id": "CF92209426",
+    "submission_url": "https://codeforces.com/contest/1342/submission/92209426",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Sep/08/2020 17:52"
+  },
   "CF92215745": {
     "contest_id": 330,
     "language": "Java 8",
