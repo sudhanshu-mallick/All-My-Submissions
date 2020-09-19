@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF93232261": {
+    "contest_id": 1419,
+    "language": "Java 8",
+    "path": "codeforces\\1419\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Stairs",
+    "problem_url": "https://codeforces.com/contest/1419/problem/B",
+    "submission_id": "CF93232261",
+    "submission_url": "https://codeforces.com/contest/1419/submission/93232261",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/19/2020 20:59"
+  },
   "CF93252216": {
     "contest_id": 1419,
     "language": "Java 8",
