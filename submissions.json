@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF93748675": {
+    "contest_id": 1420,
+    "language": "Java 8",
+    "path": "codeforces\\1420\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Rescue Nibel!",
+    "problem_url": "https://codeforces.com/contest/1420/problem/D",
+    "submission_id": "CF93748675",
+    "submission_url": "https://codeforces.com/contest/1420/submission/93748675",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Sep/25/2020 09:59"
+  },
   "CF94304352": {
     "contest_id": 1408,
     "language": "Java 8",
