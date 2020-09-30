@@ -53,37 +53,61 @@ public class Array_Sum {
 		int test = t.nextInt();
 
 		while (test-- > 0) {
+			boolean flag = true;
 			int n = t.nextInt();
 			int k = t.nextInt();
-			int f = t.nextInt();
-			int cnt = 1;
-			int cur = f;
+			int[] a = new int[n];
+			int pos = 0;
+			int m = 0;
 
-			while (n-- > 1) {
-				f = t.nextInt();
+			for (int i = 0; i < n; ++i)
+				a[i] = t.nextInt();
 
-				if (cur != f) {
-					cur = f;
-					++cnt;
+			while (pos < n) {
+				Set<Integer> set = new HashSet<>();
+				int cur = a[0];
+				++m;
+				int prev = pos;
+				pos = 0;
+				a[0] = 0;
+
+				set.add(cur);
+
+				for (int i = 1; i < n; ++i) {
+					if (set.size() < k) {
+						cur = a[i];
+						a[i] = 0;
+						pos = i;
+
+						set.add(cur);
+					} else {
+						if (set.contains(a[i])) {
+							pos = i;
+							a[i] = 0;
+						} else
+							a[i] -= cur;
+					}
+				}
+
+				int sum = 0;
+
+				for (int i = 0; i < n; ++i) {
+					sum += a[i];
+				}
+
+				if (sum == 0)
+					break;
+
+				if (prev == pos) {
+					flag = false;
+					break;
 				}
 			}
 
-			if (k > 1) {
-				if (k >= cnt)
-					o.println("1");
-				else {
-					int ans = 1;
-					cnt -= k;
-					ans += (cnt + (k - 2)) / (k - 1);
-
-					o.println(ans);
-				}
-			} else {
-				if (cnt > 1)
-					o.println("-1");
-				else
-					o.println("1");
-			}
+			if (flag)
+				o.println(m);
+			else
+				o.println("-1");
 
 		}
 

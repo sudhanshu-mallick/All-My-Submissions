@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF94330211": {
+    "contest_id": 1408,
+    "language": "Java 8",
+    "path": "codeforces\\1408\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Arrays Sum",
+    "problem_url": "https://codeforces.com/contest/1408/problem/B",
+    "submission_id": "CF94330211",
+    "submission_url": "https://codeforces.com/contest/1408/submission/94330211",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Sep/30/2020 21:28"
+  },
   "CF94415511": {
     "contest_id": 1408,
     "language": "Java 8",
