@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF94433445": {
+    "contest_id": 1425,
+    "language": "Java 8",
+    "path": "codeforces\\1425\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Flamingoes of Mystery",
+    "problem_url": "https://codeforces.com/contest/1425/problem/F",
+    "submission_id": "CF94433445",
+    "submission_url": "https://codeforces.com/contest/1425/submission/94433445",
+    "tags": [
+      "interactive",
+      "*1400"
+    ],
+    "timestamp": "Oct/02/2020 00:04"
+  },
   "CF94663034": {
     "contest_id": 1422,
     "language": "Java 8",
