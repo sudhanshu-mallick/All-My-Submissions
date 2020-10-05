@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF94783158": {
+    "contest_id": 1424,
+    "language": "Java 8",
+    "path": "codeforces\\1424\\J.java",
+    "platform": "Codeforces",
+    "problem_index": "J",
+    "problem_name": "Lonely Numbers",
+    "problem_url": "https://codeforces.com/contest/1424/problem/J",
+    "submission_id": "CF94783158",
+    "submission_url": "https://codeforces.com/contest/1424/submission/94783158",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Oct/05/2020 20:31"
+  },
   "CF95095132": {
     "contest_id": 1427,
     "language": "Java 8",
