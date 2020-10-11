@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF95220046": {
+    "contest_id": 1430,
+    "language": "Java 8",
+    "path": "codeforces\\1430\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Numbers on Whiteboard",
+    "problem_url": "https://codeforces.com/contest/1430/problem/C",
+    "submission_id": "CF95220046",
+    "submission_url": "https://codeforces.com/contest/1430/submission/95220046",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Oct/11/2020 15:17"
+  },
   "CF95405637": {
     "contest_id": 1430,
     "language": "Java 8",

@@ -54,23 +54,28 @@ public class Numbers_On_Whiteboard {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			PriorityQueue<Integer> pq = new PriorityQueue<>((x, y) -> y.intValue() - x.intValue());
-
-			for (int i = 0; i < n; ++i) {
-				pq.add(i + 1);
-			}
 
 			o.println("2");
 
-			while (pq.size() > 2) {
-				int x = pq.remove();
-				int y = pq.remove();
+			if (n == 2)
+				o.println("1 2");
+			else {
+				int then = n - 1;
+				int now = (n + (n - 2)) / 2;
 
-				o.println(x + " " + y);
-				pq.add((x + y + 1) / 2);
+				o.println(n + " " + (n - 2));
+				o.println(then + " " + now);
+
+				now = (then + now) / 2;
+				then = n - 3;
+
+				while (then > 0) {
+					o.println(then + " " + now);
+
+					now = (then + now) / 2;
+					then--;
+				}
 			}
-
-			o.println(pq.remove() + " " + pq.remove());
 		}
 
 		o.flush();
