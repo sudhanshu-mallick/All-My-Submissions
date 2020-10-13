@@ -55,40 +55,23 @@ public class Barrels {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int k = t.nextInt();
-			long[] a = new long[n];
+			List<Long> a = new ArrayList<>(n);
 
 			for (int i = 0; i < n; ++i)
-				a[i] = t.nextLong();
+				a.add(t.nextLong());
 
-			shuffle(a);
-			Arrays.sort(a);
+			Collections.sort(a, Collections.reverseOrder());
 
-			int i = n - 2;
+			int i = 1;
 
 			while (k-- > 0) {
-				a[n - 1] += a[i--];
+				a.set(0, a.get(0) + a.get(i++));
 			}
 
-			o.println(a[n - 1]);
+			o.println(a.get(0));
 		}
 
 		o.flush();
 		o.close();
-	}
-
-	public static void shuffle(long[] x) {
-		Random r = new Random();
-
-		for (int i = 0; i <= x.length - 2; i++) {
-			int j = i + r.nextInt(x.length - i);
-
-			swap(x, i, j);
-		}
-	}
-
-	public static void swap(long[] x, int i, int j) {
-		long t = x[i];
-		x[i] = x[j];
-		x[j] = t;
 	}
 }
