@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF95426534": {
+    "contest_id": 1430,
+    "language": "Java 8",
+    "path": "codeforces\\1430\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "String Deletion",
+    "problem_url": "https://codeforces.com/contest/1430/problem/D",
+    "submission_id": "CF95426534",
+    "submission_url": "https://codeforces.com/contest/1430/submission/95426534",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Oct/13/2020 18:23"
+  },
   "CF95426619": {
     "contest_id": 1430,
     "language": "Java 8",

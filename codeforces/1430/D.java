@@ -82,6 +82,14 @@ public class String_Deletion {
 			int i = 0, j = 0;
 			int turns = 0;
 
+//			for (Pair p : mto)
+//				System.out.println(p.idx + " " + p.cnt);
+//
+//			System.out.println(" h h h ");
+//
+//			for (Pair p : one)
+//				System.out.println(p.idx + " " + p.cnt);
+
 			while (i < one.size() && j < mto.size()) {
 				Pair x = mto.get(j);
 				Pair y = one.get(i);
@@ -105,7 +113,7 @@ public class String_Deletion {
 				}
 			}
 
-			turns += (one.size() - i + 1) >> 1;
+			turns += (one.size() - i + 1) / 2;
 
 			if (j < mto.size())
 				turns += mto.size() - j;
