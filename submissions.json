@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF95712844": {
+    "contest_id": 559,
+    "language": "Java 8",
+    "path": "codeforces\\559\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Equivalent Strings",
+    "problem_url": "https://codeforces.com/contest/559/problem/B",
+    "submission_id": "CF95712844",
+    "submission_url": "https://codeforces.com/contest/559/submission/95712844",
+    "tags": [
+      "divide and conquer",
+      "hashing",
+      "sortings",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Oct/17/2020 12:16"
+  },
   "CF95716148": {
     "contest_id": 1236,
     "language": "Java 8",
