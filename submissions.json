@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF95860647": {
+    "contest_id": 1421,
+    "language": "Java 8",
+    "path": "codeforces\\1421\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "XORwice",
+    "problem_url": "https://codeforces.com/contest/1421/problem/A",
+    "submission_id": "CF95860647",
+    "submission_url": "https://codeforces.com/contest/1421/submission/95860647",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/18/2020 14:42"
+  },
   "CF95871970": {
     "contest_id": 1421,
     "language": "Java 8",
