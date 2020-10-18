@@ -69,10 +69,11 @@ public class Palindromifier {
 		String s = t.next();
 		int n = s.length();
 
-		o.println("3");
-		o.println("R " + (n - 1));
-		o.println("L " + n);
+		o.println("4");
 		o.println("L 2");
+		o.println("R " + (n));
+		o.println("R 2");
+		o.println("R " + (2 * n + 1));
 
 		o.flush();
 		o.close();
