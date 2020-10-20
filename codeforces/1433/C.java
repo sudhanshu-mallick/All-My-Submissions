@@ -60,32 +60,34 @@ public class Dominant_Pirahana {
 				a[i] = t.nextInt();
 
 			int max = a[0];
+			int idx = 0;
 			int min = a[0];
 
 			for (int i = 1; i < n; ++i) {
-				min = a[i] > min ? min : a[i];
-				max = a[i] > max ? a[i] : max;
+				min = Math.min(min, a[i]);
+
+				if (max < a[i]) {
+					idx = i;
+					max = a[i];
+				}
 			}
 
-			if (min != max) {
-				int idx = 1;
-
-				if (a[0] == max && a[0] > a[1])
-					o.println("1");
-				else if (a[n - 1] == max && a[n - 1] > a[n - 2])
-					o.println(n);
-				else {
-					while (idx < n - 1) {
-						if (a[idx] == max && (a[idx] > a[idx - 1] || a[idx] > a[idx + 1]))
+			if (min == max) {
+				o.println("-1");
+			} else {
+				if (idx == 0) {
+					while (idx < n) {
+						if (a[idx] != max) {
 							break;
+						}
 
-						++idx;
+						idx++;
 					}
 
-					o.println(idx + 1);
+					--idx;
 				}
-			} else {
-				o.println("-1");
+
+				o.println(idx + 1);
 			}
 
 		}
