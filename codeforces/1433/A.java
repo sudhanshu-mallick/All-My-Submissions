@@ -57,7 +57,11 @@ public class Boring_Apartment {
 			int v = x.charAt(0) - '0';
 			int ans = 10 * (v - 1);
 			int n = x.length();
-			ans += n * (n + 1) / 2;
+
+			while (n > 0) {
+				ans += n;
+				--n;
+			}
 
 			o.println(ans);
 		}
