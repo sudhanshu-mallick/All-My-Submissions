@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF96196550": {
+    "contest_id": 1433,
+    "language": "Java 8",
+    "path": "codeforces\\1433\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dominant Piranha",
+    "problem_url": "https://codeforces.com/contest/1433/problem/C",
+    "submission_id": "CF96196550",
+    "submission_url": "https://codeforces.com/contest/1433/submission/96196550",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Oct/21/2020 07:43"
+  },
   "CF96196879": {
     "contest_id": 1433,
     "language": "Java 8",
