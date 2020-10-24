@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF96542853": {
+    "contest_id": 1436,
+    "language": "Java 8",
+    "path": "codeforces\\1436\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reorder",
+    "problem_url": "https://codeforces.com/contest/1436/problem/A",
+    "submission_id": "CF96542853",
+    "submission_url": "https://codeforces.com/contest/1436/submission/96542853",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/24/2020 19:46"
+  },
   "CF96629239": {
     "contest_id": 1436,
     "language": "Java 8",
