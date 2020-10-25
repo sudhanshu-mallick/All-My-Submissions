@@ -51,7 +51,7 @@ public class Shurikens {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
-		TreeSet<Integer> pq = new TreeSet<>();
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		char[] ch = new char[n << 1];
 		List<Integer> list = new ArrayList<>();
 		boolean flag = true;
@@ -74,15 +74,14 @@ public class Shurikens {
 
 					break;
 				} else {
-					ans.add(pq.first());
-					pq.remove(pq.first());
+					ans.add(pq.remove());
 				}
 			} else {
 				if (pq.isEmpty()) {
 					pq.add(list.get(idx));
 
 					--idx;
-				} else if (pq.first() < list.get(idx)) {
+				} else if (pq.peek() < list.get(idx)) {
 					flag = false;
 
 					break;

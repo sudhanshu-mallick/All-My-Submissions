@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF96717958": {
+    "contest_id": 1435,
+    "language": "Java 8",
+    "path": "codeforces\\1435\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Shurikens",
+    "problem_url": "https://codeforces.com/contest/1435/problem/D",
+    "submission_id": "CF96717958",
+    "submission_url": "https://codeforces.com/contest/1435/submission/96717958",
+    "tags": [
+      "data structures",
+      "greedy",
+      "schedules",
+      "*1700"
+    ],
+    "timestamp": "Oct/25/2020 22:24"
+  },
   "CF96718045": {
     "contest_id": 1435,
     "language": "Java 8",
