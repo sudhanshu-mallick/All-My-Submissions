@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF96650597": {
+    "contest_id": 1435,
+    "language": "Java 8",
+    "path": "codeforces\\1435\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Finding Sasuke",
+    "problem_url": "https://codeforces.com/contest/1435/problem/A",
+    "submission_id": "CF96650597",
+    "submission_url": "https://codeforces.com/contest/1435/submission/96650597",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/25/2020 16:40"
+  },
   "CF96662125": {
     "contest_id": 1435,
     "language": "Java 8",
