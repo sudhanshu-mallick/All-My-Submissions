@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF98889332": {
+    "contest_id": 489,
+    "language": "Java 8",
+    "path": "codeforces\\489\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "SwapSort",
+    "problem_url": "https://codeforces.com/contest/489/problem/A",
+    "submission_id": "CF98889332",
+    "submission_url": "https://codeforces.com/contest/489/submission/98889332",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Nov/19/2020 18:42"
+  },
   "CF98890968": {
     "contest_id": 920,
     "language": "Java 8",
