@@ -5980,6 +5980,22 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF98888174": {
+    "contest_id": 975,
+    "language": "Java 8",
+    "path": "codeforces\\975\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Valhalla Siege",
+    "problem_url": "https://codeforces.com/contest/975/problem/C",
+    "submission_id": "CF98888174",
+    "submission_url": "https://codeforces.com/contest/975/submission/98888174",
+    "tags": [
+      "binary search",
+      "*1400"
+    ],
+    "timestamp": "Nov/19/2020 18:27"
+  },
   "CF98889332": {
     "contest_id": 489,
     "language": "Java 8",
