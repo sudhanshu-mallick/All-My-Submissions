@@ -5980,6 +5980,26 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF98890968": {
+    "contest_id": 920,
+    "language": "Java 8",
+    "path": "codeforces\\920\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Swap Adjacent Elements",
+    "problem_url": "https://codeforces.com/contest/920/problem/C",
+    "submission_id": "CF98890968",
+    "submission_url": "https://codeforces.com/contest/920/submission/98890968",
+    "tags": [
+      "dfs and similar",
+      "greedy",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Nov/19/2020 19:03"
+  },
   "CF98892817": {
     "contest_id": 1215,
     "language": "Java 8",
