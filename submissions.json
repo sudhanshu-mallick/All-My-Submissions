@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99090713": {
+    "contest_id": 611,
+    "language": "Java 8",
+    "path": "codeforces\\611\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year and Old Property",
+    "problem_url": "https://codeforces.com/contest/611/problem/B",
+    "submission_id": "CF99090713",
+    "submission_url": "https://codeforces.com/contest/611/submission/99090713",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Nov/21/2020 13:59"
+  },
   "CF99117073": {
     "contest_id": 1291,
     "language": "Java 8",
