@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99118224": {
+    "contest_id": 413,
+    "language": "Java 8",
+    "path": "codeforces\\413\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Jeopardy!",
+    "problem_url": "https://codeforces.com/contest/413/problem/C",
+    "submission_id": "CF99118224",
+    "submission_url": "https://codeforces.com/contest/413/submission/99118224",
+    "tags": [
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Nov/21/2020 19:34"
+  },
   "CF99122389": {
     "contest_id": 1451,
     "language": "Java 8",
