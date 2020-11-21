@@ -56,50 +56,41 @@ public class Non_Substring_Subequence {
 			int n = t.nextInt();
 			int q = t.nextInt();
 			char ch[] = t.next().toCharArray();
-			int preZero[] = new int[n];
-			int preOne[] = new int[n];
-			int postZero[] = new int[n];
-			int postOne[] = new int[n];
-
-			for (int i = 1; i < n; ++i) {
-				int v1 = ch[i - 1] - '0';
-				int v2 = ch[n - i] - '0';
-
-				if (v1 == 0)
-					preZero[i] = 1;
-				else
-					preOne[i] = 1;
-
-				if (v2 == 0)
-					postZero[n - i - 1] = 1;
-				else
-					postOne[n - i - 1] = 1;
-
-				preZero[i] += preZero[i - 1];
-				preOne[i] += preOne[i - 1];
-				postOne[n - i - 1] += postOne[n - i];
-				postZero[n - i - 1] += postZero[n - i];
-			}
 
 			while (q-- > 0) {
 				int l = t.nextInt() - 1;
 				int r = t.nextInt() - 1;
+				int k = l;
 				boolean flag = false;
+				boolean f = false;
+				int i = 0;
 
-				if (ch[l] == '0' && preZero[l] > 0) {
-					flag = true;
-				} else if (ch[l] == '1' && preOne[l] > 0) {
-					flag = true;
-				} else if (ch[r] == '0' && postZero[r] > 0) {
-					flag = true;
-				} else if (ch[r] == '1' && postOne[r] > 0) {
-					flag = true;
+				while (k < r) {
+					if (ch[i] == ch[k]) {
+						++k;
+					} else if (k > l) {
+						f = true;
+					}
+
+					++i;
+				}
+
+				if (!f)
+					++i;
+
+				while (i < n) {
+					if (ch[i] == ch[r]) {
+						flag = true;
+						break;
+					}
+
+					++i;
 				}
 
 				if (flag)
-					o.println("YES");
+					System.out.println("YES");
 				else
-					o.println("NO");
+					System.out.println("NO");
 			}
 		}
 
