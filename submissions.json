@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99122389": {
+    "contest_id": 1451,
+    "language": "Java 8",
+    "path": "codeforces\\1451\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Subtract or Divide",
+    "problem_url": "https://codeforces.com/contest/1451/problem/A",
+    "submission_id": "CF99122389",
+    "submission_url": "https://codeforces.com/contest/1451/submission/99122389",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/21/2020 20:09"
+  },
   "CF99137473": {
     "contest_id": 1451,
     "language": "Java 8",
