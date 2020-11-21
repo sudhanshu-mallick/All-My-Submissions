@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99117073": {
+    "contest_id": 1291,
+    "language": "Java 8",
+    "path": "codeforces\\1291\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Even But Not Even",
+    "problem_url": "https://codeforces.com/contest/1291/problem/A",
+    "submission_id": "CF99117073",
+    "submission_url": "https://codeforces.com/contest/1291/submission/99117073",
+    "tags": [
+      "greedy",
+      "math",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Nov/21/2020 19:18"
+  },
   "CF99118224": {
     "contest_id": 413,
     "language": "Java 8",
