@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99086744": {
+    "contest_id": 1202,
+    "language": "Java 8",
+    "path": "codeforces\\1202\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "You Are Given Two Binary Strings...",
+    "problem_url": "https://codeforces.com/contest/1202/problem/A",
+    "submission_id": "CF99086744",
+    "submission_url": "https://codeforces.com/contest/1202/submission/99086744",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Nov/21/2020 13:12"
+  },
   "CF99088504": {
     "contest_id": 1152,
     "language": "Java 8",
