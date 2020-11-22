@@ -50,12 +50,16 @@ public class Bitwise_Queries {
 	static PrintWriter o = new PrintWriter(System.out);
 
 	public static long xor(int i, int j) {
+		o = new PrintWriter(System.out);
+
 		o.println("XOR " + i + " " + j);
 		o.flush();
 		return t.nextLong();
 	}
 
 	public static long and(int i, int j) {
+		o = new PrintWriter(System.out);
+
 		o.println("AND " + i + " " + j);
 		o.flush();
 		return t.nextLong();
@@ -84,6 +88,7 @@ public class Bitwise_Queries {
 			a[i] = val ^ a[0];
 		}
 
+		o = new PrintWriter(System.out);
 		o.print("! ");
 
 		for (int i = 0; i < n; ++i) {
