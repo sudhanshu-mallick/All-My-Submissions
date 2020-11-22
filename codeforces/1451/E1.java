@@ -47,27 +47,20 @@ public class Bitwise_Queries {
 	}
 
 	static FastReader t = new FastReader();
-	static PrintWriter o = new PrintWriter(System.out);
 
 	public static long xor(int i, int j) {
-		o = new PrintWriter(System.out);
-
-		o.println("XOR " + i + " " + j);
-		o.flush();
+		System.out.println("XOR " + i + " " + j);
 		return t.nextLong();
 	}
 
 	public static long and(int i, int j) {
-		o = new PrintWriter(System.out);
-
-		o.println("AND " + i + " " + j);
-		o.flush();
+		System.out.println("AND " + i + " " + j);
 		return t.nextLong();
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
 		long[] a = new long[n];
 		long a1xora2 = xor(1, 2);
@@ -88,14 +81,13 @@ public class Bitwise_Queries {
 			a[i] = val ^ a[0];
 		}
 
-		o = new PrintWriter(System.out);
-		o.print("! ");
+		System.out.print("! ");
 
 		for (int i = 0; i < n; ++i) {
-			o.print(a[i] + " ");
+			System.out.print(a[i] + " ");
 		}
 
-		o.println();
+		System.out.println();
 		o.flush();
 		o.close();
 	}
