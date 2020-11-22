@@ -88,6 +88,8 @@ public class Bitwise_Queries {
 						c = j;
 					}
 
+			assert (b != -1 && c != -1);
+
 			int xorab = xor[a] ^ xor[b];
 			int xorac = xor[a] ^ xor[c];
 			int xorbc = xor[b] ^ xor[c];
@@ -97,6 +99,9 @@ public class Bitwise_Queries {
 			int x = xorab + 2 * andab;
 			int y = xorac + 2 * andac;
 			int z = xorbc + 2 * andbc;
+
+			assert ((x + y - z) % 2 == 0);
+
 			ans[a] = (x + y - z) / 2;
 		} else {
 			ans[b] = queries("AND", b, c);
