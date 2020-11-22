@@ -5980,6 +5980,25 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99231834": {
+    "contest_id": 1451,
+    "language": "Java 8",
+    "path": "codeforces\\1451\\E1.java",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Bitwise Queries (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1451/problem/E1",
+    "submission_id": "CF99231834",
+    "submission_url": "https://codeforces.com/contest/1451/submission/99231834",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Nov/22/2020 13:34"
+  },
   "CF99396063": {
     "contest_id": 1179,
     "language": "Java 8",
