@@ -49,75 +49,49 @@ public class Bitwise_Queries {
 	static FastReader t = new FastReader();
 	static PrintWriter o = new PrintWriter(System.out);
 
+	public static long xor(int i, int j) {
+		o.println("XOR " + i + " " + j);
+		o.flush();
+		return t.nextLong();
+	}
+
+	public static long and(int i, int j) {
+		o.println("AND " + i + " " + j);
+		o.flush();
+		return t.nextLong();
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		int n = t.nextInt();
-		ArrayList<Integer> list[] = new ArrayList[n + 1];
+		long[] a = new long[n];
+		long a1xora2 = xor(1, 2);
+		long a2xora3 = xor(2, 3);
+		long a1anda2 = and(1, 2);
+		long a2anda3 = and(2, 3);
+		long a1anda3 = and(1, 3);
+		long a1xora3 = a1xora2 ^ a2xora3;
+		long x = a1xora2 + ((a1anda2) << 1);
+		long y = a2xora3 + ((a2anda3) << 1);
+		long z = a1xora3 + ((a1anda3) << 1);
+		a[0] = (x + z - y) >> 1;
+		a[1] = a[0] ^ a1xora2;
+		a[2] = a[0] ^ a1xora3;
 
-		for (int i = 0; i <= n; i++)
-			list[i] = new ArrayList<Integer>();
-
-		int xor[] = new int[n + 1];
-		int ans[] = new int[n + 1];
-		xor[1] = 0;
-
-		list[0].add(1);
-
-		for (int i = 2; i <= n; i++) {
-			xor[i] = queries("XOR", 1, i);
-
-			list[xor[i]].add(i);
+		for (int i = 3; i < n; ++i) {
+			long val = xor(1, i + 1);
+			a[i] = val ^ a[0];
 		}
-
-		int a = 1, b = -1, c = -1;
-		int same = -1;
-
-		for (int i = 0; i < n; i++)
-			if (list[i].size() > 1) {
-				b = list[i].get(0);
-				c = list[i].get(1);
-
-				same = i;
-			}
-
-		if (same == -1) {
-			for (int i = 2; i <= 3; i++)
-				for (int j = i + 1; j <= n; j++)
-					if ((xor[i] ^ xor[j]) == n - 1) {
-						b = i;
-						c = j;
-					}
-
-			int xorab = xor[a] ^ xor[b];
-			int xorac = xor[a] ^ xor[c];
-			int xorbc = xor[b] ^ xor[c];
-			int andab = queries("AND", a, b);
-			int andac = queries("AND", a, c);
-			int andbc = 0;
-			int x = xorab + 2 * andab;
-			int y = xorac + 2 * andac;
-			int z = xorbc + 2 * andbc;
-			ans[a] = (x + y - z) / 2;
-		} else {
-			ans[b] = queries("AND", b, c);
-			ans[1] = xor[b] ^ ans[b];
-		}
-
-		for (int i = 2; i <= n; i++)
-			ans[i] = (xor[i] ^ ans[1]);
 
 		o.print("! ");
 
-		for (int i = 1; i <= n; i++)
-			o.print(ans[i] + " ");
+		for (int i = 0; i < n; ++i) {
+			o.print(a[i] + " ");
+		}
 
+		o.println();
 		o.flush();
 		o.close();
-	}
-
-	public static int queries(String s, int i, int j) {
-		o.println(s + " " + i + " " + j);
-		o.flush();
-		return t.nextInt();
 	}
 }
