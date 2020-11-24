@@ -46,6 +46,22 @@ public class Number_Into_Sequence {
 
 	}
 
+	public static void shuffle(int[] a) {
+		Random r = new Random();
+
+		for (int i = 0; i <= a.length - 2; i++) {
+			int j = i + r.nextInt(a.length - i);
+
+			swap(a, i, j);
+		}
+	}
+
+	public static void swap(int[] a, int i, int j) {
+		int temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FastReader t = new FastReader();
@@ -67,7 +83,7 @@ public class Number_Into_Sequence {
 				list.add(new long[] { 2, count });
 			}
 
-			for (long i = 3; i * i <= n; i += 2) {
+			for (long i = 3; i * i <= n; ++i) {
 				long cnt = 0;
 
 				if (n % i == 0) {
