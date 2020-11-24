@@ -70,25 +70,31 @@ public class Unique_Bid_Auction {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			int[][] a = new int[n + 1][2];
-			boolean flag = false;
+			Map<Integer, Integer> map = new HashMap<>();
 
 			for (int i = 1; i <= n; ++i) {
 				int val = t.nextInt();
-				a[val][0]++;
-				a[val][1] = i;
-			}
 
-			for (int i = 1; i <= n; ++i) {
-				if (a[i][0] == 1) {
-					flag = true;
-					o.println(a[i][1]);
-					break;
+				if (map.containsKey(val)) {
+					map.put(val, Integer.MAX_VALUE);
+				} else {
+					map.put(val, i);
 				}
 			}
 
-			if (!flag)
-				o.println("-1");
+			int min = n + 1;
+			int idx = -1;
+
+			for (Map.Entry<Integer, Integer> m : map.entrySet()) {
+				if (m.getValue() != Integer.MAX_VALUE) {
+					if (m.getKey() < min) {
+						min = m.getKey();
+						idx = m.getValue();
+					}
+				}
+			}
+
+			o.println(idx);
 		}
 
 		o.flush();
