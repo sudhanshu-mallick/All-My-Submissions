@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99396063": {
+    "contest_id": 1179,
+    "language": "Java 8",
+    "path": "codeforces\\1179\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Valeriy and Deque",
+    "problem_url": "https://codeforces.com/contest/1179/problem/A",
+    "submission_id": "CF99396063",
+    "submission_url": "https://codeforces.com/contest/1179/submission/99396063",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Nov/24/2020 18:25"
+  },
   "CF99398407": {
     "contest_id": 509,
     "language": "Java 8",
