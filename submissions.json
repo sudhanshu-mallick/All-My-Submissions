@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF99519420": {
+    "contest_id": 1454,
+    "language": "Java 8",
+    "path": "codeforces\\1454\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Number into Sequence",
+    "problem_url": "https://codeforces.com/contest/1454/problem/D",
+    "submission_id": "CF99519420",
+    "submission_url": "https://codeforces.com/contest/1454/submission/99519420",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Nov/25/2020 09:12"
+  },
   "CF99533227": {
     "contest_id": 1454,
     "language": "Java 8",
