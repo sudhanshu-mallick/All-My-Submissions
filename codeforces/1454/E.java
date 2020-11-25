@@ -73,6 +73,7 @@ public class Number_Into_Sequence {
 				graph[y].add(x);
 			}
 
+			long group[] = new long[n];
 			boolean[] vis = new boolean[n];
 			List<Long> count = new ArrayList<>();
 
@@ -100,15 +101,22 @@ public class Number_Into_Sequence {
 						}
 					}
 
+					for (int val : cur) {
+						group[val] = cur.size();
+					}
+
 					count.add((long) cur.size());
 				}
 			}
 
 			long ans = 0;
 
+			for (int i = 0; i < n; ++i) {
+				ans += (n - group[i]);
+			}
+
 			for (long v : count) {
 				ans += (v * (v - 1)) >> 1;
-				ans += (n - v) * v;
 			}
 
 			o.println(ans);
