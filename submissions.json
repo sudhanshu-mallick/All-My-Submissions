@@ -1,4 +1,22 @@
 {
+  "CF100717868": {
+    "contest_id": 1178,
+    "language": "Java 8",
+    "path": "codeforces\\1178\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tiles",
+    "problem_url": "https://codeforces.com/contest/1178/problem/C",
+    "submission_id": "CF100717868",
+    "submission_url": "https://codeforces.com/contest/1178/submission/100717868",
+    "tags": [
+      "combinatorics",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Dec/08/2020 23:10"
+  },
   "CF100880838": {
     "contest_id": 1368,
     "language": "Java 8",
