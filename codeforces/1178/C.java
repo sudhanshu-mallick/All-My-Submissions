@@ -53,16 +53,9 @@ public class Tiles {
 		long pow = t.nextLong() + t.nextLong();
 		long mod = 998244353;
 		long ans = 1;
-		long cur = 2;
 
-		while (pow > 0) {
-			if ((pow & 1) == 1) {
-				ans = (ans * cur) % mod;
-				--pow;
-			} else {
-				pow >>= 1;
-				cur = (cur * cur) % mod;
-			}
+		while (pow-- > 0) {
+			ans = (ans << 1) % mod;
 		}
 
 		o.println(ans);
