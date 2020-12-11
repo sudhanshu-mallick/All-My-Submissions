@@ -65,6 +65,8 @@ public class Random_Events {
 				p[j] = new Pair(t.nextInt(), t.nextDouble());
 			}
 
+			Arrays.sort(p, (Pair x, Pair y) -> x.idx - y.idx);
+
 			int j = n - 1;
 
 			while (j >= 0 && a[j] == j + 1)
