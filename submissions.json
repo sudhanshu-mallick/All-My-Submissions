@@ -1,4 +1,22 @@
 {
+  "CF100923253": {
+    "contest_id": 1461,
+    "language": "Java 8",
+    "path": "codeforces\\1461\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Find the Spruce",
+    "problem_url": "https://codeforces.com/contest/1461/problem/B",
+    "submission_id": "CF100923253",
+    "submission_url": "https://codeforces.com/contest/1461/submission/100923253",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Dec/11/2020 20:22"
+  },
   "CF100966013": {
     "contest_id": 1461,
     "language": "Java 8",
