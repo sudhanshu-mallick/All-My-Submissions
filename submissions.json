@@ -1,4 +1,22 @@
 {
+  "CF100907837": {
+    "contest_id": 1349,
+    "language": "Java 11",
+    "path": "codeforces\\1349\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Orac and LCM",
+    "problem_url": "https://codeforces.com/contest/1349/problem/A",
+    "submission_id": "CF100907837",
+    "submission_url": "https://codeforces.com/contest/1349/submission/100907837",
+    "tags": [
+      "data structures",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Dec/11/2020 19:24"
+  },
   "CF100909969": {
     "contest_id": 148,
     "language": "Java 11",
