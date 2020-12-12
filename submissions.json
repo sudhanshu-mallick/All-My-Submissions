@@ -1,4 +1,22 @@
 {
+  "CF100992777": {
+    "contest_id": 1461,
+    "language": "Java 8",
+    "path": "codeforces\\1461\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Random Events",
+    "problem_url": "https://codeforces.com/contest/1461/problem/C",
+    "submission_id": "CF100992777",
+    "submission_url": "https://codeforces.com/contest/1461/submission/100992777",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*1500"
+    ],
+    "timestamp": "Dec/12/2020 12:16"
+  },
   "CF101261030": {
     "contest_id": 1462,
     "language": "Java 8",
