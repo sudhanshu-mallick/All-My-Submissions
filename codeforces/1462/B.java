@@ -70,15 +70,23 @@ public class Last_Years_Substring {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			char ch[] = t.next().toCharArray();
+			String s = t.next();
 			boolean ans = false;
-			String a = ch[0] + "" + ch[1] + "" + ch[2] + "" + ch[3];
-			String b = ch[0] + "" + ch[1] + "" + ch[2] + "" + ch[n - 1];
-			String c = ch[0] + "" + ch[1] + "" + ch[n - 2] + "" + ch[n - 1];
-			String d = ch[0] + "" + ch[n - 3] + "" + ch[n - 2] + "" + ch[n - 1];
-			String e = ch[n - 4] + "" + ch[n - 3] + "" + ch[n - 2] + "" + ch[n - 1];
+			int p = n - 4;
 
-			if (a.equals("2020") || b.equals("2020") || c.equals("2020") || d.equals("2020") || e.equals("2020"))
+			for (int i = 0; i <= n - p; ++i) {
+				String x = s.substring(0, i) + s.substring(i + p);
+
+				if (x.equals("2020")) {
+					ans = true;
+					break;
+				}
+			}
+
+			if (s.equals("2020"))
+				ans = true;
+
+			if (ans)
 				o.println("YES");
 			else
 				o.println("NO");
