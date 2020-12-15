@@ -1,4 +1,24 @@
 {
+  "CF101325486": {
+    "contest_id": 1462,
+    "language": "Java 8",
+    "path": "codeforces\\1462\\E1.java",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Close Tuples (easy version)",
+    "problem_url": "https://codeforces.com/contest/1462/problem/E1",
+    "submission_id": "CF101325486",
+    "submission_url": "https://codeforces.com/contest/1462/submission/101325486",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Dec/15/2020 21:30"
+  },
   "CF101353649": {
     "contest_id": 1462,
     "language": "Java 8",
