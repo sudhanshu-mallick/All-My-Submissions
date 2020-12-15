@@ -71,7 +71,9 @@ public class Unique_Numbers {
 		while (test-- > 0) {
 			int n = t.nextInt();
 
-			if (n > 45) {
+			if (n < 10)
+				o.println(n);
+			else if (n > 45) {
 				o.println("-1");
 			} else {
 				List<Integer> list = new ArrayList<>();
