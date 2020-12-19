@@ -69,13 +69,19 @@ public class Move_And_Turn {
 		int n = t.nextInt();
 
 		if ((n & 1) == 0) {
-			int step = ((n + 1) >> 1) + 1;
-
-			o.println(step * step);
+			o.println((n / 2 + 1) * (n / 2 + 1));
 		} else {
-			int step = (n + 1) >> 1;
+			n = (n + 1) / 2;
+			long cur = 0;
+			long four = 4;
 
-			o.println((step * (step + 1)) << 1);
+			while (n > 0) {
+				cur += four;
+				four += 4;
+				--n;
+			}
+
+			o.println(cur);
 		}
 
 		o.flush();
