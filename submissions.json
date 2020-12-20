@@ -1,4 +1,22 @@
 {
+  "CF101870270": {
+    "contest_id": 1465,
+    "language": "Java 8",
+    "path": "codeforces\\1465\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fair Numbers",
+    "problem_url": "https://codeforces.com/contest/1465/problem/B",
+    "submission_id": "CF101870270",
+    "submission_url": "https://codeforces.com/contest/1465/submission/101870270",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Dec/20/2020 20:47"
+  },
   "CF102047161": {
     "contest_id": 1465,
     "language": "Java 8",
