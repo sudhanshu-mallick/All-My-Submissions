@@ -1,4 +1,21 @@
 {
+  "CF102308828": {
+    "contest_id": 1468,
+    "language": "Java 8",
+    "path": "codeforces\\1468\\K.java",
+    "platform": "Codeforces",
+    "problem_index": "K",
+    "problem_name": "The Robot",
+    "problem_url": "https://codeforces.com/contest/1468/problem/K",
+    "submission_id": "CF102308828",
+    "submission_url": "https://codeforces.com/contest/1468/submission/102308828",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Dec/25/2020 17:55"
+  },
   "CF102316082": {
     "contest_id": 1468,
     "language": "Java 8",
