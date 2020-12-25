@@ -1,4 +1,22 @@
 {
+  "CF102316082": {
+    "contest_id": 1468,
+    "language": "Java 8",
+    "path": "codeforces\\1468\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Full Turn",
+    "problem_url": "https://codeforces.com/contest/1468/problem/F",
+    "submission_id": "CF102316082",
+    "submission_url": "https://codeforces.com/contest/1468/submission/102316082",
+    "tags": [
+      "geometry",
+      "hashing",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Dec/25/2020 18:51"
+  },
   "CF102328413": {
     "contest_id": 1468,
     "language": "Java 8",
