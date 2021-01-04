@@ -1,4 +1,21 @@
 {
+  "CF103206934": {
+    "contest_id": 1472,
+    "language": "Java 8",
+    "path": "codeforces\\1472\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Long Jumps",
+    "problem_url": "https://codeforces.com/contest/1472/problem/C",
+    "submission_id": "CF103206934",
+    "submission_url": "https://codeforces.com/contest/1472/submission/103206934",
+    "tags": [
+      "dp",
+      "graphs",
+      "*1100"
+    ],
+    "timestamp": "Jan/04/2021 20:20"
+  },
   "CF103236294": {
     "contest_id": 1472,
     "language": "Java 8",
