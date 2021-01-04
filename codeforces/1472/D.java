@@ -70,32 +70,63 @@ public class Even_Odd_Game {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			List<Long> list = new ArrayList<>();
+			List<Long> even = new ArrayList<>();
+			List<Long> odd = new ArrayList<>();
+			long alice = 0, bob = 0;
 
 			while (n-- > 0) {
-				list.add(t.nextLong());
+				long x = t.nextLong();
+
+				if ((x & 1) == 0)
+					even.add(x);
+				else
+					odd.add(x);
 			}
 
-			Collections.sort(list, Collections.reverseOrder());
+			Collections.sort(even, Collections.reverseOrder());
+			Collections.sort(odd, Collections.reverseOrder());
 
-			int i = 0;
-			long ans = 0;
+			int i = 0, j = 0;
+			int ev = even.size(), od = odd.size();
+			boolean turn = true;
 
-			while (i < list.size()) {
-				long x = list.get(i);
-
-				if ((i & 1) == 0) {
-					if ((x & 1) == 0)
-						ans += x;
+			while (i < even.size() && j < odd.size()) {
+				if (turn) {
+					if (even.get(i) > odd.get(j))
+						alice += even.get(i++);
+					else
+						++j;
 				} else {
-					if ((x & 1) == 1)
-						ans -= x;
+					if (even.get(i) > odd.get(j))
+						++i;
+					else
+						bob += odd.get(j++);
 				}
 
-				++i;
+				turn = !turn;
 			}
 
-			o.println(ans > 0 ? "Alice" : ans < 0 ? "Bob" : "Tie");
+			while (i < ev) {
+				if (turn) {
+					alice += even.get(i++);
+				} else {
+					++i;
+				}
+
+				turn = !turn;
+			}
+
+			while (j < od) {
+				if (turn) {
+					++j;
+				} else {
+					bob += odd.get(j++);
+				}
+
+				turn = !turn;
+			}
+
+			o.println(alice > bob ? "Alice" : alice < bob ? "Bob" : "Tie");
 		}
 
 		o.flush();
