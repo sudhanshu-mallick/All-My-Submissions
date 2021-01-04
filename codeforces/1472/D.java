@@ -46,7 +46,7 @@ public class Even_Odd_Game {
 
 	}
 
-	public static void shuffle(int[] a) {
+	public static void shuffle(long[] a) {
 		Random r = new Random();
 
 		for (int i = 0; i <= a.length - 2; i++) {
@@ -56,8 +56,8 @@ public class Even_Odd_Game {
 		}
 	}
 
-	public static void swap(int[] a, int i, int j) {
-		int temp = a[i];
+	public static void swap(long[] a, int i, int j) {
+		long temp = a[i];
 		a[i] = a[j];
 		a[j] = temp;
 	}
@@ -70,21 +70,21 @@ public class Even_Odd_Game {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			List<Long> list = new ArrayList<>();
+			long[] a = new long[n];
 
-			while (n-- > 0) {
-				list.add(t.nextLong());
-			}
+			for (int i = 0; i < n; ++i)
+				a[i] = t.nextLong();
 
-			Collections.sort(list);
+			shuffle(a);
+			Arrays.sort(a);
 
-			int i = 0;
+			int i = n - 1;
 			long ans = 0;
 
-			while (i < list.size()) {
-				long x = list.get(i);
+			while (i >= 0) {
+				long x = a[i];
 
-				if (((list.size() - i) & 1) == 1) {
+				if (((n - i) & 1) == 1) {
 					if ((x & 1) == 0)
 						ans += x;
 				} else {
@@ -92,7 +92,7 @@ public class Even_Odd_Game {
 						ans -= x;
 				}
 
-				++i;
+				--i;
 			}
 
 			o.println(ans > 0 ? "Alice" : ans < 0 ? "Bob" : "Tie");
