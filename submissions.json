@@ -1,4 +1,23 @@
 {
+  "CF103315521": {
+    "contest_id": 1472,
+    "language": "Java 8",
+    "path": "codeforces\\1472\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Even-Odd Game",
+    "problem_url": "https://codeforces.com/contest/1472/problem/D",
+    "submission_id": "CF103315521",
+    "submission_url": "https://codeforces.com/contest/1472/submission/103315521",
+    "tags": [
+      "dp",
+      "games",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jan/04/2021 23:39"
+  },
   "CF103356521": {
     "contest_id": 1063,
     "language": "Java 8",
