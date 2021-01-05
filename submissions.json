@@ -1,4 +1,20 @@
 {
+  "CF103367276": {
+    "contest_id": 1216,
+    "language": "Java 8",
+    "path": "codeforces\\1216\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Swords",
+    "problem_url": "https://codeforces.com/contest/1216/problem/D",
+    "submission_id": "CF103367276",
+    "submission_url": "https://codeforces.com/contest/1216/submission/103367276",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jan/05/2021 15:39"
+  },
   "CF103393462": {
     "contest_id": 1471,
     "language": "Java 8",
