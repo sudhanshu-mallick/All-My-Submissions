@@ -1,4 +1,23 @@
 {
+  "CF103571949": {
+    "contest_id": 1471,
+    "language": "Java 8",
+    "path": "codeforces\\1471\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Strange List",
+    "problem_url": "https://codeforces.com/contest/1471/problem/B",
+    "submission_id": "CF103571949",
+    "submission_url": "https://codeforces.com/contest/1471/submission/103571949",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/06/2021 23:19"
+  },
   "CF103713241": {
     "contest_id": 1251,
     "language": "Java 8",
