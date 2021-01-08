@@ -1,4 +1,21 @@
 {
+  "CF103713241": {
+    "contest_id": 1251,
+    "language": "Java 8",
+    "path": "codeforces\\1251\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Binary Palindromes",
+    "problem_url": "https://codeforces.com/contest/1251/problem/B",
+    "submission_id": "CF103713241",
+    "submission_url": "https://codeforces.com/contest/1251/submission/103713241",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Jan/08/2021 17:49"
+  },
   "CF103716370": {
     "contest_id": 1253,
     "language": "Java 8",
