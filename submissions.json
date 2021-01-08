@@ -1,4 +1,21 @@
 {
+  "CF103771399": {
+    "contest_id": 1467,
+    "language": "Java 8",
+    "path": "codeforces\\1467\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hills And Valleys",
+    "problem_url": "https://codeforces.com/contest/1467/problem/B",
+    "submission_id": "CF103771399",
+    "submission_url": "https://codeforces.com/contest/1467/submission/103771399",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jan/08/2021 20:55"
+  },
   "CF103983276": {
     "contest_id": 1467,
     "language": "Java 8",
