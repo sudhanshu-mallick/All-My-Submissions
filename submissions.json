@@ -1,4 +1,21 @@
 {
+  "CF103716370": {
+    "contest_id": 1253,
+    "language": "Java 8",
+    "path": "codeforces\\1253\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Silly Mistake",
+    "problem_url": "https://codeforces.com/contest/1253/problem/B",
+    "submission_id": "CF103716370",
+    "submission_url": "https://codeforces.com/contest/1253/submission/103716370",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jan/08/2021 18:27"
+  },
   "CF103742840": {
     "contest_id": 1467,
     "language": "Java 8",
