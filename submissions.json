@@ -1,4 +1,23 @@
 {
+  "CF104359015": {
+    "contest_id": 1473,
+    "language": "Java 8",
+    "path": "codeforces\\1473\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Program",
+    "problem_url": "https://codeforces.com/contest/1473/problem/D",
+    "submission_id": "CF104359015",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104359015",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Jan/15/2021 00:07"
+  },
   "CF104773986": {
     "contest_id": 1474,
     "language": "Java 8",
