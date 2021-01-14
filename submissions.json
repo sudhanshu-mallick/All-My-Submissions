@@ -1,4 +1,21 @@
 {
+  "CF104277126": {
+    "contest_id": 1263,
+    "language": "Java 8",
+    "path": "codeforces\\1263\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "PIN Codes",
+    "problem_url": "https://codeforces.com/contest/1263/problem/B",
+    "submission_id": "CF104277126",
+    "submission_url": "https://codeforces.com/contest/1263/submission/104277126",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jan/14/2021 19:26"
+  },
   "CF104282655": {
     "contest_id": 1473,
     "language": "Java 8",
