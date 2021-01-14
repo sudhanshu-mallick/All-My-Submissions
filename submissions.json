@@ -1,4 +1,23 @@
 {
+  "CF104354751": {
+    "contest_id": 1473,
+    "language": "Java 11",
+    "path": "codeforces\\1473\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "String LCM",
+    "problem_url": "https://codeforces.com/contest/1473/problem/B",
+    "submission_id": "CF104354751",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104354751",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Jan/14/2021 23:04"
+  },
   "CF104355512": {
     "contest_id": 1473,
     "language": "Java 11",
