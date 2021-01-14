@@ -46,27 +46,12 @@ public class String_LCM {
 
 	}
 
-	public static void shuffle(int[] a) {
-		Random r = new Random();
-
-		for (int i = 0; i <= a.length - 2; i++) {
-			int j = i + r.nextInt(a.length - i);
-
-			swap(a, i, j);
-		}
-	}
-
-	public static void swap(int[] a, int i, int j) {
-		int temp = a[i];
-		a[i] = a[j];
-		a[j] = temp;
-	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
+		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			String x = t.next();
@@ -84,12 +69,14 @@ public class String_LCM {
 				Y.append(y);
 
 			if (X.toString().equals(Y.toString()))
-				o.println(X);
+				sb.append(X);
 			else
-				o.println("-1");
+				sb.append("-1");
 
+			sb.append("\n");
 		}
 
+		o.println(sb);
 		o.flush();
 		o.close();
 	}
