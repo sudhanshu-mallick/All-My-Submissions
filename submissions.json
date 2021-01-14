@@ -1,4 +1,21 @@
 {
+  "CF104248643": {
+    "contest_id": 1269,
+    "language": "Java 8",
+    "path": "codeforces\\1269\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Modulo Equality",
+    "problem_url": "https://codeforces.com/contest/1269/problem/B",
+    "submission_id": "CF104248643",
+    "submission_url": "https://codeforces.com/contest/1269/submission/104248643",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jan/14/2021 12:39"
+  },
   "CF104248822": {
     "contest_id": 1269,
     "language": "Java 8",

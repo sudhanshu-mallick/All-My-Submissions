@@ -84,14 +84,24 @@ public class Modulo_Equality {
 		Arrays.sort(b);
 
 		for (int i = 0; i < n; ++i) {
-			int v = (b[i] - a[0] + m) % m;
+			int v = b[i] - a[0];
 			boolean res = true;
 
-			for (int j = 0; j < n; ++j) {
-				int idx = (i + j) % n;
-				boolean val = (b[idx] - a[j] + m) % m == v;
+			if (v < 0)
+				v += m;
 
-				if (!val) {
+			for (int j = 0; j < n; ++j) {
+				int idx = i + j;
+
+				if (idx >= n)
+					idx -= n;
+
+				int val = b[idx] - a[j];
+
+				if (val < 0)
+					val += m;
+
+				if (val != v) {
 					res = false;
 					break;
 				}
