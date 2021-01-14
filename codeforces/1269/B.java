@@ -78,8 +78,6 @@ public class Modulo_Equality {
 		for (int i = 0; i < n; ++i)
 			b[i] = t.nextInt();
 
-		shuffle(a);
-		shuffle(b);
 		Arrays.sort(a);
 		Arrays.sort(b);
 
