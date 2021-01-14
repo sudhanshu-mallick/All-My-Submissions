@@ -46,28 +46,72 @@ public class No_More_Inversions {
 
 	}
 
+	public static void shuffle(int[] a) {
+		Random r = new Random();
+
+		for (int i = 0; i <= a.length - 2; i++) {
+			int j = i + r.nextInt(a.length - i);
+
+			swap(a, i, j);
+		}
+	}
+
+	public static void swap(int[] a, int i, int j) {
+		int temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
-		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int k = t.nextInt();
-			int v = k - (n - k) - 1;
+			int[] a = new int[n];
+			int[] b = new int[n];
+			int[] p = new int[k];
+			a[0] = 0;
 
-			for (int i = 1; i <= v; ++i)
-				sb.append(i + " ");
+			for (int i = 0; i < n; ++i) {
+				if ((i + 1) <= k) {
+					a[i] = i + 1;
+				} else {
+					a[i] = k - (i + 1 - k);
+				}
+			}
 
-			for (int i = k; i > v; --i)
-				sb.append(i + " ");
+			int idx = (k - 1) * 2 - (n - 1);
 
-			sb.append("\n");
+			for (int i = 0; i < idx; ++i)
+				b[i] = a[i];
+
+			b[idx] = b[n - 1] = k;
+			int cur = k - 1;
+
+			for (int i = idx + 1; i < k; ++i) {
+				b[i] = cur--;
+			}
+
+			++cur;
+
+			for (int i = k; i < n - 1; ++i)
+				b[i] = ++cur;
+
+			for (int i = 0; i < n; ++i) {
+				p[a[i] - 1] = b[i];
+			}
+
+			for (int i = 0; i < k; ++i)
+				o.print(p[i] + " ");
+
+			o.println();
+
 		}
 
-		o.println(sb);
 		o.flush();
 		o.close();
 	}
