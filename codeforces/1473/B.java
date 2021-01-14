@@ -69,35 +69,63 @@ public class String_LCM {
 		int test = t.nextInt();
 
 		while (test-- > 0) {
-			String x = t.next();
+			String[] s = new String[2];
+			s[0] = t.next();
+			s[1] = t.next();
+			String x = "", y = "";
+
+			if (s[0].length() > s[1].length()) {
+				x = s[1];
+				y = s[0];
+			} else {
+				x = s[0];
+				y = s[1];
+			}
+
 			int m = x.length();
-			String y = t.next();
 			int n = y.length();
-			int lcm = (m * n) / gcd(m, n);
-			StringBuilder X = new StringBuilder(x);
-			StringBuilder Y = new StringBuilder(y);
+			StringBuilder cur = new StringBuilder(y);
+			boolean res = false;
 
-			while (X.length() < lcm)
-				X.append(x);
+			while (cur.length() <= m * n) {
+				if (check(cur, x, y)) {
+					res = true;
+					break;
+				}
 
-			while (Y.length() < lcm)
-				Y.append(y);
+				cur.append(y);
+			}
 
-			if (X.toString().equals(Y.toString()))
-				o.println(X);
-			else
+			if (!res)
 				o.println("-1");
-
+			else
+				o.println(cur);
 		}
 
 		o.flush();
 		o.close();
 	}
 
-	private static int gcd(int a, int b) {
-		if (b == 0)
-			return a;
+	private static boolean check(StringBuilder cur, String x, String y) {
+		if (cur.length() % x.length() != 0 || cur.length() % y.length() != 0)
+			return false;
 
-		return gcd(b, a % b);
+		StringBuilder sb = new StringBuilder(x);
+
+		while (sb.length() < cur.length())
+			sb.append(x);
+
+		if (!sb.toString().equals(cur.toString()))
+			return false;
+
+		sb = new StringBuilder(y);
+
+		while (sb.length() < cur.length())
+			sb.append(y);
+
+		if (!sb.toString().equals(cur.toString()))
+			return false;
+
+		return true;
 	}
 }
