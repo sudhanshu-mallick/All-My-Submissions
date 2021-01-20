@@ -67,7 +67,6 @@ public class Array_Destruction {
 		FastReader t = new FastReader();
 		PrintWriter o = new PrintWriter(System.out);
 		int test = t.nextInt();
-		StringBuilder sb = new StringBuilder();
 
 		while (test-- > 0) {
 			int n = t.nextInt() * 2;
@@ -142,11 +141,10 @@ public class Array_Destruction {
 			}
 
 			if (!res)
-				sb.append("NO\n");
+				o.println("NO");
 			else {
-				sb.append("YES\n");
-				sb.append(a[n - 1] + a[reqIdx] + "\n");
-
+				o.println("YES");
+				o.println(a[n - 1] + a[reqIdx]);
 				Map<Integer, Stack<Integer>> map = new HashMap<>();
 
 				for (int j = 0; j < n - 1; ++j) {
@@ -163,7 +161,7 @@ public class Array_Destruction {
 				int curMax = a[n - 1];
 				boolean vis[] = new boolean[n];
 
-				sb.append(a[n - 1] + " " + a[reqIdx] + "\n");
+				o.println(a[n - 1] + " " + a[reqIdx]);
 
 				while (j >= 0) {
 					if (vis[j] || j == reqIdx) {
@@ -192,13 +190,12 @@ public class Array_Destruction {
 					--j;
 					curMax = v1;
 
-					sb.append(v1 + " " + v2 + "\n");
+					o.println(v1 + " " + v2);
 				}
 
 			}
 		}
 
-		o.println(sb);
 		o.flush();
 		o.close();
 	}
