@@ -203,5 +203,3 @@ public class Array_Destruction {
 		o.close();
 	}
 }
-
-//ok
