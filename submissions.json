@@ -1,4 +1,25 @@
 {
+  "CF104968258": {
+    "contest_id": 1474,
+    "language": "Java 8",
+    "path": "codeforces\\1474\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Array Destruction",
+    "problem_url": "https://codeforces.com/contest/1474/problem/C",
+    "submission_id": "CF104968258",
+    "submission_url": "https://codeforces.com/contest/1474/submission/104968258",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Jan/21/2021 14:23"
+  },
   "CF104969241": {
     "contest_id": 4,
     "language": "Python 3",
