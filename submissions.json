@@ -1,4 +1,21 @@
 {
+  "CF104969276": {
+    "contest_id": 4,
+    "language": "PyPy 3",
+    "path": "codeforces\\4\\A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Watermelon",
+    "problem_url": "https://codeforces.com/contest/4/problem/A",
+    "submission_id": "CF104969276",
+    "submission_url": "https://codeforces.com/contest/4/submission/104969276",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/21/2021 14:37"
+  },
   "CF105310611": {
     "contest_id": 1475,
     "language": "Java 8",
