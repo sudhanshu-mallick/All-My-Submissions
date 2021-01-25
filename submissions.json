@@ -1,4 +1,22 @@
 {
+  "CF105406269": {
+    "contest_id": 1475,
+    "language": "Java 8",
+    "path": "codeforces\\1475\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year's Number",
+    "problem_url": "https://codeforces.com/contest/1475/problem/B",
+    "submission_id": "CF105406269",
+    "submission_url": "https://codeforces.com/contest/1475/submission/105406269",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/25/2021 23:12"
+  },
   "CF105412351": {
     "contest_id": 1475,
     "language": "Java 8",
