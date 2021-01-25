@@ -72,7 +72,6 @@ public class Unusual_Matrix {
 			int n = t.nextInt();
 			int[][] a = new int[n][n];
 			int[][] b = new int[n][n];
-			boolean flag = true;
 
 			for (int i = 0; i < n; ++i) {
 				String s = t.next();
@@ -88,36 +87,49 @@ public class Unusual_Matrix {
 					b[i][j] = s.charAt(j) - '0';
 			}
 
-			for (int j = 0; j < n; ++j) {
-				if (a[0][j] != b[0][j])
-					for (int i = 0; i < n; ++i)
-						a[i][j] = a[i][j] ^ 1;
-			}
+			a = variPuttar(a, n);
+			a = hariPuttar(a, n);
+			b = variPuttar(b, n);
+			b = hariPuttar(b, n);
 
-			for (int i = 1; i < n; ++i) {
-				if (a[i][0] != b[i][0])
-					for (int j = 0; j < n; ++j)
-						a[i][j] = a[i][j] ^ 1;
+			String ans = "YES";
 
+			for (int i = 0; i < n; ++i) {
 				for (int j = 0; j < n; ++j) {
 					if (a[i][j] != b[i][j]) {
-						flag = false;
+						ans = "NO";
 						break;
 					}
 				}
 
-				if (!flag)
+				if (ans.equals("NO"))
 					break;
 			}
 
-			if (flag)
-				o.println("YES");
-			else
-				o.println("NO");
+			o.println(ans);
+
 		}
 
 		o.flush();
 		o.close();
+	}
+
+	private static int[][] variPuttar(int[][] a, int n) {
+		for (int j = 0; j < n; ++j)
+			if (a[0][j] == 1)
+				for (int i = 0; i < n; ++i)
+					a[i][j] = a[i][j] ^ 1;
+
+		return a;
+	}
+
+	private static int[][] hariPuttar(int[][] a, int n) {
+		for (int i = 0; i < n; ++i)
+			if (a[i][0] == 1)
+				for (int j = 0; j < n; ++j)
+					a[i][j] = a[i][j] ^ 1;
+
+		return a;
 	}
 
 }
