@@ -70,11 +70,18 @@ public class Odd_Divisor {
 
 		while (tst-- > 0) {
 			long n = t.nextLong();
+			String ans = "NO";
 
-			if ((n & (n - 1)) == 0)
-				o.println("NO");
-			else
-				o.println("YES");
+			while (n > 1) {
+				if ((n & 1) == 1) {
+					ans = "YES";
+					break;
+				}
+
+				n = n >> 1;
+			}
+
+			o.println(ans);
 		}
 
 		o.flush();
