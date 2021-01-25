@@ -70,13 +70,18 @@ public class New_Years_Number {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			int _2021 = n % 2020;
-			int _2020 = (n - _2021) / 2020 - _2021;
+			String ans = "NO";
 
-			if (_2020 >= 0 && _2021 * 2021 + _2020 * 2020 == n)
-				o.println("YES");
-			else
-				o.println("NO");
+			while (n >= 0) {
+				if (n % 2020 == 0) {
+					ans = "YES";
+					break;
+				}
+
+				n -= 2021;
+			}
+
+			o.println(ans);
 		}
 
 		o.flush();
