@@ -1,4 +1,22 @@
 {
+  "CF105393720": {
+    "contest_id": 1475,
+    "language": "Java 8",
+    "path": "codeforces\\1475\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Advertising Agency",
+    "problem_url": "https://codeforces.com/contest/1475/problem/E",
+    "submission_id": "CF105393720",
+    "submission_url": "https://codeforces.com/contest/1475/submission/105393720",
+    "tags": [
+      "combinatorics",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jan/25/2021 22:16"
+  },
   "CF105405140": {
     "contest_id": 1475,
     "language": "Java 8",
