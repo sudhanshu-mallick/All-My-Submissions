@@ -1,4 +1,20 @@
 {
+  "CF105674546": {
+    "contest_id": 228,
+    "language": "Java 8",
+    "path": "codeforces\\228\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is your horseshoe on the other hoof?",
+    "problem_url": "https://codeforces.com/contest/228/problem/A",
+    "submission_id": "CF105674546",
+    "submission_url": "https://codeforces.com/contest/228/submission/105674546",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/28/2021 19:48"
+  },
   "CF105677346": {
     "contest_id": 1478,
     "language": "Java 8",
