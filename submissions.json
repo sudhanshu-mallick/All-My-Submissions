@@ -1,4 +1,22 @@
 {
+  "CF105777634": {
+    "contest_id": 1478,
+    "language": "Java 8",
+    "path": "codeforces\\1478\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Nezzar and Board",
+    "problem_url": "https://codeforces.com/contest/1478/problem/D",
+    "submission_id": "CF105777634",
+    "submission_url": "https://codeforces.com/contest/1478/submission/105777634",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Jan/28/2021 23:55"
+  },
   "CF105819525": {
     "contest_id": 500,
     "language": "Java 8",
