@@ -1,4 +1,23 @@
 {
+  "CF105673906": {
+    "contest_id": 1329,
+    "language": "Java 8",
+    "path": "codeforces\\1329\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dreamoon Likes Coloring",
+    "problem_url": "https://codeforces.com/contest/1329/problem/A",
+    "submission_id": "CF105673906",
+    "submission_url": "https://codeforces.com/contest/1329/submission/105673906",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Jan/28/2021 19:39"
+  },
   "CF105674546": {
     "contest_id": 228,
     "language": "Java 8",
