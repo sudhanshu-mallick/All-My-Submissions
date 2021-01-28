@@ -1,4 +1,23 @@
 {
+  "CF105668046": {
+    "contest_id": 702,
+    "language": "Java 8",
+    "path": "codeforces\\702\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Powers of Two",
+    "problem_url": "https://codeforces.com/contest/702/problem/B",
+    "submission_id": "CF105668046",
+    "submission_url": "https://codeforces.com/contest/702/submission/105668046",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jan/28/2021 18:31"
+  },
   "CF105668235": {
     "contest_id": 702,
     "language": "Java 8",

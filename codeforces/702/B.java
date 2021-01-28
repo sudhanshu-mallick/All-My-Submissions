@@ -68,12 +68,9 @@ public class Powers_Of_Two {
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
 		long[] a = new long[n];
-		Map<Long, Long> map = new HashMap<>();
 
 		for (int i = 0; i < n; ++i) {
 			a[i] = t.nextLong();
-
-			map.put(a[i], map.getOrDefault(a[i], 0l) + 1);
 		}
 
 		long cur = 2;
@@ -81,6 +78,14 @@ public class Powers_Of_Two {
 		long count = 0;
 
 		while (i < 32) {
+			Map<Long, Long> map = new HashMap<>();
+
+			for (long v : a) {
+				if (v < cur) {
+					map.put(v, map.getOrDefault(v, 0l) + 1l);
+				}
+			}
+
 			for (Map.Entry<Long, Long> m : map.entrySet()) {
 				if (m.getKey() < (cur >> 1)) {
 					count += (m.getValue() * map.getOrDefault(cur - m.getKey(), 0l));
