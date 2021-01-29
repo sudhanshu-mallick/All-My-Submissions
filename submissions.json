@@ -1,4 +1,21 @@
 {
+  "CF105842760": {
+    "contest_id": 1180,
+    "language": "Java 8",
+    "path": "codeforces\\1180\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nick and Array",
+    "problem_url": "https://codeforces.com/contest/1180/problem/B",
+    "submission_id": "CF105842760",
+    "submission_url": "https://codeforces.com/contest/1180/submission/105842760",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jan/29/2021 18:40"
+  },
   "CF105843910": {
     "contest_id": 567,
     "language": "Java 8",
