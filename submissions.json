@@ -1,4 +1,22 @@
 {
+  "CF105821774": {
+    "contest_id": 343,
+    "language": "Java 8",
+    "path": "codeforces\\343\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Alternating Current",
+    "problem_url": "https://codeforces.com/contest/343/problem/B",
+    "submission_id": "CF105821774",
+    "submission_url": "https://codeforces.com/contest/343/submission/105821774",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jan/29/2021 14:14"
+  },
   "CF105842760": {
     "contest_id": 1180,
     "language": "Java 8",
