@@ -74,6 +74,7 @@ public class Inflation {
 			int n = t.nextInt();
 			long k = t.nextLong();
 			long[] a = new long[n];
+			long[] pre = new long[n];
 			long sum = 0;
 			long req = 0;
 
@@ -90,11 +91,11 @@ public class Inflation {
 
 				} else {
 					long dif = 100 * a[i] - sum * k;
-					long now = (dif + k - 1) / k;
+					long now = dif % k == 0 ? dif / k : dif / k + 1;
 					sum += now;
 					req += now;
 				}
-
+				
 				--i;
 			}
 
