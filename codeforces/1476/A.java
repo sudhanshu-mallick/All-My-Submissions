@@ -75,9 +75,15 @@ public class K_Divisible_Sum {
 			int k = t.nextInt();
 
 			if (n >= k) {
-				o.println(n % k == 0 ? 1 : 2);
+				if (n % k == 0)
+					o.println("1");
+				else
+					o.println("2");
 			} else {
-				o.println((k + n - 1) / n);
+				if (k % n == 0)
+					o.println(k / n);
+				else
+					o.println(k / n + 1);
 			}
 		}
 
