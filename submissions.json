@@ -1,4 +1,25 @@
 {
+  "CF105819525": {
+    "contest_id": 500,
+    "language": "Java 8",
+    "path": "codeforces\\500\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year Permutation",
+    "problem_url": "https://codeforces.com/contest/500/problem/B",
+    "submission_id": "CF105819525",
+    "submission_url": "https://codeforces.com/contest/500/submission/105819525",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jan/29/2021 13:46"
+  },
   "CF105821774": {
     "contest_id": 343,
     "language": "Java 8",
