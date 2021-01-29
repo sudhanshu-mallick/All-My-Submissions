@@ -1,4 +1,23 @@
 {
+  "CF105943559": {
+    "contest_id": 1476,
+    "language": "Java 8",
+    "path": "codeforces\\1476\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "K-divisible Sum",
+    "problem_url": "https://codeforces.com/contest/1476/problem/A",
+    "submission_id": "CF105943559",
+    "submission_url": "https://codeforces.com/contest/1476/submission/105943559",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jan/29/2021 22:30"
+  },
   "CF105947971": {
     "contest_id": 1476,
     "language": "Java 8",
