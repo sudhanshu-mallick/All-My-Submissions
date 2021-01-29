@@ -1,4 +1,22 @@
 {
+  "CF105918778": {
+    "contest_id": 1476,
+    "language": "Java 8",
+    "path": "codeforces\\1476\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Longest Simple Cycle",
+    "problem_url": "https://codeforces.com/contest/1476/problem/C",
+    "submission_id": "CF105918778",
+    "submission_url": "https://codeforces.com/contest/1476/submission/105918778",
+    "tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Jan/29/2021 21:27"
+  },
   "CF105942798": {
     "contest_id": 1476,
     "language": "Java 8",
