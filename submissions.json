@@ -1,4 +1,22 @@
 {
+  "CF105843910": {
+    "contest_id": 567,
+    "language": "Java 8",
+    "path": "codeforces\\567\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Geometric Progression",
+    "problem_url": "https://codeforces.com/contest/567/problem/C",
+    "submission_id": "CF105843910",
+    "submission_url": "https://codeforces.com/contest/567/submission/105843910",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Jan/29/2021 18:53"
+  },
   "CF105856373": {
     "contest_id": 1476,
     "language": "Java 8",
