@@ -1,4 +1,22 @@
 {
+  "CF106549720": {
+    "contest_id": 1481,
+    "language": "Java 8",
+    "path": "codeforces\\1481\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Colony",
+    "problem_url": "https://codeforces.com/contest/1481/problem/B",
+    "submission_id": "CF106549720",
+    "submission_url": "https://codeforces.com/contest/1481/submission/106549720",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/05/2021 20:19"
+  },
   "CF106566194": {
     "contest_id": 1481,
     "language": "Java 8",
