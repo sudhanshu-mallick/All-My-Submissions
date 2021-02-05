@@ -1,4 +1,21 @@
 {
+  "CF106534451": {
+    "contest_id": 611,
+    "language": "Java 8",
+    "path": "codeforces\\611\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "New Year and Domino",
+    "problem_url": "https://codeforces.com/contest/611/problem/C",
+    "submission_id": "CF106534451",
+    "submission_url": "https://codeforces.com/contest/611/submission/106534451",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Feb/05/2021 18:58"
+  },
   "CF106536719": {
     "contest_id": 1051,
     "language": "Java 8",
