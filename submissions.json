@@ -1,4 +1,21 @@
 {
+  "CF106541533": {
+    "contest_id": 1481,
+    "language": "Java 8",
+    "path": "codeforces\\1481\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Space Navigation ",
+    "problem_url": "https://codeforces.com/contest/1481/problem/A",
+    "submission_id": "CF106541533",
+    "submission_url": "https://codeforces.com/contest/1481/submission/106541533",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/05/2021 20:11"
+  },
   "CF106549720": {
     "contest_id": 1481,
     "language": "Java 8",
