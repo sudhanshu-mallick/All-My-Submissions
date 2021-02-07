@@ -75,6 +75,7 @@ public class The_Great_Hero {
 			long B = t.nextLong();
 			int n = t.nextInt();
 			long[][] a = new long[n][2];
+			boolean flag = true;
 
 			for (int i = 0; i < n; ++i)
 				a[i][0] = t.nextLong();
@@ -82,17 +83,23 @@ public class The_Great_Hero {
 			for (int i = 0; i < n; ++i)
 				a[i][1] = t.nextLong();
 
+			Arrays.sort(a, (x, y) -> x[0] > y[0] ? +1 : x[0] < y[0] ? -1 : x[1] > y[1] ? +1 : -1);
+
 			int i = 0;
-			long max = 0;
 
 			while (i < n) {
 				long times = (a[i][1] + A - 1) / A;
-				B -= times * a[i][0];
-				max = Math.max(max, a[i][0]);
+				B = B - a[i][0] * times;
+
+				if ((B < 0 && i != n - 1) || (i == n - 1 && B + a[i][0] <= 0)) {
+					flag = false;
+					break;
+				}
+
 				++i;
 			}
 
-			o.println(B + max > 0 ? "YES" : "NO");
+			o.println(flag ? "YES" : "NO");
 		}
 
 		o.flush();
