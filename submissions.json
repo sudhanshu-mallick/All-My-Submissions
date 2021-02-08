@@ -1,4 +1,22 @@
 {
+  "CF106869888": {
+    "contest_id": 1479,
+    "language": "Java 8",
+    "path": "codeforces\\1479\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Searching Local Minimum",
+    "problem_url": "https://codeforces.com/contest/1479/problem/A",
+    "submission_id": "CF106869888",
+    "submission_url": "https://codeforces.com/contest/1479/submission/106869888",
+    "tags": [
+      "binary search",
+      "interactive",
+      "ternary search",
+      "*1700"
+    ],
+    "timestamp": "Feb/08/2021 09:20"
+  },
   "CF107185457": {
     "contest_id": 1208,
     "language": "Java 8",
