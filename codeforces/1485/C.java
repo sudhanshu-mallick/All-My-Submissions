@@ -73,13 +73,49 @@ public class Floor_And_Mod {
 		while (test-- > 0) {
 			long x = t.nextLong();
 			long y = t.nextLong();
-			long count = 0;
+			long l = 2, r = y;
+			long now = r;
 
-			for (long k = 1; k * k <= x; ++k) {
-				count += Math.max(0, Math.min(y, x / k - 1) - k);
+			while (l <= r) {
+				long mid = (l + r) >> 1;
+
+				if ((mid + 1) * (mid - 1) <= x) {
+					l = mid + 1;
+				} else {
+					r = mid - 1;
+					now = r;
+				}
 			}
 
-			o.println(count);
+			long cur = now + 1;
+			now = (now * (now - 1)) >> 1;
+			long cnt = cur - 1;
+
+			while (cnt > 0 && cur < x && cur <= y) {
+				long low = cur, high = y;
+				long here = -1;
+
+				while (low <= high) {
+					long mid = (low + high) >> 1;
+
+					if (mid > cnt && (mid + 1) * cnt <= x) {
+						low = mid + 1;
+						here = low - 1;
+					} else {
+						high = mid - 1;
+
+					}
+				}
+
+				if (here > cnt)
+					now = now + (here - cur + 1) * cnt;
+
+				cur = Math.max(here + 1, cur);
+				--cnt;
+			}
+
+			o.println(now);
+
 		}
 
 		o.flush();
