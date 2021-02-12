@@ -1,4 +1,21 @@
 {
+  "CF107188015": {
+    "contest_id": 788,
+    "language": "Java 8",
+    "path": "codeforces\\788\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Functions again",
+    "problem_url": "https://codeforces.com/contest/788/problem/A",
+    "submission_id": "CF107188015",
+    "submission_url": "https://codeforces.com/contest/788/submission/107188015",
+    "tags": [
+      "dp",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Feb/12/2021 19:11"
+  },
   "CF107194519": {
     "contest_id": 1485,
     "language": "Java 8",
