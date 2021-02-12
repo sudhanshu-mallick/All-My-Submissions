@@ -1,3 +1,4 @@
+
 import java.util.*;
 import java.io.*;
 
@@ -75,15 +76,25 @@ public class Replace_And_Keep_Sorted {
 			int q = t.nextInt();
 			long k = t.nextLong();
 			long[] a = new long[n];
+			long[] left = new long[n];
+			long[] right = new long[n];
 
 			for (int i = 0; i < n; ++i)
 				a[i] = t.nextLong();
 
+			for (int i = 1; i < n; ++i) {
+				left[i] = a[i] - a[i - 1] - 1 + left[i - 1];
+				right[n - i - 1] = right[n - i] + a[n - i] - a[n - i - 1] - 1;
+			}
+
 			while (q-- > 0) {
 				int l = t.nextInt() - 1;
 				int r = t.nextInt() - 1;
+				long fromL = left[r] - left[l] + a[l] - 1;
+				long fromR = right[l] - right[r] + k - a[r];
 
-				o.println(a[l] - 1 + k - a[r] + 2 * (a[r] - a[l] + 1 - (r - l + 1)));
+				o.println(fromL + fromR);
+
 			}
 
 		}

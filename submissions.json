@@ -1,4 +1,22 @@
 {
+  "CF107205461": {
+    "contest_id": 1485,
+    "language": "Java 8",
+    "path": "codeforces\\1485\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Replace and Keep Sorted",
+    "problem_url": "https://codeforces.com/contest/1485/problem/B",
+    "submission_id": "CF107205461",
+    "submission_url": "https://codeforces.com/contest/1485/submission/107205461",
+    "tags": [
+      "dp",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/12/2021 20:58"
+  },
   "CF107223442": {
     "contest_id": 1485,
     "language": "Java 8",
