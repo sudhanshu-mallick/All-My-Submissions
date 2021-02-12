@@ -1,4 +1,21 @@
 {
+  "CF107187256": {
+    "contest_id": 484,
+    "language": "Java 8",
+    "path": "codeforces\\484\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bits",
+    "problem_url": "https://codeforces.com/contest/484/problem/A",
+    "submission_id": "CF107187256",
+    "submission_url": "https://codeforces.com/contest/484/submission/107187256",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1700"
+    ],
+    "timestamp": "Feb/12/2021 18:58"
+  },
   "CF107188015": {
     "contest_id": 788,
     "language": "Java 8",
