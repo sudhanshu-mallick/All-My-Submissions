@@ -1,4 +1,23 @@
 {
+  "CF107185457": {
+    "contest_id": 1208,
+    "language": "Java 8",
+    "path": "codeforces\\1208\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Uniqueness",
+    "problem_url": "https://codeforces.com/contest/1208/problem/B",
+    "submission_id": "CF107185457",
+    "submission_url": "https://codeforces.com/contest/1208/submission/107185457",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Feb/12/2021 18:27"
+  },
   "CF107187256": {
     "contest_id": 484,
     "language": "Java 8",
