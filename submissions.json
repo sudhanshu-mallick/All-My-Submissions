@@ -1,4 +1,23 @@
 {
+  "CF107194519": {
+    "contest_id": 1485,
+    "language": "Java 8",
+    "path": "codeforces\\1485\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Add and Divide",
+    "problem_url": "https://codeforces.com/contest/1485/problem/A",
+    "submission_id": "CF107194519",
+    "submission_url": "https://codeforces.com/contest/1485/submission/107194519",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Feb/12/2021 20:29"
+  },
   "CF107205461": {
     "contest_id": 1485,
     "language": "Java 8",
