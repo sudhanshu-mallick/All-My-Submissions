@@ -1,4 +1,23 @@
 {
+  "CF107265909": {
+    "contest_id": 1485,
+    "language": "Java 8",
+    "path": "codeforces\\1485\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Multiples and Power Differences",
+    "problem_url": "https://codeforces.com/contest/1485/problem/D",
+    "submission_id": "CF107265909",
+    "submission_url": "https://codeforces.com/contest/1485/submission/107265909",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Feb/13/2021 14:05"
+  },
   "CF107411187": {
     "contest_id": 1487,
     "language": "Java 8",
