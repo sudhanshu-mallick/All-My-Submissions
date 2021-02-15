@@ -1,4 +1,26 @@
 {
+  "CF107473668": {
+    "contest_id": 1487,
+    "language": "Java 8",
+    "path": "codeforces\\1487\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Minimum Ties",
+    "problem_url": "https://codeforces.com/contest/1487/problem/C",
+    "submission_id": "CF107473668",
+    "submission_url": "https://codeforces.com/contest/1487/submission/107473668",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/15/2021 22:22"
+  },
   "CF107539784": {
     "contest_id": 1490,
     "language": "Java 8",
