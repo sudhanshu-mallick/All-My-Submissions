@@ -72,33 +72,31 @@ public class Minimum_Ties {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			int[][] mat = new int[n][n];
+			--n;
 
-			for (int i = 0; i < n; ++i) {
-				int j = 0;
-				int half = (n - 1) >> 1;
-
-				while (j < half) {
-					int y = (j + i + 1) % n;
-					mat[i][y] = 1;
-					++j;
+			if ((n & 1) == 0) {
+				for (int i = 0; i < n; i++) {
+					for (int j = 0; j < n - i; j++) {
+						if (j < n / 2) {
+							o.print("1 ");
+						} else {
+							o.print("-1 ");
+						}
+					}
 				}
-
-				if ((n & 1) == 0) {
-					++j;
+			} else {
+				for (int i = 0; i < n; i++) {
+					for (int j = 0; j < n - i; j++) {
+						if (j < n / 2) {
+							o.print("1 ");
+						} else if (j == n / 2) {
+							o.print("0 ");
+						} else {
+							o.print("-1 ");
+						}
+					}
 				}
-
-				while (j < n) {
-					int y = (j + i + 1) % n;
-					mat[i][y] = -1;
-					++j;
-				}
-
 			}
-
-			for (int i = 0; i < n; ++i)
-				for (int j = i + 1; j < n; ++j)
-					o.print(mat[i][j] + " ");
 
 			o.println();
 		}
