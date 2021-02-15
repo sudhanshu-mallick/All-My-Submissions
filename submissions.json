@@ -1,4 +1,23 @@
 {
+  "CF107461920": {
+    "contest_id": 1487,
+    "language": "Java 8",
+    "path": "codeforces\\1487\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Pythagorean Triples",
+    "problem_url": "https://codeforces.com/contest/1487/problem/D",
+    "submission_id": "CF107461920",
+    "submission_url": "https://codeforces.com/contest/1487/submission/107461920",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Feb/15/2021 21:49"
+  },
   "CF107473668": {
     "contest_id": 1487,
     "language": "Java 8",
