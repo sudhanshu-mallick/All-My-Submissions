@@ -1,4 +1,21 @@
 {
+  "CF107427496": {
+    "contest_id": 1487,
+    "language": "Java 8",
+    "path": "codeforces\\1487\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cat Cycle",
+    "problem_url": "https://codeforces.com/contest/1487/problem/B",
+    "submission_id": "CF107427496",
+    "submission_url": "https://codeforces.com/contest/1487/submission/107427496",
+    "tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Feb/15/2021 20:34"
+  },
   "CF107456726": {
     "contest_id": 1487,
     "language": "Java 8",
