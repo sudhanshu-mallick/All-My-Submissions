@@ -93,7 +93,18 @@ public class Permutation_Transformation {
 }
 
 class Tree {
+	class Node {
+		int val;
+		Node left;
+		Node right;
+
+		Node(int val) {
+			this.val = val;
+		}
+	}
+
 	Map<Integer, Integer> mapDepth;
+	Node root;
 
 	Tree(int[] a) {
 		int n = a.length;
@@ -109,13 +120,16 @@ class Tree {
 		}
 
 		mapDepth.put(a[mid], 0);
-		construct(a, l, mid - 1, 1);
-		construct(a, mid + 1, r, 1);
+
+		root = new Node(a[mid]);
+
+		root.left = construct(a, l, mid - 1, 1);
+		root.right = construct(a, mid + 1, r, 1);
 	}
 
-	void construct(int[] a, int l, int r, int level) {
+	Node construct(int[] a, int l, int r, int level) {
 		if (l > r)
-			return;
+			return null;
 
 		int mid = -1;
 		int max = 0;
@@ -128,7 +142,11 @@ class Tree {
 		}
 
 		mapDepth.put(max, level);
-		construct(a, l, mid - 1, level + 1);
-		construct(a, mid + 1, r, level + 1);
+
+		Node node = new Node(max);
+		node.left = construct(a, l, mid - 1, level + 1);
+		node.right = construct(a, mid + 1, r, level + 1);
+
+		return node;
 	}
 }
