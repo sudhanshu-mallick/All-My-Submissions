@@ -46,7 +46,7 @@ public class Accidental_Victory {
 
 	}
 
-	public static void shuffle(long[] a) {
+	public static void shuffle(int[] a) {
 		Random r = new Random();
 
 		for (int i = 0; i <= a.length - 2; i++) {
@@ -58,8 +58,8 @@ public class Accidental_Victory {
 		Arrays.sort(a);
 	}
 
-	public static void swap(long[] a, int i, int j) {
-		long temp = a[i];
+	public static void swap(int[] a, int i, int j) {
+		int temp = a[i];
 		a[i] = a[j];
 		a[j] = temp;
 	}
@@ -73,31 +73,51 @@ public class Accidental_Victory {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			long[] a = new long[n];
-			long[] b = new long[n];
+			ArrayList<Long> list = new ArrayList<>();
+
+			for (int i = 0; i < n; ++i) {
+				long x = t.nextLong();
+				a[i] = x;
+
+				list.add(x);
+			}
+
+			Collections.sort(list);
+
+			int left = 0, right = n - 1;
+			int ok = n - 1;
+
+			while (left <= right) {
+				int mid = ((right + left) >> 1);
+				boolean res = true;
+				long curSum = 0;
+
+				for (int i = 0; i <= mid; ++i) {
+					curSum += list.get(i);
+				}
+
+				for (int i = mid + 1; i < n; ++i) {
+					if (curSum >= list.get(i)) {
+						curSum += list.get(i);
+					} else {
+						res = false;
+						break;
+					}
+				}
+
+				if (res) {
+					right = mid - 1;
+					ok = mid;
+				} else {
+					left = mid + 1;
+				}
+			}
+
 			List<Integer> ans = new ArrayList<>();
 
-			for (int i = 0; i < n; ++i) {
-				a[i] = b[i] = t.nextLong();
-			}
-
-			shuffle(b);
-
-			long ele = b[n - 1];
-
-			for (int i = 1; i < n; ++i)
-				b[i] += b[i - 1];
-
-			for (int i = n - 2; i >= 0; --i) {
-				if ((b[i] << 1) >= b[i + 1])
-					ele = b[i] - (i == 0 ? 0 : b[i - 1]);
-				else
-					break;
-			}
-
-			for (int i = 0; i < n; ++i) {
-				if (a[i] >= ele)
+			for (int i = 0; i < n; ++i)
+				if (a[i] >= list.get(ok))
 					ans.add(i + 1);
-			}
 
 			o.println(ans.size());
 
