@@ -72,33 +72,92 @@ public class Balanced_Reminders {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			int c[] = new int[3];
-			int res = 0;
+			int c0 = 0, c1 = 0, c2 = 0;
 
 			for (int i = 0; i < n; ++i) {
 				int x = t.nextInt();
 
 				if (x % 3 == 0)
-					++c[0];
+					++c0;
 				else if (x % 3 == 1)
-					++c[1];
+					++c1;
 				else
-					++c[2];
+					++c2;
 			}
 
 			n /= 3;
+			int ans = 0;
 
-			while (Math.min(c[0], Math.min(c[1], c[2])) != n) {
-				for (int i = 0; i < 3; ++i) {
-					if (c[i] > n) {
-						--c[i];
-						++res;
-						++c[(i + 1) % 3];
+			if (c2 < n) {
+				int dif = n - c2;
+
+				if (dif <= c1 - n) {
+					c1 -= dif;
+					ans += dif;
+				} else {
+					if (c1 >= n) {
+						c2 += c1 - n;
+						ans += c1 - n;
+						c1 = n;
 					}
+
+					ans += 2 * (n - c2);
+					c0 -= (n - c2);
+					c2 = n;
 				}
 			}
 
-			o.println(res);
+			int a = c0, b = c1, c = c2;
+			c0 = c;
+			c1 = a;
+			c2 = b;
+
+			if (c2 < n) {
+				int dif = n - c2;
+
+				if (dif <= c1 - n) {
+					c1 -= dif;
+					ans += dif;
+				} else {
+					if (c1 >= n) {
+						c2 += c1 - n;
+						ans += c1 - n;
+						c1 = n;
+					}
+
+					ans += 2 * (n - c2);
+					c0 -= (n - c2);
+					c2 = n;
+				}
+			}
+
+			a = c1;
+			b = c2;
+			c = c0;
+			c0 = b;
+			c1 = c;
+			c2 = a;
+
+			if (c2 < n) {
+				int dif = n - c2;
+
+				if (dif <= c1 - n) {
+					c1 -= dif;
+					ans += dif;
+				} else {
+					if (c1 >= n) {
+						c2 += c1 - n;
+						ans += c1 - n;
+						c1 = n;
+					}
+
+					ans += 2 * (n - c2);
+					c0 -= (n - c2);
+					c2 = n;
+				}
+			}
+
+			o.println(ans);
 		}
 
 		o.flush();
