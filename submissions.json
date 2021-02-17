@@ -1,4 +1,22 @@
 {
+  "CF107648575": {
+    "contest_id": 1490,
+    "language": "Java 8",
+    "path": "codeforces\\1490\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Accidental Victory",
+    "problem_url": "https://codeforces.com/contest/1490/problem/E",
+    "submission_id": "CF107648575",
+    "submission_url": "https://codeforces.com/contest/1490/submission/107648575",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Feb/17/2021 08:11"
+  },
   "CF107649199": {
     "contest_id": 1490,
     "language": "Java 8",
