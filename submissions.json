@@ -1,4 +1,22 @@
 {
+  "CF107647967": {
+    "contest_id": 1490,
+    "language": "Java 8",
+    "path": "codeforces\\1490\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Balanced Remainders",
+    "problem_url": "https://codeforces.com/contest/1490/problem/B",
+    "submission_id": "CF107647967",
+    "submission_url": "https://codeforces.com/contest/1490/submission/107647967",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/17/2021 07:53"
+  },
   "CF107648182": {
     "contest_id": 1490,
     "language": "Java 8",
