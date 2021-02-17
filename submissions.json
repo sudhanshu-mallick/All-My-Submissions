@@ -1,4 +1,24 @@
 {
+  "CF107649199": {
+    "contest_id": 1490,
+    "language": "Java 8",
+    "path": "codeforces\\1490\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Equalize the Array",
+    "problem_url": "https://codeforces.com/contest/1490/problem/F",
+    "submission_id": "CF107649199",
+    "submission_url": "https://codeforces.com/contest/1490/submission/107649199",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Feb/17/2021 08:29"
+  },
   "CF107650988": {
     "contest_id": 1490,
     "language": "Java 8",

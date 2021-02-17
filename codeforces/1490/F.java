@@ -89,28 +89,15 @@ public class Equalize_The_Array {
 				++a[m.getValue()];
 			}
 
-			long pre[] = new long[max + 1];
-			long suf[] = new long[max + 1];
-			pre[0] = a[0];
+			long min = n;
+			long left = 0, right = n, cnt = map.size();
 
 			for (int i = 1; i <= max; ++i) {
-				pre[i] = pre[i - 1] + a[i] * i;
-				suf[max - i] = suf[max - i + 1] + a[max - i + 1];
+				min = Math.min(min, left + right - cnt * i);
+				left += i * a[i];
+				right -= i * a[i];
+				cnt -= a[i];
 			}
-
-			for (int i = max - 1; i >= 0; --i)
-				suf[i] = suf[i + 1] + suf[i];
-
-			long min = n;
-
-			for (int i = 0; i <= max; ++i) {
-				long val = pre[i] + suf[i] - a[i] * i;
-				min = Math.min(min, val);
-			}
-			
-// 			for(int i = 0; i <= max; ++i) {
-// 			    System.out.println(pre[i] + " : " + suf[i]);
-// 			}
 
 			o.println(min);
 		}
