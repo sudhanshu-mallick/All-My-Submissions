@@ -1,4 +1,21 @@
 {
+  "CF107784706": {
+    "contest_id": 1486,
+    "language": "Java 8",
+    "path": "codeforces\\1486\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shifting Stacks",
+    "problem_url": "https://codeforces.com/contest/1486/problem/A",
+    "submission_id": "CF107784706",
+    "submission_url": "https://codeforces.com/contest/1486/submission/107784706",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/18/2021 20:09"
+  },
   "CF107965872": {
     "contest_id": 1486,
     "language": "Java 8",
