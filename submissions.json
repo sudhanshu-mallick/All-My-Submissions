@@ -1,4 +1,21 @@
 {
+  "CF108201283": {
+    "contest_id": 371,
+    "language": "Java 8",
+    "path": "codeforces\\371\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hamburgers",
+    "problem_url": "https://codeforces.com/contest/371/problem/C",
+    "submission_id": "CF108201283",
+    "submission_url": "https://codeforces.com/contest/371/submission/108201283",
+    "tags": [
+      "binary search",
+      "brute force",
+      "*1600"
+    ],
+    "timestamp": "Feb/22/2021 23:19"
+  },
   "CF108202549": {
     "contest_id": 1365,
     "language": "Java 8",
