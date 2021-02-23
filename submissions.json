@@ -1,4 +1,24 @@
 {
+  "CF108270893": {
+    "contest_id": 1492,
+    "language": "Java 8",
+    "path": "codeforces\\1492\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximum width",
+    "problem_url": "https://codeforces.com/contest/1492/problem/C",
+    "submission_id": "CF108270893",
+    "submission_url": "https://codeforces.com/contest/1492/submission/108270893",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Feb/23/2021 15:34"
+  },
   "CF108304581": {
     "contest_id": 1492,
     "language": "Java 8",
