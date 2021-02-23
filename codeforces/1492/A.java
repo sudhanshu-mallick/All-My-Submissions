@@ -75,8 +75,11 @@ public class Three_Swimmers {
 			long a = t.nextLong();
 			long b = t.nextLong();
 			long c = t.nextLong();
+			long AA = p % a == 0 ? 0 : (a - p % a);
+			long BB = p % b == 0 ? 0 : (b - p % b);
+			long CC = p % c == 0 ? 0 : (c - p % c);
 
-			o.println(Math.min((p + a - 1) / a * a, Math.min((p + b - 1) / b * b, (p + c - 1) / c * c)) - p);
+			o.println(Math.min(AA, Math.min(BB, CC)));
 		}
 
 		o.flush();

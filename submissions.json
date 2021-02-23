@@ -1,4 +1,20 @@
 {
+  "CF108252644": {
+    "contest_id": 1492,
+    "language": "Java 8",
+    "path": "codeforces\\1492\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Three swimmers",
+    "problem_url": "https://codeforces.com/contest/1492/problem/A",
+    "submission_id": "CF108252644",
+    "submission_url": "https://codeforces.com/contest/1492/submission/108252644",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2021 14:56"
+  },
   "CF108257977": {
     "contest_id": 1492,
     "language": "Java 8",
