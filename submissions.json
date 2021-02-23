@@ -1,4 +1,24 @@
 {
+  "CF108229445": {
+    "contest_id": 1336,
+    "language": "Java 8",
+    "path": "codeforces\\1336\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Linova and Kingdom",
+    "problem_url": "https://codeforces.com/contest/1336/problem/A",
+    "submission_id": "CF108229445",
+    "submission_url": "https://codeforces.com/contest/1336/submission/108229445",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Feb/23/2021 12:16"
+  },
   "CF108252644": {
     "contest_id": 1492,
     "language": "Java 8",
