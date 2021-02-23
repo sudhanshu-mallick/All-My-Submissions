@@ -1,4 +1,22 @@
 {
+  "CF108257977": {
+    "contest_id": 1492,
+    "language": "Java 8",
+    "path": "codeforces\\1492\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Card Deck",
+    "problem_url": "https://codeforces.com/contest/1492/problem/B",
+    "submission_id": "CF108257977",
+    "submission_url": "https://codeforces.com/contest/1492/submission/108257977",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2021 15:06"
+  },
   "CF108270893": {
     "contest_id": 1492,
     "language": "Java 8",
