@@ -1,4 +1,23 @@
 {
+  "CF108305712": {
+    "contest_id": 1492,
+    "language": "Java 8",
+    "path": "codeforces\\1492\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Genius's Gambit",
+    "problem_url": "https://codeforces.com/contest/1492/problem/D",
+    "submission_id": "CF108305712",
+    "submission_url": "https://codeforces.com/contest/1492/submission/108305712",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Feb/23/2021 19:15"
+  },
   "CF108671415": {
     "contest_id": 1491,
     "language": "Java 8",
