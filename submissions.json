@@ -1,4 +1,21 @@
 {
+  "CF108691825": {
+    "contest_id": 1491,
+    "language": "Java 8",
+    "path": "codeforces\\1491\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimal Cost",
+    "problem_url": "https://codeforces.com/contest/1491/problem/B",
+    "submission_id": "CF108691825",
+    "submission_url": "https://codeforces.com/contest/1491/submission/108691825",
+    "tags": [
+      "brute force",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/28/2021 19:38"
+  },
   "CF108828710": {
     "contest_id": 1491,
     "language": "Java 8",
