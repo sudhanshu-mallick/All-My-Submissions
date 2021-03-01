@@ -1,4 +1,24 @@
 {
+  "CF108830082": {
+    "contest_id": 1491,
+    "language": "Java 8",
+    "path": "codeforces\\1491\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Zookeeper and The Infinite Zoo",
+    "problem_url": "https://codeforces.com/contest/1491/problem/D",
+    "submission_id": "CF108830082",
+    "submission_url": "https://codeforces.com/contest/1491/submission/108830082",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Mar/02/2021 00:10"
+  },
   "CF108885542": {
     "contest_id": 141,
     "language": "Java 8",
