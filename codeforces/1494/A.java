@@ -1,3 +1,4 @@
+
 import java.util.*;
 import java.io.*;
 
@@ -73,38 +74,60 @@ public class ABC_String {
 		while (test-- > 0) {
 			char[] ch = t.next().toCharArray();
 			int n = ch.length;
-			int[] a = { 1, -1 };
-			boolean flag = false;
 
-			for (int i = 0; i < 2; ++i)
-				for (int j = 0; j < 2; ++j)
-					for (int k = 0; k < 2; ++k)
-						if (check(ch, a[i], a[j], a[k]))
-							flag = true;
+			if (ch[0] == ch[n - 1]) {
+				o.println("NO");
+			} else {
+				Stack<Character> stack = new Stack<>();
+				boolean res1 = true, res2 = true;
 
-			o.println(flag ? "YES" : "NO");
+				for (int i = 0; i < n; ++i) {
+					if (ch[i] == ch[0])
+						stack.push('(');
+					else if (ch[i] == ch[n - 1]) {
+						if (stack.size() > 0 && stack.peek() == '(') {
+							stack.pop();
+						} else {
+							res1 = false;
+							break;
+						}
+					} else
+						stack.push('(');
+				}
 
+				if (stack.size() > 0)
+					res1 = false;
+
+				stack = new Stack<>();
+
+				for (int i = 0; i < n; ++i) {
+					if (ch[i] == ch[0])
+						stack.push('(');
+					else if (ch[i] == ch[n - 1]) {
+						if (stack.size() > 0 && stack.peek() == '(') {
+							stack.pop();
+						} else {
+							res2 = false;
+							break;
+						}
+					} else {
+						if (stack.size() > 0 && stack.peek() == '(') {
+							stack.pop();
+						} else {
+							res2 = false;
+							break;
+						}
+					}
+				}
+
+				if (stack.size() > 0)
+					res2 = false;
+
+				o.println((res1 || res2) ? "YES" : "NO");
+			}
 		}
 
 		o.flush();
 		o.close();
-	}
-
-	private static boolean check(char[] ch, int a, int b, int c) {
-		int count = 0;
-
-		for (char cur : ch) {
-			if (cur == 'A')
-				count += a;
-			else if (cur == 'B')
-				count += b;
-			else
-				count += c;
-
-			if (count == -1)
-				return false;
-		}
-
-		return count == 0;
 	}
 }
