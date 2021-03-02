@@ -1,4 +1,22 @@
 {
+  "CF108885542": {
+    "contest_id": 141,
+    "language": "Java 8",
+    "path": "codeforces\\141\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Amusing Joke",
+    "problem_url": "https://codeforces.com/contest/141/problem/A",
+    "submission_id": "CF108885542",
+    "submission_url": "https://codeforces.com/contest/141/submission/108885542",
+    "tags": [
+      "implementation",
+      "sortings",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/02/2021 20:10"
+  },
   "CF108889233": {
     "contest_id": 1494,
     "language": "Java 8",
