@@ -1,4 +1,24 @@
 {
+  "CF109039551": {
+    "contest_id": 1494,
+    "language": "Java 8",
+    "path": "codeforces\\1494\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "1D Sokoban",
+    "problem_url": "https://codeforces.com/contest/1494/problem/C",
+    "submission_id": "CF109039551",
+    "submission_url": "https://codeforces.com/contest/1494/submission/109039551",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Mar/04/2021 01:56"
+  },
   "CF109231076": {
     "contest_id": 1493,
     "language": "Java 8",
