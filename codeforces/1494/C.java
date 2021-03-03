@@ -71,40 +71,45 @@ public class _1D_Sokoban {
 		int test = t.nextInt();
 
 		while (test-- > 0) {
-			int m = t.nextInt();
 			int n = t.nextInt();
-			List<Integer> pos = new ArrayList<>();
-			List<Integer> neg = new ArrayList<>();
-			List<Integer> posSpec = new ArrayList<>();
-			List<Integer> negSpec = new ArrayList<>();
+			int m = t.nextInt();
+			Stack<Integer> negBox = new Stack<Integer>();
+			Stack<Integer> negSpec = new Stack<Integer>();
+			ArrayList<Integer> posBox = new ArrayList<Integer>();
+			ArrayList<Integer> posSpec = new ArrayList<Integer>();
 
-			for (int i = 0; i < m; ++i) {
+			for (int i = 0; i < n; i++) {
 				int x = t.nextInt();
 
-				if (x > 0)
-					pos.add(x);
-				else
-					neg.add(-x);
+				if (x > 0) {
+					posBox.add(x);
+				} else {
+					negBox.add(-x);
+				}
 			}
 
-			for (int i = 0; i < n; ++i) {
+			for (int i = 0; i < m; i++) {
 				int x = t.nextInt();
-
-				if (x > 0)
+				if (x > 0) {
 					posSpec.add(x);
-				else
+				} else {
 					negSpec.add(-x);
+				}
 			}
 
-			Collections.reverse(negSpec);
-			Collections.reverse(neg);
+			ArrayList<Integer> negBoxal = new ArrayList<Integer>();
 
-			int left = solve(neg, negSpec);
-			int right = solve(pos, posSpec);
+			while (!negBox.isEmpty()) {
+				negBoxal.add(negBox.pop());
+			}
 
-//			System.out.println(left + " " + right);
+			ArrayList<Integer> negSpecal = new ArrayList<Integer>();
 
-			o.println(left + right);
+			while (!negSpec.isEmpty()) {
+				negSpecal.add(negSpec.pop());
+			}
+
+			o.println(solve(posBox, posSpec) + solve(negBoxal, negSpecal));
 		}
 
 		o.flush();
@@ -112,63 +117,35 @@ public class _1D_Sokoban {
 	}
 
 	private static int solve(List<Integer> pos, List<Integer> spec) {
-		if (pos.isEmpty() || spec.isEmpty() || spec.get(spec.size() - 1).intValue() < pos.get(0).intValue())
-			return 0;
+		int n = pos.size();
+		int m = spec.size();
+		int[] suf = new int[n + 1];
+		int r = m - 1;
 
+		for (int i = n - 1; i >= 0; --i) {
+			suf[i] = suf[i + 1];
+
+			while (r >= 0 && spec.get(r).intValue() > pos.get(i).intValue())
+				--r;
+
+			if (r >= 0 && spec.get(r).intValue() == pos.get(i).intValue())
+				++suf[i];
+		}
+
+		int ans = 0;
 		int j = 0;
-		int[] dp = new int[pos.size() + 1];
-		int x = pos.size() - 1;
-		int y = spec.size() - 1;
+		r = 0;
 
-		while (x >= 0) {
-			if (y < 0) {
-				dp[x] = dp[x + 1];
-				--x;
-			} else if (pos.get(x).intValue() == spec.get(y).intValue()) {
-				--y;
-				dp[x] = dp[x + 1] + 1;
-				--x;
-			} else if (pos.get(x).intValue() > spec.get(y).intValue()) {
-				dp[x] = dp[x + 1];
-				--x;
-			} else
-				--y;
+		for (int l = 0; l < m; ++l) {
+			while (j < n && pos.get(j).intValue() <= spec.get(l).intValue() + j)
+				++j;
+
+			while (r < m && spec.get(r).intValue() - spec.get(l).intValue() < j)
+				++r;
+
+			ans = Math.max(ans, r - l + suf[j]);
 		}
 
-		while (spec.get(j).intValue() < pos.get(0).intValue())
-			++j;
-
-		int max = dp[0];
-		int idx = 0;
-
-		while (j < spec.size()) {
-			x = 0;
-			y = pos.size() - 1;
-			int right = y;
-
-			while (x <= y) {
-				int mid = (x + y) >> 1;
-
-				if (pos.get(mid).intValue() > spec.get(j).intValue() + mid) {
-					y = mid - 1;
-				} else {
-					x = mid + 1;
-					right = mid;
-				}
-			}
-
-			while (idx < spec.size() && spec.get(idx).intValue() <= spec.get(j).intValue() + right) {
-				++idx;
-			}
-
-//			System.out.println(right + " " + idx + " " + j);
-
-			max = Math.max(max, idx - j + dp[right + 1]);
-			++j;
-		}
-
-//		System.out.println("Done");
-
-		return max;
+		return ans;
 	}
 }
