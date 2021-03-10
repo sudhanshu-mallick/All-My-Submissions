@@ -1,4 +1,23 @@
 {
+  "CF109625511": {
+    "contest_id": 1496,
+    "language": "Java 8",
+    "path": "codeforces\\1496\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Split it!",
+    "problem_url": "https://codeforces.com/contest/1496/problem/A",
+    "submission_id": "CF109625511",
+    "submission_url": "https://codeforces.com/contest/1496/submission/109625511",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Mar/10/2021 20:01"
+  },
   "CF109625605": {
     "contest_id": 1496,
     "language": "Java 8",
