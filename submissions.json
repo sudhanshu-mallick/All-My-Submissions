@@ -1,4 +1,20 @@
 {
+  "CF109829852": {
+    "contest_id": 214,
+    "language": "Java 8",
+    "path": "codeforces\\214\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "System of Equations",
+    "problem_url": "https://codeforces.com/contest/214/problem/A",
+    "submission_id": "CF109829852",
+    "submission_url": "https://codeforces.com/contest/214/submission/109829852",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Mar/13/2021 11:08"
+  },
   "CF109830222": {
     "contest_id": 230,
     "language": "Java 8",
