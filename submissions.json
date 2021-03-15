@@ -1,4 +1,22 @@
 {
+  "CF110059755": {
+    "contest_id": 332,
+    "language": "Java 8",
+    "path": "codeforces\\332\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximum Absurdity",
+    "problem_url": "https://codeforces.com/contest/332/problem/B",
+    "submission_id": "CF110059755",
+    "submission_url": "https://codeforces.com/contest/332/submission/110059755",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/15/2021 23:14"
+  },
   "CF110174582": {
     "contest_id": 493,
     "language": "Java 8",
