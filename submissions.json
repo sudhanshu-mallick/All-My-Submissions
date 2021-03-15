@@ -1,4 +1,22 @@
 {
+  "CF110048553": {
+    "contest_id": 1501,
+    "language": "Java 8",
+    "path": "codeforces\\1501\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Going Home",
+    "problem_url": "https://codeforces.com/contest/1501/problem/C",
+    "submission_id": "CF110048553",
+    "submission_url": "https://codeforces.com/contest/1501/submission/110048553",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Mar/15/2021 20:34"
+  },
   "CF110052536": {
     "contest_id": 295,
     "language": "Java 8",
