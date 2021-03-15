@@ -1,4 +1,21 @@
 {
+  "CF110052536": {
+    "contest_id": 295,
+    "language": "Java 8",
+    "path": "codeforces\\295\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Greg and Array",
+    "problem_url": "https://codeforces.com/contest/295/problem/A",
+    "submission_id": "CF110052536",
+    "submission_url": "https://codeforces.com/contest/295/submission/110052536",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Mar/15/2021 21:29"
+  },
   "CF110059755": {
     "contest_id": 332,
     "language": "Java 8",
