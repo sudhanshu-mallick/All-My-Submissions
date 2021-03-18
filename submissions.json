@@ -1,4 +1,25 @@
 {
+  "CF110314230": {
+    "contest_id": 1497,
+    "language": "Java 8",
+    "path": "codeforces\\1497\\E1.java",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Square-free division (easy version)",
+    "problem_url": "https://codeforces.com/contest/1497/problem/E1",
+    "submission_id": "CF110314230",
+    "submission_url": "https://codeforces.com/contest/1497/submission/110314230",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "number theory",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Mar/18/2021 18:20"
+  },
   "CF110327013": {
     "contest_id": 1499,
     "language": "Java 8",
