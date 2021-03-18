@@ -1,4 +1,21 @@
 {
+  "CF110293322": {
+    "contest_id": 1497,
+    "language": "Java 8",
+    "path": "codeforces\\1497\\C1.java",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "k-LCM (easy version)",
+    "problem_url": "https://codeforces.com/contest/1497/problem/C1",
+    "submission_id": "CF110293322",
+    "submission_url": "https://codeforces.com/contest/1497/submission/110293322",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/18/2021 13:57"
+  },
   "CF110294865": {
     "contest_id": 1497,
     "language": "Java 8",
