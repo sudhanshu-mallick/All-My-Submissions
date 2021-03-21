@@ -1,4 +1,20 @@
 {
+  "CF110628112": {
+    "contest_id": 1484,
+    "language": "Java 8",
+    "path": "codeforces\\1484\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prison Break",
+    "problem_url": "https://codeforces.com/contest/1484/problem/A",
+    "submission_id": "CF110628112",
+    "submission_url": "https://codeforces.com/contest/1484/submission/110628112",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Mar/21/2021 18:54"
+  },
   "CF110638301": {
     "contest_id": 1484,
     "language": "Java 8",
