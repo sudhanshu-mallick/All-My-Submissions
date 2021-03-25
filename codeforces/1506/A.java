@@ -75,7 +75,7 @@ public class Strange_Table {
 			long m = t.nextLong();
 			long v = t.nextLong();
 			long x = (v + n - 1) / n;
-			long y = (v - 1) % n + 1;
+			long y = v % n == 0 ? n : v % n;
 
 			o.println(m * (y - 1) + x);
 		}

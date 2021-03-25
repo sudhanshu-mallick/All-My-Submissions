@@ -1,4 +1,20 @@
 {
+  "CF110987386": {
+    "contest_id": 1506,
+    "language": "Java 8",
+    "path": "codeforces\\1506\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Strange Table",
+    "problem_url": "https://codeforces.com/contest/1506/problem/A",
+    "submission_id": "CF110987386",
+    "submission_url": "https://codeforces.com/contest/1506/submission/110987386",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/25/2021 20:13"
+  },
   "CF110993042": {
     "contest_id": 1506,
     "language": "Java 8",
