@@ -73,7 +73,8 @@ public class Epic_Transformations {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			Map<Integer, Integer> map = new HashMap<>();
-			int max = 0;
+			int ans = 0;
+			PriorityQueue<Integer> pq = new PriorityQueue<>((x, y) -> y - x);
 
 			for (int i = 0; i < n; ++i) {
 				int x = t.nextInt();
@@ -81,13 +82,25 @@ public class Epic_Transformations {
 				map.put(x, map.getOrDefault(x, 0) + 1);
 			}
 
-			for (int v : map.values())
-				max = v > max ? v : max;
+			for (Map.Entry<Integer, Integer> m : map.entrySet()) {
+				pq.add(m.getValue());
+			}
 
-			if (max <= (n + 1) >> 1)
-				o.println(n & 1);
-			else
-				o.println((max << 1) - n);
+			while (pq.size() > 1) {
+				int v1 = pq.remove() - 1;
+				int v2 = pq.remove() - 1;
+
+				if (v1 > 0)
+					pq.add(v1);
+
+				if (v2 > 0)
+					pq.add(v2);
+			}
+
+			while (!pq.isEmpty())
+				ans += pq.remove();
+
+			o.println(ans);
 		}
 
 		o.flush();
