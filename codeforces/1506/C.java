@@ -73,19 +73,23 @@ public class Double_Ended_Strings {
 		while (test-- > 0) {
 			String a = t.next();
 			String b = t.next();
-			int m = a.length();
-			int n = b.length();
-			int[][] dp = new int[m + 1][n + 1];
 			int len = 0;
 
-			for (int i = 0; i < a.length(); ++i)
-				for (int j = 0; j < b.length(); ++j)
-					if (a.charAt(i) == b.charAt(j)) {
-						dp[i + 1][j + 1] = dp[i][j] + 1;
-						len = Math.max(len, dp[i + 1][j + 1]);
+			for (int i = 0; i < a.length(); ++i) {
+				for (int j = i + 1; j <= a.length(); ++j) {
+					String s = a.substring(i, j);
+
+					if (s.length() > b.length())
+						break;
+
+					if (b.contains(s)) {
+						len = Math.max(len, s.length());
 					}
 
-			o.println(m + n - (len << 1));
+				}
+			}
+
+			o.println(a.length() - len + b.length() - len);
 		}
 
 		o.flush();
