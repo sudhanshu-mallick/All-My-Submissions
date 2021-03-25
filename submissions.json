@@ -1,4 +1,21 @@
 {
+  "CF110953296": {
+    "contest_id": 255,
+    "language": "Java 8",
+    "path": "codeforces\\255\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Almost Arithmetical Progression",
+    "problem_url": "https://codeforces.com/contest/255/problem/C",
+    "submission_id": "CF110953296",
+    "submission_url": "https://codeforces.com/contest/255/submission/110953296",
+    "tags": [
+      "brute force",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Mar/25/2021 13:03"
+  },
   "CF110954780": {
     "contest_id": 478,
     "language": "Java 8",
