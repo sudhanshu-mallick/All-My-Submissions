@@ -1,4 +1,21 @@
 {
+  "CF110955398": {
+    "contest_id": 363,
+    "language": "Java 8",
+    "path": "codeforces\\363\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fixing Typos",
+    "problem_url": "https://codeforces.com/contest/363/problem/C",
+    "submission_id": "CF110955398",
+    "submission_url": "https://codeforces.com/contest/363/submission/110955398",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Mar/25/2021 13:35"
+  },
   "CF110974937": {
     "contest_id": 313,
     "language": "Java 8",
