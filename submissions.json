@@ -1,4 +1,21 @@
 {
+  "CF111026723": {
+    "contest_id": 1506,
+    "language": "Java 8",
+    "path": "codeforces\\1506\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Restoring the Permutation",
+    "problem_url": "https://codeforces.com/contest/1506/problem/E",
+    "submission_id": "CF111026723",
+    "submission_url": "https://codeforces.com/contest/1506/submission/111026723",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/25/2021 21:07"
+  },
   "CF111073041": {
     "contest_id": 1506,
     "language": "Java 8",
