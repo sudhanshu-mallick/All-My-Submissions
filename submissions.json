@@ -1,4 +1,23 @@
 {
+  "CF110983573": {
+    "contest_id": 253,
+    "language": "Java 8",
+    "path": "codeforces\\253\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Physics Practical",
+    "problem_url": "https://codeforces.com/contest/253/problem/B",
+    "submission_id": "CF110983573",
+    "submission_url": "https://codeforces.com/contest/253/submission/110983573",
+    "tags": [
+      "binary search",
+      "dp",
+      "sortings",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Mar/25/2021 19:40"
+  },
   "CF110984419": {
     "contest_id": 451,
     "language": "Java 8",
