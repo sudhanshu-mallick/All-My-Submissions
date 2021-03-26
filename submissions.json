@@ -1,4 +1,24 @@
 {
+  "CF111153674": {
+    "contest_id": 1506,
+    "language": "Java 8",
+    "path": "codeforces\\1506\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Maximize the Remaining String",
+    "problem_url": "https://codeforces.com/contest/1506/problem/G",
+    "submission_id": "CF111153674",
+    "submission_url": "https://codeforces.com/contest/1506/submission/111153674",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Mar/26/2021 22:18"
+  },
   "CF111322539": {
     "contest_id": 182,
     "language": "Java 8",
