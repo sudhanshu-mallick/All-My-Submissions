@@ -1,4 +1,20 @@
 {
+  "CF111354701": {
+    "contest_id": 510,
+    "language": "Java 8",
+    "path": "codeforces\\510\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fox And Snake",
+    "problem_url": "https://codeforces.com/contest/510/problem/A",
+    "submission_id": "CF111354701",
+    "submission_url": "https://codeforces.com/contest/510/submission/111354701",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/29/2021 19:44"
+  },
   "CF111358067": {
     "contest_id": 1498,
     "language": "Java 8",
