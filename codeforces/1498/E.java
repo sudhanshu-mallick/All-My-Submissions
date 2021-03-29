@@ -73,7 +73,7 @@ public class Two_Houses {
 		int n = t.nextInt();
 		int[] a = new int[n];
 		boolean flag = false;
-		PriorityQueue<Pair> pq = new PriorityQueue<>((x, y) -> y.abs - x.abs);
+		List<Pair> list = new ArrayList<>();
 
 		for (int i = 0; i < n; ++i)
 			a[i] = t.nextInt();
@@ -81,12 +81,13 @@ public class Two_Houses {
 		for (int i = 0; i < n; ++i)
 			for (int j = i + 1; j < n; ++j)
 				if (a[i] >= a[j])
-					pq.add(new Pair(i + 1, j + 1, a[i] - a[j]));
+					list.add(new Pair(i + 1, j + 1, a[i] - a[j]));
 				else
-					pq.add(new Pair(j + 1, i + 1, a[j] - a[i]));
+					list.add(new Pair(j + 1, i + 1, a[j] - a[i]));
 
-		while (!pq.isEmpty()) {
-			Pair p = pq.remove();
+		Collections.sort(list, (x, y) -> y.abs - x.abs);
+
+		for (Pair p : list) {
 			String res = query(p.i, p.j);
 
 			if (res.equals("Yes")) {
@@ -123,4 +124,3 @@ class Pair {
 		this.abs = abs;
 	}
 }
-//ok
