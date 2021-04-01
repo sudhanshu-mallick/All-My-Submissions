@@ -1,4 +1,21 @@
 {
+  "CF111682417": {
+    "contest_id": 1505,
+    "language": "Java 8",
+    "path": "codeforces\\1505\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fibonacci Words",
+    "problem_url": "https://codeforces.com/contest/1505/problem/C",
+    "submission_id": "CF111682417",
+    "submission_url": "https://codeforces.com/contest/1505/submission/111682417",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Apr/01/2021 20:36"
+  },
   "CF111703821": {
     "contest_id": 1505,
     "language": "Java 8",
