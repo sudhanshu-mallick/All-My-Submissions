@@ -1,4 +1,22 @@
 {
+  "CF111661354": {
+    "contest_id": 1505,
+    "language": "Java 8",
+    "path": "codeforces\\1505\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is it rated - 2",
+    "problem_url": "https://codeforces.com/contest/1505/problem/A",
+    "submission_id": "CF111661354",
+    "submission_url": "https://codeforces.com/contest/1505/submission/111661354",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "interactive",
+      "*900"
+    ],
+    "timestamp": "Apr/01/2021 20:12"
+  },
   "CF111682417": {
     "contest_id": 1505,
     "language": "Java 8",
