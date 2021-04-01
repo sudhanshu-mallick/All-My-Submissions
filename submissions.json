@@ -1,4 +1,23 @@
 {
+  "CF111703821": {
+    "contest_id": 1505,
+    "language": "Java 8",
+    "path": "codeforces\\1505\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Cakewalk",
+    "problem_url": "https://codeforces.com/contest/1505/problem/E",
+    "submission_id": "CF111703821",
+    "submission_url": "https://codeforces.com/contest/1505/submission/111703821",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "implementation",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Apr/01/2021 21:11"
+  },
   "CF111747692": {
     "contest_id": 1505,
     "language": "Java 8",
