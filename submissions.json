@@ -1,4 +1,21 @@
 {
+  "CF111747835": {
+    "contest_id": 1505,
+    "language": "Java 8",
+    "path": "codeforces\\1505\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Math",
+    "problem_url": "https://codeforces.com/contest/1505/problem/F",
+    "submission_id": "CF111747835",
+    "submission_url": "https://codeforces.com/contest/1505/submission/111747835",
+    "tags": [
+      "*special problem",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Apr/02/2021 07:27"
+  },
   "CF111889204": {
     "contest_id": 1504,
     "language": "Java 8",
