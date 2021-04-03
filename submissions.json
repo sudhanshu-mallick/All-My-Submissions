@@ -1,4 +1,23 @@
 {
+  "CF111932970": {
+    "contest_id": 1504,
+    "language": "Java 8",
+    "path": "codeforces\\1504\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "3-Coloring",
+    "problem_url": "https://codeforces.com/contest/1504/problem/D",
+    "submission_id": "CF111932970",
+    "submission_url": "https://codeforces.com/contest/1504/submission/111932970",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "graphs",
+      "interactive",
+      "*1700"
+    ],
+    "timestamp": "Apr/03/2021 22:08"
+  },
   "CF111944574": {
     "contest_id": 1504,
     "language": "Java 8",
