@@ -71,22 +71,30 @@ public class Deja_Vu {
 		int test = t.nextInt();
 
 		while (test-- > 0) {
-			String s = t.next();
-			boolean flag = false;
+			char[] ch = t.next().toCharArray();
+			int n = ch.length;
+			boolean flag = true;
 
-			if (!checkPalindrome("a" + s)) {
-				flag = true;
-				s = "a" + s;
-			} else if (!checkPalindrome(s + "a")) {
-				flag = true;
-				s = s + "a";
+			for (char c : ch) {
+				if (c != 'a') {
+					flag = false;
+					break;
+				}
 			}
 
 			if (flag)
-				o.println("YES\n" + s);
-			else
 				o.println("NO");
+			else {
+				int i = 0, j = n - 1;
+				flag = false;
 
+				o.println("YES");
+
+				if (checkPalindrome(new String(ch) + "a"))
+					o.println("a" + new String(ch));
+				else
+					o.println(new String(ch) + "a");
+			}
 		}
 
 		o.flush();
@@ -97,9 +105,9 @@ public class Deja_Vu {
 		int i = 0, j = s.length() - 1;
 
 		while (i < j)
-			if (s.charAt(i) != s.charAt(j))
+			if (s.charAt(i) != s.charAt(j)) {
 				return false;
-			else {
+			} else {
 				++i;
 				--j;
 			}
