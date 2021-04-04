@@ -1,4 +1,22 @@
 {
+  "CF111981056": {
+    "contest_id": 1510,
+    "language": "Java 8",
+    "path": "codeforces\\1510\\K.java",
+    "platform": "Codeforces",
+    "problem_index": "K",
+    "problem_name": "King's Task",
+    "problem_url": "https://codeforces.com/contest/1510/problem/K",
+    "submission_id": "CF111981056",
+    "submission_url": "https://codeforces.com/contest/1510/submission/111981056",
+    "tags": [
+      "brute force",
+      "graphs",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Apr/04/2021 14:04"
+  },
   "CF112667538": {
     "contest_id": 1513,
     "language": "Java 8",
