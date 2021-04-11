@@ -1,4 +1,23 @@
 {
+  "CF112701405": {
+    "contest_id": 1513,
+    "language": "Java 8",
+    "path": "codeforces\\1513\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "AND Sequences",
+    "problem_url": "https://codeforces.com/contest/1513/problem/B",
+    "submission_id": "CF112701405",
+    "submission_url": "https://codeforces.com/contest/1513/submission/112701405",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Apr/11/2021 21:40"
+  },
   "CF112754575": {
     "contest_id": 1513,
     "language": "Java 8",
