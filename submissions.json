@@ -1,4 +1,22 @@
 {
+  "CF112757230": {
+    "contest_id": 1512,
+    "language": "Java 8",
+    "path": "codeforces\\1512\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "A-B Palindrome",
+    "problem_url": "https://codeforces.com/contest/1512/problem/C",
+    "submission_id": "CF112757230",
+    "submission_url": "https://codeforces.com/contest/1512/submission/112757230",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Apr/12/2021 13:08"
+  },
   "CF112758085": {
     "contest_id": 1512,
     "language": "Java 8",
