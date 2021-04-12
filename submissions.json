@@ -1,4 +1,25 @@
 {
+  "CF112754575": {
+    "contest_id": 1513,
+    "language": "Java 8",
+    "path": "codeforces\\1513\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "GCD and MST",
+    "problem_url": "https://codeforces.com/contest/1513/problem/D",
+    "submission_id": "CF112754575",
+    "submission_url": "https://codeforces.com/contest/1513/submission/112754575",
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy",
+      "number theory",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Apr/12/2021 12:31"
+  },
   "CF112755522": {
     "contest_id": 1512,
     "language": "Java 8",
