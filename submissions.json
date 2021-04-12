@@ -1,4 +1,22 @@
 {
+  "CF112761334": {
+    "contest_id": 1512,
+    "language": "Java 8",
+    "path": "codeforces\\1512\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Permutation by Sum",
+    "problem_url": "https://codeforces.com/contest/1512/problem/E",
+    "submission_id": "CF112761334",
+    "submission_url": "https://codeforces.com/contest/1512/submission/112761334",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Apr/12/2021 14:14"
+  },
   "CF112780522": {
     "contest_id": 1512,
     "language": "Java 8",
