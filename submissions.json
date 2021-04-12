@@ -1,4 +1,24 @@
 {
+  "CF112869158": {
+    "contest_id": 1511,
+    "language": "Java 8",
+    "path": "codeforces\\1511\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Min Cost String",
+    "problem_url": "https://codeforces.com/contest/1511/problem/D",
+    "submission_id": "CF112869158",
+    "submission_url": "https://codeforces.com/contest/1511/submission/112869158",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Apr/13/2021 00:09"
+  },
   "CF112871326": {
     "contest_id": 1512,
     "language": "Java 8",
