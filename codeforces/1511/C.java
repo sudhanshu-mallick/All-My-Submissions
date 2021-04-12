@@ -70,25 +70,32 @@ public class Yet_Another_Card_Deck {
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
 		int q = t.nextInt();
-		int[] pos = new int[51];
+		int[] a = new int[n];
+		int[][] pos = new int[50][2];
 
-		for (int i = 1; i <= n; ++i) {
-			int x = t.nextInt();
+		for (int i = 0; i < 50; ++i)
+			pos[i][0] = -1;
 
-			if (pos[x] == 0)
-				pos[x] = i;
+		for (int i = 0; i < n; ++i) {
+			int x = t.nextInt() - 1;
+
+			if (pos[x][0] == -1)
+				pos[x][0] = i;
 		}
 
 		while (q-- > 0) {
-			int color = t.nextInt();
+			int wanted = t.nextInt() - 1;
+			int idx = pos[wanted][0] + pos[wanted][1];
 
-			o.print(pos[color] + " ");
+			o.print(pos[wanted][0] + pos[wanted][1] + 1 + " ");
 
-			for (int i = 1; i <= 50; ++i)
-				if (pos[i] < pos[color])
-					++pos[i];
+			pos[wanted][0] = 0;
+			pos[wanted][1] = 0;
 
-			pos[color] = 1;
+			for (int i = 0; i < 50; ++i) {
+				if (i != wanted && pos[i][0] + pos[i][1] < idx)
+					++pos[i][1];
+			}
 		}
 
 		o.flush();
