@@ -1,4 +1,23 @@
 {
+  "CF112871326": {
+    "contest_id": 1512,
+    "language": "Java 8",
+    "path": "codeforces\\1512\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Education",
+    "problem_url": "https://codeforces.com/contest/1512/problem/F",
+    "submission_id": "CF112871326",
+    "submission_url": "https://codeforces.com/contest/1512/submission/112871326",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Apr/13/2021 00:43"
+  },
   "CF113493143": {
     "contest_id": 1514,
     "language": "Java 8",
