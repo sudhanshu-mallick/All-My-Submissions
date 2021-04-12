@@ -1,4 +1,23 @@
 {
+  "CF112760158": {
+    "contest_id": 1512,
+    "language": "Java 8",
+    "path": "codeforces\\1512\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Short Task",
+    "problem_url": "https://codeforces.com/contest/1512/problem/G",
+    "submission_id": "CF112760158",
+    "submission_url": "https://codeforces.com/contest/1512/submission/112760158",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Apr/12/2021 13:53"
+  },
   "CF112761334": {
     "contest_id": 1512,
     "language": "Java 8",
