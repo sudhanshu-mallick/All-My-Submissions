@@ -71,6 +71,7 @@ public class Min_Cost_String {
 		int n = t.nextInt();
 		int k = t.nextInt();
 		StringBuilder sb = new StringBuilder();
+		StringBuilder ans = new StringBuilder();
 
 		for (int i = 0; i < k; ++i) {
 			char x = (char) (i + 'a');
@@ -84,9 +85,14 @@ public class Min_Cost_String {
 			}
 		}
 
-		for (int i = 0; i < n; ++i)
-			o.print(sb.charAt(i % sb.length()));
+		while (ans.length() < n) {
+			if (ans.length() + sb.length() <= n)
+				ans.append(sb.toString());
+			else
+				ans.append(sb.substring(0, n - ans.length()));
+		}
 
+		o.println(ans);
 		o.flush();
 		o.close();
 	}
