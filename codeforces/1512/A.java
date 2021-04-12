@@ -59,9 +59,9 @@ public class Spy_Detected {
 	}
 
 	public static void swap(int[] a, int i, int j) {
-		int temp = a[i];
-		a[i] = a[j];
-		a[j] = temp;
+		a[i] = a[i] ^ a[j];
+		a[j] = a[i] ^ a[j];
+		a[i] = a[i] ^ a[j];
 	}
 
 	public static void main(String[] args) {
@@ -73,19 +73,30 @@ public class Spy_Detected {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int[] a = new int[n];
-			int[] b = new int[n];
+			Map<Integer, Integer> map = new HashMap<>();
+			int val = 0;
 
-			for (int i = 0; i < n; ++i)
-				a[i] = b[i] = t.nextInt();
+			for (int i = 0; i < n; ++i) {
+				a[i] = t.nextInt();
 
-			shuffle(a);
+				map.put(a[i], map.getOrDefault(a[i], 0) + 1);
+			}
 
-			for (int i = 0; i < n; ++i)
-				if (b[i] != a[1]) {
+			for (Map.Entry<Integer, Integer> m : map.entrySet()) {
+				if (m.getValue() == 1) {
+					val = m.getKey();
+
+					break;
+				}
+			}
+
+			for (int i = 0; i < n; ++i) {
+				if (a[i] == val) {
 					o.println(i + 1);
 
 					break;
 				}
+			}
 		}
 
 		o.flush();
