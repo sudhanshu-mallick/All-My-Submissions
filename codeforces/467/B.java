@@ -82,8 +82,10 @@ public class Fedor_And_New_Game {
 			int count = 0;
 
 			while (xor > 0) {
-				++count;
-				xor &= (xor - 1);
+				if ((xor & 1) == 1)
+					++count;
+
+				xor >>= 1;
 			}
 
 			if (count <= k)
