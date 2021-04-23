@@ -1,4 +1,20 @@
 {
+  "CF113944067": {
+    "contest_id": 1509,
+    "language": "Java 8",
+    "path": "codeforces\\1509\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "TMT Document",
+    "problem_url": "https://codeforces.com/contest/1509/problem/B",
+    "submission_id": "CF113944067",
+    "submission_url": "https://codeforces.com/contest/1509/submission/113944067",
+    "tags": [
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Apr/23/2021 11:24"
+  },
   "CF113946961": {
     "contest_id": 1516,
     "language": "Java 8",
