@@ -1,4 +1,20 @@
 {
+  "CF114666208": {
+    "contest_id": 1519,
+    "language": "Java 8",
+    "path": "codeforces\\1519\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Red and Blue Beans",
+    "problem_url": "https://codeforces.com/contest/1519/problem/A",
+    "submission_id": "CF114666208",
+    "submission_url": "https://codeforces.com/contest/1519/submission/114666208",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/30/2021 13:37"
+  },
   "CF114666958": {
     "contest_id": 1519,
     "language": "Java 8",
