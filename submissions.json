@@ -1,4 +1,21 @@
 {
+  "CF114666958": {
+    "contest_id": 1519,
+    "language": "Java 8",
+    "path": "codeforces\\1519\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Cake Is a Lie",
+    "problem_url": "https://codeforces.com/contest/1519/problem/B",
+    "submission_id": "CF114666958",
+    "submission_url": "https://codeforces.com/contest/1519/submission/114666958",
+    "tags": [
+      "dp",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/30/2021 13:47"
+  },
   "CF114668356": {
     "contest_id": 1519,
     "language": "Java 8",

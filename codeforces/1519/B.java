@@ -75,7 +75,7 @@ public class The_Cake_Is_A_Lie {
 			int m = t.nextInt();
 			int k = t.nextInt();
 
-			o.println(n * m - 1 != k ? "NO" : "YES");
+			o.println(m - 1 + m * (n - 1) != k ? "NO" : "YES");
 		}
 
 		o.flush();
