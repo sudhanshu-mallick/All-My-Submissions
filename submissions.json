@@ -1,4 +1,24 @@
 {
+  "CF114750717": {
+    "contest_id": 1519,
+    "language": "Java 8",
+    "path": "codeforces\\1519\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum Sum of Products",
+    "problem_url": "https://codeforces.com/contest/1519/problem/D",
+    "submission_id": "CF114750717",
+    "submission_url": "https://codeforces.com/contest/1519/submission/114750717",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "math",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "May/01/2021 12:33"
+  },
   "CF114752564": {
     "contest_id": 1517,
     "language": "Java 8",
