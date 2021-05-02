@@ -74,23 +74,48 @@ public class Phoenix_And_Towers {
 			int n = t.nextInt();
 			int m = t.nextInt();
 			int x = t.nextInt();
+			int[][] a = new int[n][2];
+			int[] ans = new int[n];
 			PriorityQueue<int[]> pq = new PriorityQueue<>((xx, yy) -> xx[0] - yy[0]);
+			int idx = n - 1;
 
-			o.println("YES");
-
-			for (int i = 1; i <= m; ++i)
-				pq.add(new int[] { 0, i });
+			while (m-- > 0)
+				pq.add(new int[] { 0, m + 1 });
 
 			for (int i = 0; i < n; ++i) {
-				int val = t.nextInt();
-				int[] a = pq.remove();
-				a[0] += val;
-
-				pq.add(a);
-				o.print(a[1] + " ");
+				a[i][0] = t.nextInt();
+				a[i][1] = i;
 			}
 
-			o.println();
+			Arrays.sort(a, (xx, yy) -> xx[0] - yy[0]);
+
+			while (idx >= 0) {
+				int[] val = pq.remove();
+				val[0] += a[idx][0];
+				ans[a[idx][1]] = val[1];
+				--idx;
+
+				pq.add(val);
+			}
+
+			int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+
+			while (!pq.isEmpty()) {
+				int[] val = pq.remove();
+				min = Math.min(min, val[0]);
+				max = Math.max(max, val[0]);
+			}
+
+			if (max - min > x)
+				o.println("NO");
+			else {
+				o.println("YES");
+
+				for (int v : ans)
+					o.print(v + " ");
+
+				o.println();
+			}
 
 		}
 
