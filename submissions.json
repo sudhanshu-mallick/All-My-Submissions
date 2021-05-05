@@ -1,4 +1,20 @@
 {
+  "CF115212038": {
+    "contest_id": 155,
+    "language": "Java 8",
+    "path": "codeforces\\155\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "I_love_\\%username\\%",
+    "problem_url": "https://codeforces.com/contest/155/problem/A",
+    "submission_id": "CF115212038",
+    "submission_url": "https://codeforces.com/contest/155/submission/115212038",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "May/05/2021 19:59"
+  },
   "CF115214401": {
     "contest_id": 1520,
     "language": "Java 8",
