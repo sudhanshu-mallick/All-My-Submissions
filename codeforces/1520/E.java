@@ -73,23 +73,15 @@ public class Arranging_The_Sheeps {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			char[] ch = t.next().toCharArray();
-			List<Integer> pos = new ArrayList<>();
+			int[] swaps = new int[n + 1];
 			long ans = 0;
 
+			for (int i = 1; i <= n; ++i)
+				swaps[i] = swaps[i - 1] + (ch[i - 1] == '*' ? 1 : 0);
+
 			for (int i = 0; i < n; ++i)
-				if (ch[i] == '*')
-					pos.add(i);
-
-			if (pos.size() > 0) {
-				long median = pos.get(pos.size() >> 1);
-
-				for (long v : pos)
-					ans += Math.abs(median - v);
-
-				median = pos.size() >> 1;
-				ans -= (median + 1) * median >> 1;
-				ans -= (pos.size() - median) * (pos.size() - median - 1) >> 1;
-			}
+				if (ch[i] == '.')
+					ans += Math.min(swaps[i], swaps[n] - swaps[i]);
 
 			o.println(ans);
 
