@@ -75,22 +75,28 @@ public class Find_Marbes {
 
 		for (int i = 0; i < n; ++i)
 			a[i] = t.nextInt() - 1;
-		
-		int steps = 0;
-		int cur = s;
 
-		while (cur != e) {
+		if (s == e)
+			o.println("0");
+		else {
+			int steps = 0;
+			Set<Integer> set = new HashSet<>();
+			int cur = s;
 
-			cur = a[cur];
-			++steps;
+			while (cur != e) {
+				set.add(cur);
 
-			if (cur == s) {
-				steps = -1;
-				break;
+				cur = a[cur];
+				++steps;
+
+				if (set.contains(cur)) {
+					steps = -1;
+					break;
+				}
 			}
-		}
 
-		o.println(steps);
+			o.println(steps);
+		}
 
 		o.flush();
 		o.close();
