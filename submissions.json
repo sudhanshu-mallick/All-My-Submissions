@@ -1,4 +1,22 @@
 {
+  "CF115248583": {
+    "contest_id": 1520,
+    "language": "Java 8",
+    "path": "codeforces\\1520\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Same Differences",
+    "problem_url": "https://codeforces.com/contest/1520/problem/D",
+    "submission_id": "CF115248583",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115248583",
+    "tags": [
+      "data structures",
+      "hashing",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "May/05/2021 20:34"
+  },
   "CF115298821": {
     "contest_id": 1520,
     "language": "Java 8",
