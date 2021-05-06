@@ -1,4 +1,23 @@
 {
+  "CF115372151": {
+    "contest_id": 1520,
+    "language": "Java 8",
+    "path": "codeforces\\1520\\F2.java",
+    "platform": "Codeforces",
+    "problem_index": "F2",
+    "problem_name": "Guess the K-th Zero (Hard version)",
+    "problem_url": "https://codeforces.com/contest/1520/problem/F2",
+    "submission_id": "CF115372151",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115372151",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "interactive",
+      "*2200"
+    ],
+    "timestamp": "May/06/2021 09:02"
+  },
   "CF115471867": {
     "contest_id": 339,
     "language": "Java 8",
