@@ -1,4 +1,21 @@
 {
+  "CF115366939": {
+    "contest_id": 1520,
+    "language": "Java 8",
+    "path": "codeforces\\1520\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Arranging The Sheep",
+    "problem_url": "https://codeforces.com/contest/1520/problem/E",
+    "submission_id": "CF115366939",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115366939",
+    "tags": [
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "May/06/2021 07:20"
+  },
   "CF115372151": {
     "contest_id": 1520,
     "language": "Java 8",
