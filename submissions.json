@@ -1,4 +1,22 @@
 {
+  "CF115571242": {
+    "contest_id": 1521,
+    "language": "Java 8",
+    "path": "codeforces\\1521\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nastia and a Good Array",
+    "problem_url": "https://codeforces.com/contest/1521/problem/B",
+    "submission_id": "CF115571242",
+    "submission_url": "https://codeforces.com/contest/1521/submission/115571242",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "May/07/2021 20:51"
+  },
   "CF115606218": {
     "contest_id": 1521,
     "language": "Java 8",

@@ -73,39 +73,63 @@ public class Nastia_And_A_Good_Array {
 		while (test-- > 0) {
 			int n = t.nextInt();
 			int[] a = new int[n];
-			int minIdx = -1, min = Integer.MAX_VALUE;
-
-			for (int i = 0; i < n; ++i)
-				a[i] = t.nextInt();
+			int min = Integer.MAX_VALUE;
+			int minIdx = -1;
+			List<int[]> ans = new ArrayList<>();
 
 			for (int i = 0; i < n; ++i) {
-				if (a[i] < min) {
+				a[i] = t.nextInt();
+
+				if (min > a[i]) {
 					min = a[i];
 					minIdx = i;
 				}
 			}
 
-			o.println(n - 1);
+			if (minIdx != n - 1) {
+				ans.add(new int[] { minIdx, n - 1, a[n - 1], a[minIdx] });
 
-			int i = minIdx - 1;
+				int temp = a[minIdx];
+				a[minIdx] = a[n - 1];
+				a[n - 1] = temp;
+			}
 
-			while (i >= 0) {
-				o.println((i + 1) + " " + (minIdx + 1) + " " + (min + minIdx - i) + " " + min);
+			int i = n - 1;
+			int cur = min + 1;
 
+			while (i > 0) {
+				ans.add(new int[] { i, i - 1, cur, min });
+
+				a[i] = cur;
+				++cur;
 				--i;
 			}
 
-			i = minIdx + 1;
+			a[0] = min;
 
-			while (i < n) {
-				o.println((i + 1) + " " + (minIdx + 1) + " " + (min + i - minIdx) + " " + min);
+			int next = n > 2 ? a[2] : 1000000007;
+			int prev = a[0];
+			cur = a[0];
 
-				++i;
-			}
+			while (gcd(cur, prev) != 1 || gcd(cur, next) != 1)
+				++cur;
 
+			if (n > 2)
+				ans.set(ans.size() - 1, new int[] { 0, 1, min, cur });
+
+			o.println(ans.size());
+
+			for (int[] aa : ans)
+				o.println(aa[0] + 1 + " " + (aa[1] + 1) + " " + aa[2] + " " + aa[3]);
 		}
 
 		o.flush();
 		o.close();
+	}
+
+	private static int gcd(int a, int b) {
+		if (a == 0)
+			return b;
+		return gcd(b % a, a);
 	}
 }
