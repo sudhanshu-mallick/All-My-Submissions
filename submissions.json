@@ -1,4 +1,22 @@
 {
+  "CF115480277": {
+    "contest_id": 369,
+    "language": "Java 8",
+    "path": "codeforces\\369\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Valera and Elections",
+    "problem_url": "https://codeforces.com/contest/369/problem/C",
+    "submission_id": "CF115480277",
+    "submission_url": "https://codeforces.com/contest/369/submission/115480277",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "May/07/2021 11:20"
+  },
   "CF115484152": {
     "contest_id": 75,
     "language": "Java 8",
