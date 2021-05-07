@@ -74,7 +74,16 @@ public class Nastia_And_Really_Good_Numbers {
 			long a = t.nextLong();
 			long b = t.nextLong();
 
-			o.println(b != 1 ? "YES\n" + a + " " + a * b + " " + a * (b + 1) : "NO");
+			if (b == 1)
+				o.println("NO");
+			else {
+				long x = a * (b - 1);
+				long y = a * (b + 1);
+				long z = x + y;
+
+				o.println("YES");
+				o.println(x + " " + y + " " + z);
+			}
 		}
 
 		o.flush();
