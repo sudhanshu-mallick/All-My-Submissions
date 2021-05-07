@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.*;
 
@@ -71,35 +70,26 @@ public class Modified_GCD {
 		PrintWriter o = new PrintWriter(System.out);
 		long a = t.nextLong(), b = t.nextLong();
 		long gcd = gcd(a, b);
-		List<Long> list = new ArrayList<>();
+		TreeSet<Long> set = new TreeSet<>();
 
 		for (long i = 1; i * i <= gcd; ++i) {
 			if (gcd % i == 0) {
-				list.add(i);
-				list.add(gcd / i);
+				set.add(i);
+				set.add(gcd / i);
 			}
 		}
-
-		Collections.sort(list);
 
 		int test = t.nextInt();
 
 		while (test-- > 0) {
 			long low = t.nextLong(), high = t.nextLong();
-			int x = 0, y = list.size() - 1;
-			long ans = -1;
+			Long nowGcd = set.floor(high);
 
-			while (x <= y) {
-				int mid = (x + y) >> 1;
+			if (nowGcd != null && nowGcd.longValue() >= low)
+				o.println(nowGcd);
+			else
+				o.println("-1");
 
-				if (list.get(mid).longValue() <= high) {
-					ans = list.get(mid);
-					x = mid + 1;
-				} else
-					y = mid - 1;
-			}
-
-			o.println(ans >= low ? ans : -1);
 		}
 
 		o.flush();
