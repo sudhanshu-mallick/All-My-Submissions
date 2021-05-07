@@ -1,4 +1,25 @@
 {
+  "CF115471867": {
+    "contest_id": 339,
+    "language": "Java 8",
+    "path": "codeforces\\339\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Xenia and Weights",
+    "problem_url": "https://codeforces.com/contest/339/problem/C",
+    "submission_id": "CF115471867",
+    "submission_url": "https://codeforces.com/contest/339/submission/115471867",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "May/07/2021 08:54"
+  },
   "CF115480277": {
     "contest_id": 369,
     "language": "Java 8",
