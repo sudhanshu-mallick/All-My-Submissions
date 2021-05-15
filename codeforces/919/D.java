@@ -71,31 +71,37 @@ public class Substring {
 		int n = t.nextInt();
 		int m = t.nextInt();
 		String colors = t.next();
-		List<Integer>[] graph = new ArrayList[n];
-		int[] inDegree = new int[n];
-
-		for (int i = 0; i < n; ++i)
-			graph[i] = new ArrayList<>();
+		int[][] edges = new int[m][2];
 
 		for (int i = 0; i < m; ++i) {
-			int x = t.nextInt() - 1;
-			int y = t.nextInt() - 1;
-			++inDegree[y];
-
-			graph[x].add(y);
+			edges[i][0] = t.nextInt() - 1;
+			edges[i][1] = t.nextInt() - 1;
 		}
 
-		o.println(largestPathValue(colors, graph, inDegree));
+		o.println(largestPathValue(colors, edges));
 		o.flush();
 		o.close();
 	}
 
-	private static int largestPathValue(String colors, List<Integer>[] graph, int[] inDegree) {
+	private static int largestPathValue(String colors, int[][] edges) {
 		int n = colors.length();
+		List<Integer>[] graph = new ArrayList[n];
+		int[] inDegree = new int[n];
 		Queue<Integer> queue = new LinkedList<>();
 		int loopsDone = 0;
 		int[][] maxColor = new int[n][26];
 		int max = 0;
+
+		for (int i = 0; i < n; ++i)
+			graph[i] = new ArrayList<>();
+
+		for (int[] a : edges) {
+			int x = a[0];
+			int y = a[1];
+			++inDegree[y];
+
+			graph[x].add(y);
+		}
 
 		for (int i = 0; i < n; ++i)
 			if (inDegree[i] == 0)
