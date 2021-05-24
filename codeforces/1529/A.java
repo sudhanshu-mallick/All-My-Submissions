@@ -1,9 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-import java.util.*;
-import java.io.*;
-
 public class Eshag_Loves_Big_Arrays {
 
 	static class FastReader {
@@ -57,8 +54,6 @@ public class Eshag_Loves_Big_Arrays {
 
 			swap(a, i, j);
 		}
-
-		Arrays.sort(a);
 	}
 
 	public static void swap(int[] a, int i, int j) {
@@ -75,18 +70,29 @@ public class Eshag_Loves_Big_Arrays {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			int[] a = new int[n];
-			int min = 100;
-			int count = 0;
+			int[] count = new int[100];
+			int cnt = 0;
 
-			for (int i = 0; i < n; ++i)
-				min = Math.min(min, a[i] = t.nextInt());
+			for (int i = 0; i < n; ++i) {
+				++count[t.nextInt() - 1];
+			}
 
-			for (int v : a)
-				if (v != min)
-					++count;
+			int i = 99, j = 99;
 
-			o.println(count);
+			while (i >= 0 && j >= 0) {
+				while (i >= 0 && count[i] == 0)
+					--i;
+
+				while (j >= 0 && (count[j] == 0 || j >= i))
+					--j;
+
+				if (i >= 0 && j >= 0) {
+					--count[i];
+					++cnt;
+				}
+			}
+
+			o.println(cnt);
 		}
 
 		o.flush();
