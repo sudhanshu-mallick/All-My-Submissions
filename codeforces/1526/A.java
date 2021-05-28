@@ -72,16 +72,23 @@ public class Mean_Inequality {
 
 		while (test-- > 0) {
 			int n = t.nextInt();
-			int m = n << 1;
-			int[] a = new int[m];
+			int[] a = new int[2 * n];
+			int[] ans = new int[2 * n];
+			int idx = 0;
 
-			for (int i = 0; i < m; ++i)
+			for (int i = 0; i < 2 * n; ++i)
 				a[i] = t.nextInt();
 
 			shuffle(a);
 
-			for (int i = 0; i < n; ++i)
-				o.print(a[i] + " " + a[i + n] + " ");
+			for (int i = 0; i < 2 * n; i += 2)
+				ans[i] = a[idx++];
+
+			for (int i = 1; i < 2 * n; i += 2)
+				ans[i] = a[idx++];
+
+			for (int v : ans)
+				o.print(v + " ");
 
 			o.println();
 		}
