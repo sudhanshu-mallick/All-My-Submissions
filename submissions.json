@@ -1,4 +1,21 @@
 {
+  "CF117721228": {
+    "contest_id": 1526,
+    "language": "Java 8",
+    "path": "codeforces\\1526\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mean Inequality",
+    "problem_url": "https://codeforces.com/contest/1526/problem/A",
+    "submission_id": "CF117721228",
+    "submission_url": "https://codeforces.com/contest/1526/submission/117721228",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "May/29/2021 09:16"
+  },
   "CF117722265": {
     "contest_id": 1526,
     "language": "Java 8",
