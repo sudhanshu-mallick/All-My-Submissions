@@ -1,4 +1,21 @@
 {
+  "CF117722269": {
+    "contest_id": 1526,
+    "language": "Java 8",
+    "path": "codeforces\\1526\\C2.java",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Potions (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1526/problem/C2",
+    "submission_id": "CF117722269",
+    "submission_url": "https://codeforces.com/contest/1526/submission/117722269",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "May/29/2021 09:33"
+  },
   "CF118984439": {
     "contest_id": 1538,
     "language": "Java 8",
