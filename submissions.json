@@ -1,4 +1,20 @@
 {
+  "CF118994369": {
+    "contest_id": 1538,
+    "language": "Java 8",
+    "path": "codeforces\\1538\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Friends and Candies",
+    "problem_url": "https://codeforces.com/contest/1538/problem/B",
+    "submission_id": "CF118994369",
+    "submission_url": "https://codeforces.com/contest/1538/submission/118994369",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Jun/10/2021 20:31"
+  },
   "CF119010052": {
     "contest_id": 1538,
     "language": "Java 8",
