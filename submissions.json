@@ -1,0 +1,20 @@
+{
+  "CF119010052": {
+    "contest_id": 1538,
+    "language": "Java 8",
+    "path": "codeforces\\1538\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Number of Pairs",
+    "problem_url": "https://codeforces.com/contest/1538/problem/C",
+    "submission_id": "CF119010052",
+    "submission_url": "https://codeforces.com/contest/1538/submission/119010052",
+    "tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "two pointers"
+    ],
+    "timestamp": "Jun/10/2021 20:49"
+  }
+}

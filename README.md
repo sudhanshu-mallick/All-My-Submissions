@@ -5,10 +5,11 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-{profile_placeholder}
+* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/InANutshell.svg)](https://codeforces.com/profile/InANutshell)
+
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-{submission_placeholder}
+1 | [C - Number of Pairs](https://codeforces.com/contest/1538/problem/C) | [Java 8](./codeforces/1538/C.java) | `binary search` `data structures` `math` `two pointers` | Jun/10/2021 20:49 | 
