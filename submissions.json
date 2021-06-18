@@ -5980,6 +5980,23 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF119806369": {
+    "contest_id": 1537,
+    "language": "Java 8",
+    "path": "codeforces\\1537\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Arithmetic Array",
+    "problem_url": "https://codeforces.com/contest/1537/problem/A",
+    "submission_id": "CF119806369",
+    "submission_url": "https://codeforces.com/contest/1537/submission/119806369",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/18/2021 20:09"
+  },
   "CF119826093": {
     "contest_id": 1537,
     "language": "Java 8",
