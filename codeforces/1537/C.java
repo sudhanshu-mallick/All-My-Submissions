@@ -89,10 +89,16 @@ public class Challenging_Cliffs {
 			o.print(a[minIdx - 1] + " ");
 
 			for (int i = minIdx + 1; i < n; ++i)
-				o.print(a[i] + " ");
+				if (a[i] != a[minIdx])
+					o.print(a[i] + " ");
 
-			for (int i = 0; i < minIdx - 1; ++i)
-				o.print(a[i] + " ");
+			for (int i = 0; i < n; ++i) {
+				if (a[i] > a[minIdx])
+					break;
+
+				if (i != minIdx && i != minIdx - 1)
+					o.print(a[i] + " ");
+			}
 
 			o.println(a[minIdx]);
 		}
