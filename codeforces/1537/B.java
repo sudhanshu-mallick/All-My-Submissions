@@ -71,12 +71,29 @@ public class Bad_Boy {
 		int test = t.nextInt();
 
 		while (test-- > 0) {
-			int m = t.nextInt();
-			int n = t.nextInt();
-			int i = t.nextInt();
-			int j = t.nextInt();
+			long m = t.nextLong();
+			long n = t.nextLong();
+			long x = t.nextLong();
+			long y = t.nextLong();
+			long[][] a = { { 1, 1 }, { 1, n }, { m, 1 }, { m, n } };
+			long max = 0;
+			int mini = 0, minj = 1;
 
-			o.println(1 + " " + 1 + " " + m + " " + n);
+			for (int i = 0; i < 4; ++i) {
+				for (int j = i + 1; j < 4; ++j) {
+					long d1 = Math.abs(x - a[i][0]) + Math.abs(y - a[i][1]);
+					long d2 = Math.abs(x - a[j][0]) + Math.abs(y - a[j][1]);
+					long cur = d1 + d2 + Math.abs(a[i][0] - a[j][0]) + Math.abs(a[i][1] - a[j][1]);
+
+					if (cur >= max) {
+						max = cur;
+						mini = i;
+						minj = j;
+					}
+				}
+			}
+
+			o.println(a[mini][0] + " " + a[mini][1] + " " + a[minj][0] + " " + a[minj][1]);
 		}
 
 		o.flush();
