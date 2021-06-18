@@ -71,21 +71,22 @@ public class Erase_And_Extend {
 		int n = t.nextInt();
 		int k = t.nextInt();
 		char[] ch = t.next().toCharArray();
-		int curMin = 0, minIdx = 1;
-
-		for (int i = 1; i < n; ++i) {
-			++curMin;
-			curMin %= minIdx;
-
-			if (ch[curMin] > ch[i]) {
-				minIdx = i + 1;
-				curMin = -1;
-			} else if (ch[curMin] < ch[i])
-				break;
-		}
+		StringBuilder min = new StringBuilder();
 
 		for (int i = 0; i < k; ++i)
-			o.print(ch[i % minIdx]);
+			min.append('z');
+
+		for (int i = 1; i <= n; ++i) {
+			StringBuilder cur = new StringBuilder();
+
+			for (int j = 0; j < k; ++j)
+				cur.append(ch[j % i]);
+
+			if (cur.toString().compareTo(min.toString()) < 0)
+				min = cur;
+		}
+
+		o.println(min);
 
 		o.flush();
 		o.close();
