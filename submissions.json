@@ -5980,6 +5980,24 @@
     ],
     "timestamp": "Jun/10/2021 20:49"
   },
+  "CF119897790": {
+    "contest_id": 1537,
+    "language": "Java 8",
+    "path": "codeforces\\1537\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Deleting Divisors",
+    "problem_url": "https://codeforces.com/contest/1537/problem/D",
+    "submission_id": "CF119897790",
+    "submission_url": "https://codeforces.com/contest/1537/submission/119897790",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Jun/18/2021 21:51"
+  },
   "CF119919745": {
     "contest_id": 1537,
     "language": "Java 8",
