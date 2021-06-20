@@ -12,9 +12,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-991 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jun/21/2021 09:36 | 
-990 | [B - Love Song](https://codeforces.com/contest/1539/problem/B) | [Java 8](./codeforces/1539/B.java) | `dp` `implementation` `strings` `*800` | Jun/21/2021 09:30 | 
-989 | [D - PriceFixed](https://codeforces.com/contest/1539/problem/D) | [Java 8](./codeforces/1539/D.java) | `binary search` `greedy` `implementation` `sortings` `two pointers` `*1600` | Jun/20/2021 16:42 | 
+992 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jun/21/2021 09:36 | 
+991 | [B - Love Song](https://codeforces.com/contest/1539/problem/B) | [Java 8](./codeforces/1539/B.java) | `dp` `implementation` `strings` `*800` | Jun/21/2021 09:30 | 
+990 | [D - PriceFixed](https://codeforces.com/contest/1539/problem/D) | [Java 8](./codeforces/1539/D.java) | `binary search` `greedy` `implementation` `sortings` `two pointers` `*1600` | Jun/20/2021 16:42 | 
+989 | [A - Contest Start](https://codeforces.com/contest/1539/problem/A) | [Java 8](./codeforces/1539/A.java) | `combinatorics` `geometry` `greedy` `math` `*1000` | Jun/20/2021 15:49 | 
 988 | [C - Number of Pairs](https://codeforces.com/contest/1538/problem/C) | [Java 8](./codeforces/1538/C.java) | `binary search` `data structures` `math` `two pointers` | Jun/10/2021 20:49 | 
 987 | [B - Friends and Candies](https://codeforces.com/contest/1538/problem/B) | [Java 8](./codeforces/1538/B.java) | `greedy` `math` | Jun/10/2021 20:31 | 
 986 | [A - Stone Game](https://codeforces.com/contest/1538/problem/A) | [Java 8](./codeforces/1538/A.java) | `brute force` `greedy` | Jun/10/2021 20:20 | 
