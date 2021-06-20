@@ -70,21 +70,28 @@ public class Love_Song {
 		PrintWriter o = new PrintWriter(System.out);
 		int n = t.nextInt();
 		int q = t.nextInt();
-		char[] ch = t.next().toCharArray();
-		int[] dp = new int[n + 1];
-		StringBuilder ans = new StringBuilder();
+		String s = t.next();
+		long[][] dp = new long[n + 1][26];
 
-		for (int i = 0; i < n; ++i)
-			dp[i + 1] = dp[i] + ch[i] - 'a' + 1;
+		for (int i = 0; i < n; ++i) {
+			for (int j = 0; j < 26; ++j)
+				dp[i + 1][j] = dp[i][j];
+
+			++dp[i + 1][s.charAt(i) - 'a'];
+		}
 
 		while (q-- > 0) {
 			int low = t.nextInt() - 1;
 			int high = t.nextInt();
+			long ans = 0;
 
-			ans.append(dp[high] - dp[low] + "\n");
+			for (int i = 0; i < 26; ++i) {
+				ans += (dp[high][i] - dp[low][i]) * (i + 1);
+			}
+
+			o.println(ans);
 		}
 
-		o.println(ans);
 		o.flush();
 		o.close();
 	}
