@@ -72,36 +72,57 @@ public class Stable_Groups {
 		long k = t.nextLong();
 		long x = t.nextLong();
 		long[] a = new long[n];
-		List<Long> groups = new ArrayList<>();
+		List<List<Long>> list = new ArrayList<>();
+		List<Long> temp = new ArrayList<>();
+		List<Long> count = new ArrayList<>();
 
 		for (int i = 0; i < n; ++i)
 			a[i] = t.nextLong();
 
 		shuffle(a);
 
-		long prev = a[0];
 		int i = 0;
+		long prev = a[0];
 
 		while (i < n) {
-			if (prev + x < a[i])
-				groups.add((a[i] - prev + x - 1) / x - 1);
+			if (a[i] - prev <= x)
+				temp.add(a[i]);
+			else {
+				list.add(temp);
+
+				temp = new ArrayList<>();
+
+				temp.add(a[i]);
+			}
 
 			prev = a[i];
 			++i;
 		}
 
-		Collections.sort(groups);
+		if (temp.size() > 0)
+			list.add(temp);
 
-		int size = groups.size() + 1;
+		long size = list.size();
+
+		for (i = 1; i < list.size(); ++i)
+			count.add(list.get(i).get(0) - list.get(i - 1).get(list.get(i - 1).size() - 1));
+
+		Collections.sort(count);
+
 		i = 0;
 
-		while (i < groups.size()) {
-			if (groups.get(i) <= k) {
-				--size;
-				k -= groups.get(i);
-				++i;
-			} else
+//		System.out.println(count);
+
+		while (k > 0 && i < count.size()) {
+			long req = (count.get(i) + x - 1) / x - 1;
+
+			if (req > k)
 				break;
+			else
+				k -= req;
+
+			--size;
+			++i;
 		}
 
 		o.println(size);
