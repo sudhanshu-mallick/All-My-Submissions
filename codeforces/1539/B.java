@@ -72,6 +72,7 @@ public class Love_Song {
 		int q = t.nextInt();
 		char[] ch = t.next().toCharArray();
 		int[] dp = new int[n + 1];
+		StringBuilder ans = new StringBuilder();
 
 		for (int i = 0; i < n; ++i)
 			dp[i + 1] = dp[i] + ch[i] - 'a' + 1;
@@ -80,9 +81,10 @@ public class Love_Song {
 			int low = t.nextInt() - 1;
 			int high = t.nextInt();
 
-			o.println(dp[high] - dp[low]);
+			ans.append(dp[high] - dp[low] + "\n");
 		}
 
+		o.println(ans);
 		o.flush();
 		o.close();
 	}
