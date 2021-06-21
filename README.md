@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-989 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jun/21/2021 09:36 | 
+990 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jun/21/2021 09:36 | 
+989 | [B - Love Song](https://codeforces.com/contest/1539/problem/B) | [Java 8](./codeforces/1539/B.java) | `dp` `implementation` `strings` `*800` | Jun/21/2021 09:30 | 
 988 | [C - Number of Pairs](https://codeforces.com/contest/1538/problem/C) | [Java 8](./codeforces/1538/C.java) | `binary search` `data structures` `math` `two pointers` | Jun/10/2021 20:49 | 
 987 | [B - Friends and Candies](https://codeforces.com/contest/1538/problem/B) | [Java 8](./codeforces/1538/B.java) | `greedy` `math` | Jun/10/2021 20:31 | 
 986 | [A - Stone Game](https://codeforces.com/contest/1538/problem/A) | [Java 8](./codeforces/1538/A.java) | `brute force` `greedy` | Jun/10/2021 20:20 | 
