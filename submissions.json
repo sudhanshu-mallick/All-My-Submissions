@@ -6305,6 +6305,22 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF121189744": {
+    "contest_id": 1542,
+    "language": "Java 8",
+    "path": "codeforces\\1542\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Odd Set",
+    "problem_url": "https://codeforces.com/contest/1542/problem/A",
+    "submission_id": "CF121189744",
+    "submission_url": "https://codeforces.com/contest/1542/submission/121189744",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/03/2021 18:37"
+  },
   "CF121240598": {
     "contest_id": 1539,
     "language": "Java 8",
