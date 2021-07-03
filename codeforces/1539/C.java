@@ -1,24 +1,28 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+import java.util.StringTokenizer;
 
-public class Stable_Groups {
+public class C {
 
-	static class FastReader {
-		BufferedReader br;
-		StringTokenizer st;
+	static PrintWriter out = new PrintWriter(System.out);
 
-		public FastReader() {
-			br = new BufferedReader(new InputStreamReader(System.in));
-		}
+	static class FastScanner {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer("");
 
 		String next() {
-			while (st == null || !st.hasMoreElements()) {
+			while (!st.hasMoreTokens())
 				try {
 					st = new StringTokenizer(br.readLine());
 				} catch (IOException e) {
-					e.printStackTrace();
 				}
-			}
 			return st.nextToken();
 		}
 
@@ -29,21 +33,6 @@ public class Stable_Groups {
 		long nextLong() {
 			return Long.parseLong(next());
 		}
-
-		double nextDouble() {
-			return Double.parseDouble(next());
-		}
-
-		String nextLine() {
-			String str = "";
-			try {
-				str = br.readLine();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			return str;
-		}
-
 	}
 
 	public static void shuffle(long[] a) {
@@ -65,68 +54,33 @@ public class Stable_Groups {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		FastReader t = new FastReader();
-		PrintWriter o = new PrintWriter(System.out);
-		int n = t.nextInt();
-		long k = t.nextLong();
-		long x = t.nextLong();
-		long[] a = new long[n];
-		List<List<Long>> list = new ArrayList<>();
-		List<Long> temp = new ArrayList<>();
-		List<Long> count = new ArrayList<>();
+		FastScanner sc = new FastScanner();
+		int n = sc.nextInt();
+		long k = sc.nextLong();
+		long x = sc.nextLong();
+		List<Long> arr = new ArrayList<>();
+		for (int i = 0; i < n; i++) {
+			arr.add(sc.nextLong());
+		}
 
-		for (int i = 0; i < n; ++i)
-			a[i] = t.nextLong();
+		Collections.sort(arr);
 
-		shuffle(a);
-
-		int i = 0;
-		long prev = a[0];
-
-		while (i < n) {
-			if (a[i] - prev <= x)
-				temp.add(a[i]);
-			else {
-				list.add(temp);
-
-				temp = new ArrayList<>();
-
-				temp.add(a[i]);
+		List<Long> diff = new ArrayList<>();
+		for (int i = 0; i < n - 1; i++) {
+			long kRequired = (arr.get(i + 1) - arr.get(i) - 1) / x;
+			if (kRequired > 0) {
+				diff.add(kRequired);
 			}
-
-			prev = a[i];
-			++i;
 		}
-
-		if (temp.size() > 0)
-			list.add(temp);
-
-		long size = list.size();
-
-		for (i = 1; i < list.size(); ++i)
-			count.add(list.get(i).get(0) - list.get(i - 1).get(list.get(i - 1).size() - 1));
-
-		Collections.sort(count);
-
-		i = 0;
-
-//		System.out.println(count);
-
-		while (k > 0 && i < count.size()) {
-			long req = (count.get(i) + x - 1) / x - 1;
-
-			if (req > k)
-				break;
-			else
-				k -= req;
-
-			--size;
-			++i;
+		Collections.sort(diff);
+		int ans = diff.size() + 1;
+		for (long num : diff) {
+			if (num <= k) {
+				k -= num;
+				ans--;
+			}
 		}
-
-		o.println(size);
-		o.flush();
-		o.close();
+		out.println(ans);
+		out.close();
 	}
 }

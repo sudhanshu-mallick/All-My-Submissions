@@ -32,7 +32,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 1002 | [A - Shortest Path with Obstacle](https://codeforces.com/contest/1547/problem/A) | [Java 8](./codeforces/1547/A.java) | `implementation` `math` `*800` | Jul/10/2021 21:25 | 
 1001 | [C - Strange Function](https://codeforces.com/contest/1542/problem/C) | [Java 8](./codeforces/1542/C.java) | `math` `number theory` `*1600` | Jul/04/2021 12:14 | 
 1000 | [B - Plus and Multiply](https://codeforces.com/contest/1542/problem/B) | [Java 8](./codeforces/1542/B.java) | `constructive algorithms` `math` `number theory` `*1500` | Jul/04/2021 11:42 | 
-999 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jun/21/2021 09:36 | 
+999 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jul/03/2021 20:34 | 
 998 | [B - Love Song](https://codeforces.com/contest/1539/problem/B) | [Java 8](./codeforces/1539/B.java) | `dp` `implementation` `strings` `*800` | Jun/21/2021 09:30 | 
 997 | [D - PriceFixed](https://codeforces.com/contest/1539/problem/D) | [Java 8](./codeforces/1539/D.java) | `binary search` `greedy` `implementation` `sortings` `two pointers` `*1600` | Jun/20/2021 16:42 | 
 996 | [A - Contest Start](https://codeforces.com/contest/1539/problem/A) | [Java 8](./codeforces/1539/A.java) | `combinatorics` `geometry` `greedy` `math` `*1000` | Jun/20/2021 15:49 | 
