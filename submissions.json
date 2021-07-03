@@ -6305,6 +6305,23 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF121240598": {
+    "contest_id": 1539,
+    "language": "Java 8",
+    "path": "codeforces\\1539\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Stable Groups",
+    "problem_url": "https://codeforces.com/contest/1539/problem/C",
+    "submission_id": "CF121240598",
+    "submission_url": "https://codeforces.com/contest/1539/submission/121240598",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/03/2021 20:30"
+  },
   "CF121242765": {
     "contest_id": 1539,
     "language": "Java 8",

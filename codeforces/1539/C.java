@@ -58,16 +58,16 @@ public class C {
 		int n = sc.nextInt();
 		long k = sc.nextLong();
 		long x = sc.nextLong();
-		List<Long> arr = new ArrayList<>();
+		long[] arr = new long[n];
 		for (int i = 0; i < n; i++) {
-			arr.add(sc.nextLong());
+			arr[i] = sc.nextLong();
 		}
 
-		Collections.sort(arr);
+		shuffle(arr);
 
 		List<Long> diff = new ArrayList<>();
 		for (int i = 0; i < n - 1; i++) {
-			long kRequired = (arr.get(i + 1) - arr.get(i) - 1) / x;
+			long kRequired = (arr[i + 1] - arr[i] - 1) / x;
 			if (kRequired > 0) {
 				diff.add(kRequired);
 			}
