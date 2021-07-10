@@ -6305,6 +6305,24 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF121996355": {
+    "contest_id": 1547,
+    "language": "Java 8",
+    "path": "codeforces\\1547\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Co-growing Sequence",
+    "problem_url": "https://codeforces.com/contest/1547/problem/D",
+    "submission_id": "CF121996355",
+    "submission_url": "https://codeforces.com/contest/1547/submission/121996355",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Jul/10/2021 22:09"
+  },
   "CF122005787": {
     "contest_id": 1547,
     "language": "Java 8",
