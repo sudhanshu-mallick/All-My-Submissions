@@ -6305,6 +6305,23 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF121986532": {
+    "contest_id": 1547,
+    "language": "Java 8",
+    "path": "codeforces\\1547\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pair Programming",
+    "problem_url": "https://codeforces.com/contest/1547/problem/C",
+    "submission_id": "CF121986532",
+    "submission_url": "https://codeforces.com/contest/1547/submission/121986532",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*1100"
+    ],
+    "timestamp": "Jul/10/2021 21:49"
+  },
   "CF121996355": {
     "contest_id": 1547,
     "language": "Java 8",
