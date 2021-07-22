@@ -6305,6 +6305,23 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF123278709": {
+    "contest_id": 1530,
+    "language": "Java 8",
+    "path": "codeforces\\1530\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Binary Decimal",
+    "problem_url": "https://codeforces.com/contest/1530/problem/A",
+    "submission_id": "CF123278709",
+    "submission_url": "https://codeforces.com/contest/1530/submission/123278709",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/22/2021 18:55"
+  },
   "CF123280389": {
     "contest_id": 1530,
     "language": "Java 8",
