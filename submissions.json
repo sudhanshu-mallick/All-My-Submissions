@@ -6305,6 +6305,26 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF123305520": {
+    "contest_id": 1553,
+    "language": "Java 8",
+    "path": "codeforces\\1553\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Reverse String",
+    "problem_url": "https://codeforces.com/contest/1553/problem/B",
+    "submission_id": "CF123305520",
+    "submission_url": "https://codeforces.com/contest/1553/submission/123305520",
+    "tags": [
+      "brute force",
+      "dp",
+      "hashing",
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jul/22/2021 20:31"
+  },
   "CF123320050": {
     "contest_id": 1553,
     "language": "Java 8",
