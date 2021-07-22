@@ -6305,6 +6305,25 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF123283273": {
+    "contest_id": 1530,
+    "language": "Java 8",
+    "path": "codeforces\\1530\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pursuit",
+    "problem_url": "https://codeforces.com/contest/1530/problem/C",
+    "submission_id": "CF123283273",
+    "submission_url": "https://codeforces.com/contest/1530/submission/123283273",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/22/2021 19:50"
+  },
   "CF123286472": {
     "contest_id": 1553,
     "language": "Java 8",
