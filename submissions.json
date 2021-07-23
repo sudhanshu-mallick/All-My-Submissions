@@ -6305,6 +6305,23 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF123461159": {
+    "contest_id": 1551,
+    "language": "Java 8",
+    "path": "codeforces\\1551\\B1.java",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "Wonderful Coloring - 1",
+    "problem_url": "https://codeforces.com/contest/1551/problem/B1",
+    "submission_id": "CF123461159",
+    "submission_url": "https://codeforces.com/contest/1551/submission/123461159",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/23/2021 20:19"
+  },
   "CF123474547": {
     "contest_id": 1551,
     "language": "Java 8",
