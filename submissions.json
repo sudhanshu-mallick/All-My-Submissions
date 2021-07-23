@@ -6305,6 +6305,23 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF123445987": {
+    "contest_id": 1551,
+    "language": "Java 8",
+    "path": "codeforces\\1551\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Polycarp and Coins",
+    "problem_url": "https://codeforces.com/contest/1551/problem/A",
+    "submission_id": "CF123445987",
+    "submission_url": "https://codeforces.com/contest/1551/submission/123445987",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/23/2021 20:08"
+  },
   "CF123461159": {
     "contest_id": 1551,
     "language": "Java 8",
