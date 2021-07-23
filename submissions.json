@@ -6305,6 +6305,24 @@
     ],
     "timestamp": "Jun/21/2021 09:36"
   },
+  "CF123521199": {
+    "contest_id": 1551,
+    "language": "Java 8",
+    "path": "codeforces\\1551\\D2.java",
+    "platform": "Codeforces",
+    "problem_index": "D2",
+    "problem_name": "Domino (hard version)",
+    "problem_url": "https://codeforces.com/contest/1551/problem/D2",
+    "submission_id": "CF123521199",
+    "submission_url": "https://codeforces.com/contest/1551/submission/123521199",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Jul/23/2021 21:53"
+  },
   "CF59575241": {
     "contest_id": 1186,
     "language": "Java 8",

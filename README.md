@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1000 | [D2 - Domino (hard version)](https://codeforces.com/contest/1551/problem/D2) | [Java 8](./codeforces/1551/D2.java) | `constructive algorithms` `implementation` `math` `*2100` | Jul/23/2021 21:53 | 
 999 | [C - Stable Groups](https://codeforces.com/contest/1539/problem/C) | [Java 8](./codeforces/1539/C.java) | `greedy` `sortings` `*1200` | Jun/21/2021 09:36 | 
 998 | [B - Love Song](https://codeforces.com/contest/1539/problem/B) | [Java 8](./codeforces/1539/B.java) | `dp` `implementation` `strings` `*800` | Jun/21/2021 09:30 | 
 997 | [D - PriceFixed](https://codeforces.com/contest/1539/problem/D) | [Java 8](./codeforces/1539/D.java) | `binary search` `greedy` `implementation` `sortings` `two pointers` `*1600` | Jun/20/2021 16:42 | 
